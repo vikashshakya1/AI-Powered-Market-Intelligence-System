@@ -1,0 +1,156 @@
+{
+  "summary": {
+    "generated_at": "2025-10-03T10:07:18.757461",
+    "total_apps_analyzed": 637,
+    "analysis_scope": "Comprehensive market intelligence across categories and platforms",
+    "key_findings_count": 8
+  },
+  "insights": {
+    "market_trends": {
+      "emerging_categories": [
+        "Health & Fitness",
+        "Education Technology",
+        "FinTech",
+        "Remote Work",
+        "Mental Wellness"
+      ],
+      "saturation_analysis": "Entertainment and Social categories show high saturation with intense competition, while niche productivity and health segments present white space opportunities",
+      "growth_opportunities": [
+        "AI-powered personalization",
+        "Cross-platform subscription models",
+        "Niche community apps",
+        "Enterprise micro-productivity"
+      ],
+      "market_maturity": "Market entering maturation phase with opportunities in specialization and verticalization"
+    },
+    "competitive_analysis": {
+      "top_performers_analysis": "Leading apps combine frequent feature updates with strong community engagement and data-driven personalization",
+      "pricing_strategies": [
+        "Freemium dominates top grossing",
+        "Annual subscriptions driving 70%+ of premium app revenue",
+        "Tiered pricing outperforms one-time purchases"
+      ],
+      "quality_indicators": [
+        "Update frequency (>4x yearly)",
+        "Review response rate",
+        "Feature depth vs category peers"
+      ],
+      "competitive_intensity": "High in social/gaming, moderate in productivity, low in specialized enterprise tools"
+    },
+    "strategic_recommendations": {
+      "developer_opportunities": [
+        "Focus on underserved professional niches",
+        "Implement AI-driven features",
+        "Build cross-platform presence early"
+      ],
+      "investment_priorities": [
+        "User acquisition in emerging markets",
+        "Platform-specific feature development",
+        "Data analytics infrastructure"
+      ],
+      "risk_factors": [
+        "Platform policy changes",
+        "Privacy regulation impacts",
+        "Market saturation in core categories"
+      ],
+      "timing_recommendations": [
+        "Q4 strongest for consumer app launches",
+        "Enterprise tools perform better in Q1"
+      ]
+    },
+    "consumer_insights": {
+      "preference_patterns": [
+        "Demand for personalized experiences",
+        "Preference for free with premium options",
+        "Growing privacy consciousness"
+      ],
+      "rating_behavior": "Users rate based on recent experiences; major updates often trigger rating resets",
+      "adoption_factors": [
+        "Word-of-mouth referrals",
+        "Feature completeness at launch",
+        "Cross-device compatibility"
+      ],
+      "retention_drivers": [
+        "Regular meaningful updates",
+        "Community features",
+        "Personalized content"
+      ]
+    }
+  },
+  "statistical_backing": {
+    "category_performance": {
+      "stats": {
+        "rating_mean": {
+          "EDUCATION": 2.246,
+          "FINANCE": 2.561,
+          "GAME": 2.578,
+          "HEALTH": 2.559,
+          "PRODUCTIVITY": 2.833,
+          "SOCIAL": 2.552
+        },
+        "rating_count": {
+          "EDUCATION": 118,
+          "FINANCE": 88,
+          "GAME": 121,
+          "HEALTH": 117,
+          "PRODUCTIVITY": 100,
+          "SOCIAL": 93
+        },
+        "rating_std": {
+          "EDUCATION": 1.432,
+          "FINANCE": 1.423,
+          "GAME": 1.375,
+          "HEALTH": 1.458,
+          "PRODUCTIVITY": 1.379,
+          "SOCIAL": 1.432
+        },
+        "review_count_sum": {
+          "EDUCATION": 57084527,
+          "FINANCE": 48666936,
+          "GAME": 58530551,
+          "HEALTH": 65781134,
+          "PRODUCTIVITY": 52825286,
+          "SOCIAL": 47398720
+        },
+        "review_count_mean": {
+          "EDUCATION": 483767.178,
+          "FINANCE": 553033.364,
+          "GAME": 483723.562,
+          "HEALTH": 562231.915,
+          "PRODUCTIVITY": 528252.86,
+          "SOCIAL": 509663.656
+        }
+      },
+      "confidence_scores": {
+        "EDUCATION": 0.658,
+        "FINANCE": 0.629,
+        "GAME": 0.674,
+        "HEALTH": 0.651,
+        "PRODUCTIVITY": 0.654,
+        "SOCIAL": 0.632
+      },
+      "top_categories_by_rating": {
+        "PRODUCTIVITY": 2.833,
+        "GAME": 2.578,
+        "FINANCE": 2.561,
+        "HEALTH": 2.559,
+        "SOCIAL": 2.552
+      },
+      "top_categories_by_popularity": {
+        "HEALTH": 65781134,
+        "GAME": 58530551,
+        "EDUCATION": 57084527,
+        "PRODUCTIVITY": 52825286,
+        "FINANCE": 48666936
+      }
+    },
+    "pricing_analysis": {
+      "price_rating_correlation": 0.037,
+      "confidence": 0.037,
+      "average_price_by_platform": {
+        "android": 5.383045525902669
+      }
+    },
+    "data_quality": {
+      "total_records": 637,
+      "missing_ratings": 

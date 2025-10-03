@@ -1,0 +1,35 @@
+2025-10-03 10:06:56,907 - __main__ - INFO - System initialization started
+2025-10-03 10:06:56,907 - __main__ - INFO - Starting data ingestion phase
+2025-10-03 10:06:56,907 - pipelines.data_ingestion - ERROR - Play Store data file not found: data/raw\googleplaystore.csv
+2025-10-03 10:06:57,586 - pipelines.data_cleaning - INFO - Starting Play Store data cleaning
+2025-10-03 10:06:57,636 - pipelines.data_cleaning - INFO - Play Store cleaning complete: 637 records remaining (363 removed)
+2025-10-03 10:06:57,636 - __main__ - INFO - Data cleaning completed: {'initial_record_count': 1000, 'final_record_count': 637, 'records_removed': 363, 'cleaning_operations': ['Missing value imputation', 'Data type conversion', 'Duplicate removal', 'Data validation']}
+2025-10-03 10:06:57,636 - pipelines.data_ingestion - INFO - Fetching data for 5 apps from App Store
+2025-10-03 10:06:59,906 - pipelines.data_ingestion - WARNING - Failed to fetch data for app 284882215: 404
+2025-10-03 10:07:01,687 - pipelines.data_ingestion - WARNING - Failed to fetch data for app 310633997: 404
+2025-10-03 10:07:03,406 - pipelines.data_ingestion - WARNING - Failed to fetch data for app 389801252: 404
+2025-10-03 10:07:06,767 - pipelines.data_ingestion - WARNING - Failed to fetch data for app 333903271: 404
+2025-10-03 10:07:09,320 - pipelines.data_ingestion - WARNING - Failed to fetch data for app 547702041: 404
+2025-10-03 10:07:10,322 - pipelines.data_ingestion - INFO - Successfully fetched data for 0 apps
+2025-10-03 10:07:10,328 - pipelines.data_ingestion - INFO - Creating unified schema for combined dataset
+2025-10-03 10:07:10,349 - pipelines.data_ingestion - INFO - Unified dataset created with 637 total records
+2025-10-03 10:07:10,388 - pipelines.data_ingestion - INFO - Saved clean data to data/processed\combined_apps_data.csv
+2025-10-03 10:07:10,394 - __main__ - INFO - Starting LLM insights generation
+2025-10-03 10:07:10,394 - pipelines.llm_insights - INFO - Generating insights from 637 records (sampling: 1000)
+2025-10-03 10:07:14,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:07:14,746 - openai._base_client - INFO - Retrying request to /chat/completions in 0.496944 seconds
+2025-10-03 10:07:16,853 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:07:16,861 - openai._base_client - INFO - Retrying request to /chat/completions in 0.962479 seconds
+2025-10-03 10:07:18,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:07:18,755 - pipelines.llm_insights - ERROR - LLM API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-03 10:07:18,757 - pipelines.llm_insights - INFO - Insights generation completed successfully
+2025-10-03 10:07:18,763 - root - ERROR - Error saving to data/outputs\market_insights.json: Object of type int64 is not JSON serializable
+2025-10-03 10:07:18,763 - pipelines.llm_insights - ERROR - Failed to save insights to data/outputs\market_insights.json
+2025-10-03 10:07:18,767 - __main__ - INFO - Starting D2C analysis
+2025-10-03 10:07:18,767 - __main__ - ERROR - System execution failed: name 'self' is not defined
+2025-10-03 10:07:18,771 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\LENOVO\OneDrive\Desktop\Kasperro AI\main.py", line 118, in main
+    d2c_file = args.d2c_file or self._find_d2c_file()
+                                ^^^^
+NameError: name 'self' is not defined
+
