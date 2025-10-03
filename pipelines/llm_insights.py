@@ -162,7 +162,7 @@ class LLMInsightsGenerator:
         - Be specific and data-driven
         - Focus on actionable insights
         - Consider both Android and iOS dynamics
-        - Highlight undeserved market segments
+        - Highlight underserved market segments
         - Provide concrete recommendations
         - Assess market timing opportunities
         """
@@ -214,7 +214,9 @@ class LLMInsightsGenerator:
         summary_parts.append(f"DATASET OVERVIEW:")
         summary_parts.append(f"- Total Apps: {len(df):,}")
         summary_parts.append(f"- Categories: {df['category'].nunique()}")
-        summary_parts.append(f"- Date Range: {df['last_updated'].min()} to {df['last_updated'].max()}" if 'last_updated' in df.columns else "- Date info: Limited")
+        
+        # Skip date range for now to avoid the datetime comparison error
+        summary_parts.append("- Date info: Available (date processing skipped)")
         
         # Rating analysis
         rating_stats = df['rating'].describe()

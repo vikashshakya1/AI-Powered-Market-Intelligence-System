@@ -1,0 +1,239 @@
+{
+  "business_metrics": {
+    "average_cac": 77.73,
+    "average_roas": 14.12,
+    "average_ctr": 0.1065,
+    "average_cpc": 4.82,
+    "total_revenue": 14152157,
+    "total_conversions": 128678,
+    "total_ad_spend": 2451467
+  },
+  "funnel_analysis": {
+    "install_to_signup": 0.6836,
+    "signup_to_purchase": 1.0,
+    "retention_rate": 0.246,
+    "overall_conversion_rate": 0.2359,
+    "funnel_leakage_analysis": {
+      "conversion_rates": {
+        "impression_to_click": 0.10654951295561577,
+        "click_to_conversion": 0.23590294787416918,
+        "install_to_signup": 0.6835552503132869,
+        "signup_to_purchase": 1.0,
+        "first_to_repeat_purchase": 0.24604112012319893
+      },
+      "biggest_leakage_points": [
+        [
+          "impression_to_click",
+          0.10654951295561577
+        ],
+        [
+          "click_to_conversion",
+          0.23590294787416918
+        ]
+      ],
+      "optimization_priority": [
+        "impression_to_click",
+        "click_to_conversion",
+        "first_to_repeat_purchase"
+      ]
+    }
+  },
+  "category_performance": {
+    "top_categories_by_roas": {
+      "roas": {
+        "Electronics": 23.406,
+        "Home & Garden": 17.112,
+        "Fashion": 13.713
+      },
+      "revenue": {
+        "Electronics": 2517762,
+        "Home & Garden": 2347265,
+        "Fashion": 2064181
+      }
+    },
+    "top_categories_by_revenue": {
+      "revenue": {
+        "Sports": 2913015,
+        "Books": 2597074,
+        "Electronics": 2517762
+      },
+      "roas": {
+        "Sports": 9.354,
+        "Books": 10.982,
+        "Electronics": 23.406
+      }
+    },
+    "most_efficient_categories": {
+      "overall_conversion_rate": {
+        "Electronics": 0.297,
+        "Beauty": 0.273,
+        "Home & Garden": 0.257
+      },
+      "cac": {
+        "Electronics": 94.783,
+        "Beauty": 99.123,
+        "Home & Garden": 112.202
+      }
+    },
+    "category_benchmarks": {
+      "roas": {
+        "mean": 14.165,
+        "std": 5.320995545948145
+      },
+      "cac": {
+        "mean": 78.95,
+        "std": 27.517837429565574
+      },
+      "ctr": {
+        "mean": 0.105,
+        "std": 0.020356817039999156
+      }
+    }
+  },
+  "campaign_insights": {
+    "top_performing_campaigns": {
+      "roas": {
+        "Campaign_8": 25.013,
+        "Campaign_7": 18.876,
+        "Campaign_20": 17.814,
+        "Campaign_14": 17.807,
+        "Campaign_3": 16.298
+      },
+      "revenue": {
+        "Campaign_8": 697813,
+        "Campaign_7": 784136,
+        "Campaign_20": 679600,
+        "Campaign_14": 590217,
+        "Campaign_3": 914833
+      },
+      "conversions": {
+        "Campaign_8": 6136,
+        "Campaign_7": 8224,
+        "Campaign_20": 6538,
+        "Campaign_14": 4867,
+        "Campaign_3": 7582
+      },
+      "cac": {
+        "Campaign_8": 30.666,
+        "Campaign_7": 101.136,
+        "Campaign_20": 20.934,
+        "Campaign_14": 52.886,
+        "Campaign_3": 39.399
+      }
+    },
+    "campaign_efficiency_analysis": {
+      "campaign_count": 20,
+      "high_performer_count": 5,
+      "low_performer_count": 5,
+      "performance_gap_analysis": {
+        "roas_gap": 11.316199999999998,
+        "revenue_gap": 218533.80000000005
+      }
+    }
+  },
+  "seo_opportunities": {
+    "high_opportunity_categories": {
+      "seo_efficiency": {
+        "Beauty": 803.995
+      },
+      "search_volume": {
+        "Beauty": 58389.275
+      },
+      "conversion_rate": {
+        "Beauty": 0.098
+      },
+      "average_position": {
+        "Beauty": 10.362
+      },
+      "revenue": {
+        "Beauty": 1712860
+      }
+    },
+    "quick_win_opportunities": {
+      "seo_efficiency": {},
+      "search_volume": {},
+      "conversion_rate": {},
+      "average_position": {},
+      "revenue": {}
+    },
+    "top_seo_performers": {
+      "seo_efficiency": {
+        "Beauty": 803.995,
+        "Sports": 659.719,
+        "Fashion": 639.573
+      },
+      "search_volume": {
+        "Beauty": 58389.275,
+        "Sports": 49359.88,
+        "Fashion": 42512.61
+      },
+      "conversion_rate": {
+        "Beauty": 0.098,
+        "Sports": 0.097,
+        "Fashion": 0.098
+      },
+      "average_position": {
+        "Beauty": 10.362,
+        "Sports": 10.71,
+        "Fashion": 10.5
+      },
+      "revenue": {
+        "Beauty": 1712860,
+        "Sports": 2913015,
+        "Fashion": 2064181
+      }
+    },
+    "seo_gap_analysis": {
+      "estimated_traffic_gain": 17517,
+      "revenue_opportunity": 428215
+    }
+  },
+  "creative_recommendations": {
+    "ad_headline": "Premium Electronics - Limited Time Offer!",
+    "seo_meta_description": "Shop the best Electronics with free shipping. Premium quality guaranteed. 4.8★ rated. Shop now!",
+    "pdp_text": "Experience exceptional quality with our premium Electronics collection. Designed for modern lifestyles using sustainable materials and expert craftsmanship. Join 10,000+ satisfied customers with our 30-day satisfaction guarantee.",
+    "cta_optimization": [
+      "Add urgency: 'Limited Stock'",
+      "Social proof: '10,000+ Sold'",
+      "Risk reversal: '30-Day Guarantee'"
+    ]
+  },
+  "strategic_recommendations": {
+    "budget_reallocation": {
+      "increase_spend_categories": [
+        "Electronics",
+        "Home & Garden"
+      ],
+      "decrease_spend_categories": [
+        "Home & Garden",
+        "Beauty"
+      ],
+      "testing_budget_categories": [
+        "Books",
+        "Fashion"
+      ]
+    },
+    "optimization_priorities": {
+      "immediate_actions": [
+        "Optimize landing pages for lowest conversion funnel stages",
+        "Increase bids on top-performing campaigns by 15-20%",
+        "Pause bottom 10% performing campaigns"
+      ],
+      "short_term_goals": [
+        "Implement A/B testing for ad creatives",
+        "Develop category-specific SEO content",
+        "Optimize mobile user experience"
+      ],
+      "long_term_strategies": [
+        "Build email marketing automation",
+        "Develop loyalty program",
+        "Expand to complementary product categories"
+      ]
+    },
+    "kpi_targets": {
+      "next_quarter_roas_target": 16.29,
+      "cac_reduction_target": 71.06,
+      "conversion_rate_target": 0.2868
+    }
+  }
+}

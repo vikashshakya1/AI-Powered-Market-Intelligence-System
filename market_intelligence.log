@@ -33,3 +33,171 @@
                                 ^^^^
 NameError: name 'self' is not defined
 
+2025-10-03 10:41:44,497 - __main__ - INFO - System initialization started
+2025-10-03 10:41:44,522 - __main__ - INFO - Starting data ingestion phase
+2025-10-03 10:41:44,525 - pipelines.data_ingestion - ERROR - Play Store data file not found: data/raw\googleplaystore.csv
+2025-10-03 10:41:45,392 - pipelines.data_cleaning - INFO - Starting Play Store data cleaning
+2025-10-03 10:41:45,423 - pipelines.data_cleaning - INFO - Play Store cleaning complete: 624 records remaining (376 removed)
+2025-10-03 10:41:45,423 - __main__ - INFO - Data cleaning completed: {'initial_record_count': 1000, 'final_record_count': 624, 'records_removed': 376, 'cleaning_operations': ['Missing value imputation', 'Data type conversion', 'Duplicate removal', 'Data validation']}
+2025-10-03 10:41:45,423 - pipelines.data_ingestion - INFO - Fetching data for 8 apps from App Store
+2025-10-03 10:41:47,023 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.facebook.Facebook: 404
+2025-10-03 10:41:47,023 - pipelines.data_ingestion - INFO - Trying alternative approach for com.facebook.Facebook
+2025-10-03 10:41:50,733 - pipelines.data_ingestion - WARNING - Failed to fetch data for app net.whatsapp.WhatsApp: 404
+2025-10-03 10:41:50,733 - pipelines.data_ingestion - INFO - Trying alternative approach for net.whatsapp.WhatsApp
+2025-10-03 10:41:55,446 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.burbn.instagram: 404
+2025-10-03 10:41:55,446 - pipelines.data_ingestion - INFO - Trying alternative approach for com.burbn.instagram
+2025-10-03 10:41:58,498 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.atebits.Tweetie2: 404
+2025-10-03 10:41:58,498 - pipelines.data_ingestion - INFO - Trying alternative approach for com.atebits.Tweetie2
+2025-10-03 10:42:03,684 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.zhiliaoapp.musically: 404
+2025-10-03 10:42:03,684 - pipelines.data_ingestion - INFO - Trying alternative approach for com.zhiliaoapp.musically
+2025-10-03 10:42:08,658 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.netflix.Netflix: 404
+2025-10-03 10:42:08,658 - pipelines.data_ingestion - INFO - Trying alternative approach for com.netflix.Netflix
+2025-10-03 10:42:11,211 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.google.Gmail: 404
+2025-10-03 10:42:11,211 - pipelines.data_ingestion - INFO - Trying alternative approach for com.google.Gmail
+2025-10-03 10:42:13,807 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.spotify.client: 404
+2025-10-03 10:42:13,807 - pipelines.data_ingestion - INFO - Trying alternative approach for com.spotify.client
+2025-10-03 10:42:15,808 - pipelines.data_ingestion - WARNING - No App Store data fetched, using sample data
+2025-10-03 10:42:15,878 - pipelines.data_ingestion - INFO - Creating unified schema for combined dataset
+2025-10-03 10:42:15,892 - pipelines.data_ingestion - INFO - Unified dataset created with 824 total records
+2025-10-03 10:42:15,976 - pipelines.data_ingestion - INFO - Saved clean data to data/processed\combined_apps_data.csv
+2025-10-03 10:42:15,977 - __main__ - INFO - Starting LLM insights generation
+2025-10-03 10:42:15,978 - pipelines.llm_insights - INFO - Generating insights from 824 records (sampling: 1000)
+2025-10-03 10:42:16,006 - __main__ - ERROR - System execution failed: Cannot compare Timestamp with datetime.date. Use ts == pd.Timestamp(date) or ts.date() == date instead.
+2025-10-03 10:42:16,373 - __main__ - ERROR - Traceback (most recent call last):
+  File "D:\AI-Powered-Market-Intelligence-System\main.py", line 109, in main
+    insights = llm_generator.generate_insights(combined_df, sample_size=args.sample_size)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI-Powered-Market-Intelligence-System\pipelines\llm_insights.py", line 47, in generate_insights
+    llm_insights = self._call_llm_for_insights(sample_df, statistical_insights)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI-Powered-Market-Intelligence-System\pipelines\llm_insights.py", line 125, in _call_llm_for_insights
+    data_summary = self._prepare_data_summary(df, statistical_insights)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\AI-Powered-Market-Intelligence-System\pipelines\llm_insights.py", line 217, in _prepare_data_summary
+    summary_parts.append(f"- Date Range: {df['last_updated'].min()} to {df['last_updated'].max()}" if 'last_updated' in df.columns else "- Date info: Limited")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\series.py", line 6518, in min
+    return NDFrame.min(self, axis, skipna, numeric_only, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 12407, in min
+    return self._stat_function(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\generic.py", line 12396, in _stat_function
+    return self._reduce(
+           ^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\series.py", line 6468, in _reduce
+    return op(delegate, skipna=skipna, **kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\nanops.py", line 147, in f
+    result = alt(values, axis=axis, skipna=skipna, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\nanops.py", line 404, in new_func
+    result = func(values, axis=axis, skipna=skipna, mask=mask, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\pandas\core\nanops.py", line 1098, in reduction
+    result = getattr(values, meth)(axis)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\AppData\Local\Programs\Python\Python311\Lib\site-packages\numpy\_core\_methods.py", line 47, in _amin
+    return umr_minimum(a, axis, None, out, keepdims, initial, where)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/tslibs/timestamps.pyx", line 377, in pandas._libs.tslibs.timestamps._Timestamp.__richcmp__
+TypeError: Cannot compare Timestamp with datetime.date. Use ts == pd.Timestamp(date) or ts.date() == date instead.
+
+2025-10-03 10:49:41,628 - __main__ - INFO - System initialization started
+2025-10-03 10:49:41,628 - __main__ - INFO - Starting data ingestion phase
+2025-10-03 10:49:41,628 - pipelines.data_ingestion - ERROR - Play Store data file not found: data/raw\googleplaystore.csv
+2025-10-03 10:49:41,944 - pipelines.data_cleaning - INFO - Starting Play Store data cleaning
+2025-10-03 10:49:41,966 - pipelines.data_cleaning - INFO - Play Store cleaning complete: 613 records remaining (387 removed)
+2025-10-03 10:49:41,966 - __main__ - INFO - Data cleaning completed: {'initial_record_count': 1000, 'final_record_count': 613, 'records_removed': 387, 'cleaning_operations': ['Missing value imputation', 'Data type conversion', 'Duplicate removal', 'Data validation']}
+2025-10-03 10:49:41,966 - pipelines.data_ingestion - INFO - Fetching data for 8 apps from App Store
+2025-10-03 10:49:42,652 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.facebook.Facebook: 404
+2025-10-03 10:49:42,656 - pipelines.data_ingestion - INFO - Trying alternative approach for com.facebook.Facebook
+2025-10-03 10:49:51,830 - pipelines.data_ingestion - WARNING - Failed to fetch data for app net.whatsapp.WhatsApp: 404
+2025-10-03 10:49:51,830 - pipelines.data_ingestion - INFO - Trying alternative approach for net.whatsapp.WhatsApp
+2025-10-03 10:49:56,398 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.burbn.instagram: 404
+2025-10-03 10:49:56,398 - pipelines.data_ingestion - INFO - Trying alternative approach for com.burbn.instagram
+2025-10-03 10:49:58,976 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.atebits.Tweetie2: 404
+2025-10-03 10:49:58,976 - pipelines.data_ingestion - INFO - Trying alternative approach for com.atebits.Tweetie2
+2025-10-03 10:50:02,349 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.zhiliaoapp.musically: 404
+2025-10-03 10:50:02,349 - pipelines.data_ingestion - INFO - Trying alternative approach for com.zhiliaoapp.musically
+2025-10-03 10:50:06,962 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.netflix.Netflix: 404
+2025-10-03 10:50:06,962 - pipelines.data_ingestion - INFO - Trying alternative approach for com.netflix.Netflix
+2025-10-03 10:50:10,940 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.google.Gmail: 404
+2025-10-03 10:50:10,940 - pipelines.data_ingestion - INFO - Trying alternative approach for com.google.Gmail
+2025-10-03 10:50:14,406 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.spotify.client: 404
+2025-10-03 10:50:14,406 - pipelines.data_ingestion - INFO - Trying alternative approach for com.spotify.client
+2025-10-03 10:50:16,408 - pipelines.data_ingestion - WARNING - No App Store data fetched, using sample data
+2025-10-03 10:50:16,465 - pipelines.data_ingestion - INFO - Creating unified schema for combined dataset
+2025-10-03 10:50:16,465 - pipelines.data_ingestion - INFO - Unified dataset created with 813 total records
+2025-10-03 10:50:16,508 - pipelines.data_ingestion - INFO - Saved clean data to data/processed\combined_apps_data.csv
+2025-10-03 10:50:16,509 - __main__ - INFO - Starting LLM insights generation
+2025-10-03 10:50:16,509 - pipelines.llm_insights - INFO - Generating insights from 813 records (sampling: 1000)
+2025-10-03 10:50:18,652 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:50:18,659 - openai._base_client - INFO - Retrying request to /chat/completions in 0.496744 seconds
+2025-10-03 10:50:20,120 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:50:20,120 - openai._base_client - INFO - Retrying request to /chat/completions in 0.957457 seconds
+2025-10-03 10:50:21,577 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:50:21,577 - pipelines.llm_insights - ERROR - LLM API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-03 10:50:21,592 - pipelines.llm_insights - INFO - Insights generation completed successfully
+2025-10-03 10:50:21,649 - root - INFO - Data saved to data/outputs\market_insights.json
+2025-10-03 10:50:21,649 - pipelines.llm_insights - INFO - Insights saved to data/outputs\market_insights.json
+2025-10-03 10:50:21,649 - reports.report_generator - INFO - Report generated: data/outputs\market_intelligence_report_20251003_105021.md
+2025-10-03 10:50:21,649 - __main__ - INFO - Starting D2C analysis
+2025-10-03 10:50:21,683 - pipelines.d2c_analyzer - ERROR - Error loading D2C data: Invalid file path or buffer object type: <class 'NoneType'>
+2025-10-03 10:50:21,707 - pipelines.d2c_analyzer - INFO - Analyzing D2C funnel metrics
+2025-10-03 10:50:21,765 - pipelines.d2c_analyzer - INFO - D2C analysis completed successfully
+2025-10-03 10:50:21,765 - __main__ - ERROR - System execution failed: name 'os' is not defined
+2025-10-03 10:50:21,810 - __main__ - ERROR - Traceback (most recent call last):
+  File "D:\AI-Powered-Market-Intelligence-System\main.py", line 157, in main
+    d2c_analyzer.save_d2c_insights(d2c_insights)
+  File "D:\AI-Powered-Market-Intelligence-System\pipelines\d2c_analyzer.py", line 329, in save_d2c_insights
+    os.makedirs(Config.DATA_OUTPUTS_PATH, exist_ok=True)
+    ^^
+NameError: name 'os' is not defined
+
+2025-10-03 10:51:14,300 - __main__ - INFO - System initialization started
+2025-10-03 10:51:14,300 - __main__ - INFO - Starting data ingestion phase
+2025-10-03 10:51:14,301 - pipelines.data_ingestion - ERROR - Play Store data file not found: data/raw\googleplaystore.csv
+2025-10-03 10:51:14,706 - pipelines.data_cleaning - INFO - Starting Play Store data cleaning
+2025-10-03 10:51:14,720 - pipelines.data_cleaning - INFO - Play Store cleaning complete: 628 records remaining (372 removed)
+2025-10-03 10:51:14,721 - __main__ - INFO - Data cleaning completed: {'initial_record_count': 1000, 'final_record_count': 628, 'records_removed': 372, 'cleaning_operations': ['Missing value imputation', 'Data type conversion', 'Duplicate removal', 'Data validation']}
+2025-10-03 10:51:14,721 - pipelines.data_ingestion - INFO - Fetching data for 8 apps from App Store
+2025-10-03 10:51:15,566 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.facebook.Facebook: 404
+2025-10-03 10:51:15,566 - pipelines.data_ingestion - INFO - Trying alternative approach for com.facebook.Facebook
+2025-10-03 10:51:19,301 - pipelines.data_ingestion - WARNING - Failed to fetch data for app net.whatsapp.WhatsApp: 404
+2025-10-03 10:51:19,301 - pipelines.data_ingestion - INFO - Trying alternative approach for net.whatsapp.WhatsApp
+2025-10-03 10:51:23,153 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.burbn.instagram: 404
+2025-10-03 10:51:23,153 - pipelines.data_ingestion - INFO - Trying alternative approach for com.burbn.instagram
+2025-10-03 10:51:26,080 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.atebits.Tweetie2: 404
+2025-10-03 10:51:26,080 - pipelines.data_ingestion - INFO - Trying alternative approach for com.atebits.Tweetie2
+2025-10-03 10:51:28,585 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.zhiliaoapp.musically: 404
+2025-10-03 10:51:28,585 - pipelines.data_ingestion - INFO - Trying alternative approach for com.zhiliaoapp.musically
+2025-10-03 10:51:31,828 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.netflix.Netflix: 404
+2025-10-03 10:51:31,830 - pipelines.data_ingestion - INFO - Trying alternative approach for com.netflix.Netflix
+2025-10-03 10:51:35,298 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.google.Gmail: 404
+2025-10-03 10:51:35,298 - pipelines.data_ingestion - INFO - Trying alternative approach for com.google.Gmail
+2025-10-03 10:51:37,822 - pipelines.data_ingestion - WARNING - Failed to fetch data for app com.spotify.client: 404
+2025-10-03 10:51:37,823 - pipelines.data_ingestion - INFO - Trying alternative approach for com.spotify.client
+2025-10-03 10:51:39,823 - pipelines.data_ingestion - WARNING - No App Store data fetched, using sample data
+2025-10-03 10:51:39,913 - pipelines.data_ingestion - INFO - Creating unified schema for combined dataset
+2025-10-03 10:51:39,938 - pipelines.data_ingestion - INFO - Unified dataset created with 828 total records
+2025-10-03 10:51:39,961 - pipelines.data_ingestion - INFO - Saved clean data to data/processed\combined_apps_data.csv
+2025-10-03 10:51:39,961 - __main__ - INFO - Starting LLM insights generation
+2025-10-03 10:51:39,961 - pipelines.llm_insights - INFO - Generating insights from 828 records (sampling: 1000)
+2025-10-03 10:51:41,915 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:51:41,916 - openai._base_client - INFO - Retrying request to /chat/completions in 0.425636 seconds
+2025-10-03 10:51:43,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:51:43,303 - openai._base_client - INFO - Retrying request to /chat/completions in 0.980337 seconds
+2025-10-03 10:51:45,136 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-10-03 10:51:45,137 - pipelines.llm_insights - ERROR - LLM API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-10-03 10:51:45,138 - pipelines.llm_insights - INFO - Insights generation completed successfully
+2025-10-03 10:51:45,139 - root - INFO - Data saved to data/outputs\market_insights.json
+2025-10-03 10:51:45,140 - pipelines.llm_insights - INFO - Insights saved to data/outputs\market_insights.json
+2025-10-03 10:51:45,199 - reports.report_generator - INFO - Report generated: data/outputs\market_intelligence_report_20251003_105145.md
+2025-10-03 10:51:45,200 - __main__ - INFO - Starting D2C analysis
+2025-10-03 10:51:45,220 - pipelines.d2c_analyzer - ERROR - Error loading D2C data: Invalid file path or buffer object type: <class 'NoneType'>
+2025-10-03 10:51:45,241 - pipelines.d2c_analyzer - INFO - Analyzing D2C funnel metrics
+2025-10-03 10:51:45,300 - pipelines.d2c_analyzer - INFO - D2C analysis completed successfully
+2025-10-03 10:51:45,492 - root - INFO - Data saved to data/outputs\d2c_insights.json
+2025-10-03 10:51:45,492 - pipelines.d2c_analyzer - INFO - D2C insights saved to data/outputs\d2c_insights.json
+2025-10-03 10:51:45,494 - __main__ - INFO - Starting user interface

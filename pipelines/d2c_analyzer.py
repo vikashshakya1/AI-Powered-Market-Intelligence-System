@@ -4,7 +4,7 @@ import logging
 from typing import Dict, List, Any
 from utils.helpers import safe_divide, save_json
 from utils.config import Config
-
+import os 
 logger = logging.getLogger(__name__)
 
 class D2CAnalyzer:

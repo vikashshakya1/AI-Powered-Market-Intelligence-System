@@ -1,7 +1,7 @@
 {
   "summary": {
-    "generated_at": "2025-10-03T10:07:18.757461",
-    "total_apps_analyzed": 637,
+    "generated_at": "2025-10-03T10:51:45.138478",
+    "total_apps_analyzed": 828,
     "analysis_scope": "Comprehensive market intelligence across categories and platforms",
     "key_findings_count": 8
   },
@@ -81,76 +81,149 @@
     "category_performance": {
       "stats": {
         "rating_mean": {
-          "EDUCATION": 2.246,
-          "FINANCE": 2.561,
-          "GAME": 2.578,
-          "HEALTH": 2.559,
-          "PRODUCTIVITY": 2.833,
-          "SOCIAL": 2.552
+          "EDUCATION": 2.44,
+          "Education": 3.148,
+          "FINANCE": 2.776,
+          "Finance": 2.954,
+          "GAME": 2.566,
+          "Games": 3.082,
+          "HEALTH": 2.542,
+          "Health & Fitness": 3.143,
+          "PRODUCTIVITY": 2.571,
+          "Productivity": 3.25,
+          "SOCIAL": 2.612,
+          "Social Networking": 3.268
         },
         "rating_count": {
-          "EDUCATION": 118,
-          "FINANCE": 88,
-          "GAME": 121,
-          "HEALTH": 117,
-          "PRODUCTIVITY": 100,
-          "SOCIAL": 93
+          "EDUCATION": 97,
+          "Education": 33,
+          "FINANCE": 102,
+          "Finance": 39,
+          "GAME": 104,
+          "Games": 34,
+          "HEALTH": 98,
+          "Health & Fitness": 30,
+          "PRODUCTIVITY": 112,
+          "Productivity": 30,
+          "SOCIAL": 115,
+          "Social Networking": 34
         },
         "rating_std": {
-          "EDUCATION": 1.432,
+          "EDUCATION": 1.407,
+          "Education": 1.193,
           "FINANCE": 1.423,
-          "GAME": 1.375,
-          "HEALTH": 1.458,
-          "PRODUCTIVITY": 1.379,
-          "SOCIAL": 1.432
+          "Finance": 1.223,
+          "GAME": 1.435,
+          "Games": 1.21,
+          "HEALTH": 1.362,
+          "Health & Fitness": 1.33,
+          "PRODUCTIVITY": 1.462,
+          "Productivity": 1.168,
+          "SOCIAL": 1.447,
+          "Social Networking": 1.105
         },
         "review_count_sum": {
-          "EDUCATION": 57084527,
-          "FINANCE": 48666936,
-          "GAME": 58530551,
-          "HEALTH": 65781134,
-          "PRODUCTIVITY": 52825286,
-          "SOCIAL": 47398720
+          "EDUCATION": 45178099,
+          "Education": 8464480,
+          "FINANCE": 50313111,
+          "Finance": 9210902,
+          "GAME": 54439288,
+          "Games": 7150168,
+          "HEALTH": 53140875,
+          "Health & Fitness": 8476028,
+          "PRODUCTIVITY": 52703357,
+          "Productivity": 8129477,
+          "SOCIAL": 59036687,
+          "Social Networking": 9398385
         },
         "review_count_mean": {
-          "EDUCATION": 483767.178,
-          "FINANCE": 553033.364,
-          "GAME": 483723.562,
-          "HEALTH": 562231.915,
-          "PRODUCTIVITY": 528252.86,
-          "SOCIAL": 509663.656
+          "EDUCATION": 465753.598,
+          "Education": 256499.394,
+          "FINANCE": 493265.794,
+          "Finance": 236176.974,
+          "GAME": 523454.692,
+          "Games": 210299.059,
+          "HEALTH": 542253.827,
+          "Health & Fitness": 282534.267,
+          "PRODUCTIVITY": 470565.688,
+          "Productivity": 270982.567,
+          "SOCIAL": 513362.496,
+          "Social Networking": 276423.088
         }
       },
       "confidence_scores": {
-        "EDUCATION": 0.658,
-        "FINANCE": 0.629,
-        "GAME": 0.674,
-        "HEALTH": 0.651,
-        "PRODUCTIVITY": 0.654,
-        "SOCIAL": 0.632
+        "EDUCATION": 0.643,
+        "Education": 0.582,
+        "FINANCE": 0.645,
+        "Finance": 0.593,
+        "GAME": 0.644,
+        "Games": 0.58,
+        "HEALTH": 0.656,
+        "Health & Fitness": 0.521,
+        "PRODUCTIVITY": 0.645,
+        "Productivity": 0.579,
+        "SOCIAL": 0.651,
+        "Social Networking": 0.616
       },
       "top_categories_by_rating": {
-        "PRODUCTIVITY": 2.833,
-        "GAME": 2.578,
-        "FINANCE": 2.561,
-        "HEALTH": 2.559,
-        "SOCIAL": 2.552
+        "Social Networking": 3.268,
+        "Productivity": 3.25,
+        "Education": 3.148,
+        "Health & Fitness": 3.143,
+        "Games": 3.082
       },
       "top_categories_by_popularity": {
-        "HEALTH": 65781134,
-        "GAME": 58530551,
-        "EDUCATION": 57084527,
-        "PRODUCTIVITY": 52825286,
-        "FINANCE": 48666936
+        "SOCIAL": 59036687,
+        "GAME": 54439288,
+        "HEALTH": 53140875,
+        "PRODUCTIVITY": 52703357,
+        "FINANCE": 50313111
       }
     },
     "pricing_analysis": {
-      "price_rating_correlation": 0.037,
-      "confidence": 0.037,
+      "price_rating_correlation": 0.01,
+      "confidence": 0.01,
       "average_price_by_platform": {
-        "android": 5.383045525902669
+        "android": 4.974522292993631,
+        "ios": 3.435
+      }
+    },
+    "platform_comparison": {
+      "rating": {
+        "android": 2.5863057324840764,
+        "ios": 3.134
+      },
+      "review_count": {
+        "android": 501292.0652866242,
+        "ios": 254147.2
       }
     },
     "data_quality": {
-      "total_records": 637,
-      "missing_ratings": 
+      "total_records": 828,
+      "missing_ratings": 0,
+      "missing_reviews": 0,
+      "completeness_score": 1.0
+    }
+  },
+  "confidence_metrics": {
+    "overall_confidence": 0.583,
+    "data_quality_score": 1.0,
+    "statistical_significance": 0.1656,
+    "insights_actionability": 0.82
+  },
+  "recommendation_priority": {
+    "high_priority": [
+      "Focus on underserved professional niches",
+      "Implement AI-driven features"
+    ],
+    "medium_priority": [
+      "User acquisition in emerging markets",
+      "Platform-specific feature development"
+    ],
+    "considerations": [
+      "Platform policy changes",
+      "Privacy regulation impacts",
+      "Market saturation in core categories"
+    ]
+  }
+}

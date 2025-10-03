@@ -58,79 +58,79 @@ class DataIngestion:
         return pd.DataFrame(data)
 
     def fetch_appstore_data(self, app_ids: List[str] = None, max_apps: int = None) -> pd.DataFrame:
-    """Fetch data from App Store using RapidAPI"""
-    if not self.rapidapi_key:
-        logger.warning("RapidAPI key not provided. Skipping App Store data.")
-        return self._create_sample_appstore_data()
+        """Fetch data from App Store using RapidAPI"""
+        if not self.rapidapi_key:
+            logger.warning("RapidAPI key not provided. Skipping App Store data.")
+            return self._create_sample_appstore_data()
+            
+        if max_apps is None:
+            max_apps = Config.MAX_APPS_FETCH
+            
+        url = Config.RAPIDAPI_URL
+        headers = {
+            "X-RapidAPI-Key": self.rapidapi_key,
+            "X-RapidAPI-Host": Config.RAPIDAPI_HOST
+        }
         
-    if max_apps is None:
-        max_apps = Config.MAX_APPS_FETCH
+        # If no app_ids provided, use some popular iOS apps with bundle identifiers
+        if not app_ids:
+            app_ids = [
+                "com.facebook.Facebook",      # Facebook
+                "net.whatsapp.WhatsApp",      # WhatsApp
+                "com.burbn.instagram",        # Instagram
+                "com.atebits.Tweetie2",       # Twitter (X)
+                "com.zhiliaoapp.musically",   # TikTok
+                "com.netflix.Netflix",        # Netflix
+                "com.google.Gmail",           # Gmail
+                "com.spotify.client",         # Spotify
+            ]
         
-    url = Config.RAPIDAPI_URL
-    headers = {
-        "X-RapidAPI-Key": self.rapidapi_key,
-        "X-RapidAPI-Host": Config.RAPIDAPI_HOST
-    }
-    
-    # If no app_ids provided, use some popular iOS apps with bundle identifiers
-    if not app_ids:
-        app_ids = [
-            "com.facebook.Facebook",      # Facebook
-            "net.whatsapp.WhatsApp",      # WhatsApp
-            "com.burbn.instagram",        # Instagram
-            "com.atebits.Tweetie2",       # Twitter (X)
-            "com.zhiliaoapp.musically",   # TikTok
-            "com.netflix.Netflix",        # Netflix
-            "com.google.Gmail",           # Gmail
-            "com.spotify.client",         # Spotify
-        ]
-    
-    app_data = []
-    apps_to_fetch = app_ids[:max_apps]
-    
-    logger.info(f"Fetching data for {len(apps_to_fetch)} apps from App Store")
-    
-    for app_id in apps_to_fetch:
-        try:
-            # Try with bundle identifier format
-            querystring = {"bundle_id": app_id, "country": "us"}
-            response = requests.get(url, headers=headers, params=querystring)
-            
-            if response.status_code == 200:
-                data = response.json()
-                # Try different field mappings based on API response structure
-                app_data.append({
-                    'app_id': app_id,
-                    'name': data.get('name', data.get('title', data.get('trackName', ''))),
-                    'category': data.get('genre', data.get('category', data.get('primaryGenreName', ''))),
-                    'rating': data.get('averageUserRating', data.get('rating', data.get('averageRating', 0))),
-                    'review_count': data.get('userRatingCount', data.get('reviewCount', data.get('ratingCount', 0))),
-                    'price': data.get('price', data.get('trackPrice', 0)),
-                    'developer': data.get('artistName', data.get('developer', data.get('sellerName', ''))),
-                    'size_bytes': data.get('fileSizeBytes', data.get('size', 0)),
-                    'last_updated': data.get('currentVersionReleaseDate', data.get('updated', data.get('versionReleaseDate', ''))),
-                    'version': data.get('version', data.get('currentVersion', '')),
-                    'description': str(data.get('description', data.get('appDescription', '')))[:200]
-                })
-                logger.info(f"Successfully fetched data for app {app_id}")
-            else:
-                logger.warning(f"Failed to fetch data for app {app_id}: {response.status_code}")
-                # Try alternative endpoint or parameters
-                logger.info(f"Trying alternative approach for {app_id}")
-            
-            # Rate limiting
-            time.sleep(2)  # Increased delay for rate limits
-            
-        except Exception as e:
-            logger.error(f"Error fetching data for app {app_id}: {str(e)}")
-            continue
-    
-    if not app_data:
-        logger.warning("No App Store data fetched, using sample data")
-        return self._create_sample_appstore_data()
-    
-    logger.info(f"Successfully fetched data for {len(app_data)} apps")
-    return pd.DataFrame(app_data)
+        app_data = []
+        apps_to_fetch = app_ids[:max_apps]
+        
+        logger.info(f"Fetching data for {len(apps_to_fetch)} apps from App Store")
+        
+        for app_id in apps_to_fetch:
+            try:
+                # Try with bundle identifier format
+                querystring = {"bundle_id": app_id, "country": "us"}
+                response = requests.get(url, headers=headers, params=querystring)
+                
+                if response.status_code == 200:
+                    data = response.json()
+                    # Try different field mappings based on API response structure
+                    app_data.append({
+                        'app_id': app_id,
+                        'name': data.get('name', data.get('title', data.get('trackName', ''))),
+                        'category': data.get('genre', data.get('category', data.get('primaryGenreName', ''))),
+                        'rating': data.get('averageUserRating', data.get('rating', data.get('averageRating', 0))),
+                        'review_count': data.get('userRatingCount', data.get('reviewCount', data.get('ratingCount', 0))),
+                        'price': data.get('price', data.get('trackPrice', 0)),
+                        'developer': data.get('artistName', data.get('developer', data.get('sellerName', ''))),
+                        'size_bytes': data.get('fileSizeBytes', data.get('size', 0)),
+                        'last_updated': data.get('currentVersionReleaseDate', data.get('updated', data.get('versionReleaseDate', ''))),
+                        'version': data.get('version', data.get('currentVersion', '')),
+                        'description': str(data.get('description', data.get('appDescription', '')))[:200]
+                    })
+                    logger.info(f"Successfully fetched data for app {app_id}")
+                else:
+                    logger.warning(f"Failed to fetch data for app {app_id}: {response.status_code}")
+                    # Try alternative endpoint or parameters
+                    logger.info(f"Trying alternative approach for {app_id}")
+                
+                # Rate limiting
+                time.sleep(2)  # Increased delay for rate limits
+                
+            except Exception as e:
+                logger.error(f"Error fetching data for app {app_id}: {str(e)}")
+                continue
+        
+        if not app_data:
+            logger.warning("No App Store data fetched, using sample data")
+            return self._create_sample_appstore_data()
+        
+        logger.info(f"Successfully fetched data for {len(app_data)} apps")
+        return pd.DataFrame(app_data)
 
     def _create_sample_appstore_data(self) -> pd.DataFrame:
         """Create sample App Store data for testing"""

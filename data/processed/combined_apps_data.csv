@@ -1,638 +1,829 @@
-name,category,rating,review_count,size_original,installs_original,type,price_original,content_rating,last_updated,platform,source,app_id
-Develop App,HEALTH,2.3,658412,50M,1000000,Free,13.0,Mature 17+,2022-02-22,android,play_store,develop_app_android
-Mrs App,HEALTH,0.6,961395,8M,10000000,Paid,0.0,Teen,2023-04-10,android,play_store,mrs_app_android
-Catch App,GAME,2.7,460998,29M,10000,Free,20.0,Teen,2021-01-30,android,play_store,catch_app_android
-Environment App,HEALTH,1.3,874609,53M,1000,Free,2.0,Everyone,2024-06-04,android,play_store,environment_app_android
-Without App,SOCIAL,3.1,48003,80M,10000,Free,19.0,Teen,2025-03-07,android,play_store,without_app_android
-Show App,FINANCE,3.3,641238,19M,1000,Free,0.0,Mature 17+,2021-12-19,android,play_store,show_app_android
-Every App,EDUCATION,3.8,879255,22M,10000000,Paid,0.0,Everyone,2020-06-07,android,play_store,every_app_android
-Woman App,EDUCATION,4.8,697969,57M,10000,Free,6.0,Mature 17+,2023-06-13,android,play_store,woman_app_android
-Natural App,SOCIAL,1.4,288588,41M,10000,Free,0.0,Teen,2023-11-20,android,play_store,natural_app_android
-Purpose App,HEALTH,3.9,66089,52M,100000,Free,16.0,Mature 17+,2021-08-25,android,play_store,purpose_app_android
-One App,PRODUCTIVITY,1.7,783796,63M,10000000,Paid,0.0,Mature 17+,2024-05-29,android,play_store,one_app_android
-Quality App,PRODUCTIVITY,1.4,677975,87M,100000,Paid,0.0,Mature 17+,2021-10-08,android,play_store,quality_app_android
-See App,EDUCATION,0.5,509834,56M,10000,Free,18.0,Everyone,2022-12-05,android,play_store,see_app_android
-Heart App,HEALTH,3.7,539201,55M,10000000,Paid,0.0,Everyone,2023-10-03,android,play_store,heart_app_android
-After App,HEALTH,0.1,666122,42M,1000000,Free,4.0,Everyone,2022-10-07,android,play_store,after_app_android
-Some App,HEALTH,4.3,202771,3M,10000000,Free,0.0,Teen,2020-01-07,android,play_store,some_app_android
-Down App,EDUCATION,1.1,115878,20M,1000000,Free,13.0,Teen,2020-08-09,android,play_store,down_app_android
-Job App,HEALTH,0.2,887088,50M,10000000,Paid,4.0,Everyone,2020-04-05,android,play_store,job_app_android
-Crime App,HEALTH,1.0,947688,81M,1000,Paid,0.0,Everyone,2022-04-05,android,play_store,crime_app_android
-Tv App,HEALTH,1.9,829632,84M,1000,Free,0.0,Teen,2023-11-03,android,play_store,tv_app_android
-Smile App,FINANCE,1.0,827626,70M,1000,Free,0.0,Mature 17+,2021-01-17,android,play_store,smile_app_android
-Security App,PRODUCTIVITY,4.4,793502,80M,10000000,Paid,0.0,Everyone,2024-04-17,android,play_store,security_app_android
-Do App,HEALTH,4.3,500091,46M,100000,Paid,0.0,Teen,2023-02-25,android,play_store,do_app_android
-Difference App,HEALTH,0.2,351010,34M,100000,Free,3.0,Mature 17+,2023-04-06,android,play_store,difference_app_android
-Become App,FINANCE,2.2,720916,23M,10000000,Free,0.0,Mature 17+,2023-10-09,android,play_store,become_app_android
-Action App,PRODUCTIVITY,3.2,14398,96M,100000,Paid,0.0,Teen,2021-05-29,android,play_store,action_app_android
-Economic App,GAME,4.9,138669,10M,100000,Free,0.0,Everyone,2020-08-31,android,play_store,economic_app_android
-Once App,HEALTH,4.1,640138,98M,10000,Free,0.0,Everyone,2023-01-05,android,play_store,once_app_android
-Practice App,EDUCATION,3.4,586209,49M,10000,Paid,0.0,Teen,2021-12-12,android,play_store,practice_app_android
-Model App,PRODUCTIVITY,1.0,802098,83M,1000,Free,0.0,Everyone,2022-05-15,android,play_store,model_app_android
-Toward App,PRODUCTIVITY,4.8,378418,80M,1000,Free,17.0,Teen,2022-07-04,android,play_store,toward_app_android
-Half App,SOCIAL,1.8,159056,13M,10000000,Paid,17.0,Teen,2022-01-05,android,play_store,half_app_android
-Congress App,PRODUCTIVITY,4.0,834380,17M,100000,Free,10.0,Everyone,2021-03-29,android,play_store,congress_app_android
-Network App,FINANCE,3.5,252896,79M,1000000,Free,14.0,Everyone,2020-04-12,android,play_store,network_app_android
-Result App,PRODUCTIVITY,4.6,707039,76M,1000,Free,7.0,Teen,2024-07-31,android,play_store,result_app_android
-Push App,PRODUCTIVITY,4.9,521821,68M,1000000,Paid,0.0,Teen,2021-06-24,android,play_store,push_app_android
-Cultural App,HEALTH,4.4,442706,4M,10000000,Free,11.0,Everyone,2022-12-03,android,play_store,cultural_app_android
-Medical App,SOCIAL,2.6,954567,51M,10000000,Paid,0.0,Everyone,2023-11-07,android,play_store,medical_app_android
-Much App,GAME,5.0,142417,14M,1000,Paid,0.0,Everyone,2023-01-25,android,play_store,much_app_android
-Game App,GAME,3.0,578510,21M,10000000,Paid,0.0,Teen,2022-04-19,android,play_store,game_app_android
-Standard App,HEALTH,2.1,963725,11M,10000000,Free,0.0,Everyone,2023-12-09,android,play_store,standard_app_android
-Three App,PRODUCTIVITY,3.3,41567,66M,10000000,Paid,0.0,Teen,2025-03-18,android,play_store,three_app_android
-World App,GAME,3.6,98347,29M,1000,Paid,4.0,Mature 17+,2023-08-10,android,play_store,world_app_android
-Break App,EDUCATION,3.6,345687,48M,1000000,Free,7.0,Everyone,2021-04-13,android,play_store,break_app_android
-Current App,FINANCE,0.9,999741,84M,1000000,Free,0.0,Teen,2020-01-22,android,play_store,current_app_android
-Not App,PRODUCTIVITY,3.9,763870,90M,1000000,Paid,2.0,Everyone,2023-02-08,android,play_store,not_app_android
-In App,FINANCE,3.3,460468,66M,1000,Paid,11.0,Everyone,2025-03-11,android,play_store,in_app_android
-Seat App,FINANCE,4.2,557052,19M,10000,Paid,20.0,Everyone,2024-09-06,android,play_store,seat_app_android
-Sing App,FINANCE,3.8,151487,93M,100000,Paid,3.0,Everyone,2024-12-02,android,play_store,sing_app_android
-Land App,SOCIAL,2.2,421372,15M,10000,Free,17.0,Teen,2025-03-15,android,play_store,land_app_android
-Section App,GAME,2.8,322636,83M,10000,Paid,15.0,Teen,2023-01-10,android,play_store,section_app_android
-Management App,PRODUCTIVITY,1.9,115995,4M,10000,Free,16.0,Mature 17+,2022-01-27,android,play_store,management_app_android
-Face App,HEALTH,4.1,895424,9M,10000000,Free,0.0,Mature 17+,2022-12-15,android,play_store,face_app_android
-Food App,HEALTH,2.5,518135,8M,10000000,Free,12.0,Everyone,2023-04-20,android,play_store,food_app_android
-Young App,PRODUCTIVITY,1.6,59338,3M,10000,Free,17.0,Teen,2020-05-08,android,play_store,young_app_android
-Fine App,SOCIAL,2.8,65924,37M,10000,Free,4.0,Teen,2022-04-30,android,play_store,fine_app_android
-No App,EDUCATION,3.3,969333,78M,10000,Free,1.0,Everyone,2023-03-04,android,play_store,no_app_android
-Modern App,HEALTH,2.0,696122,14M,10000000,Paid,10.0,Teen,2021-04-20,android,play_store,modern_app_android
-Series App,EDUCATION,2.7,744781,83M,1000,Free,3.0,Teen,2022-08-03,android,play_store,series_app_android
-Anything App,FINANCE,3.8,193095,2M,10000,Paid,16.0,Everyone,2021-12-03,android,play_store,anything_app_android
-Near App,PRODUCTIVITY,4.4,592613,97M,100000,Paid,1.0,Mature 17+,2021-09-07,android,play_store,near_app_android
-House App,PRODUCTIVITY,3.6,447314,3M,10000,Free,8.0,Teen,2020-12-11,android,play_store,house_app_android
-Throughout App,SOCIAL,4.1,858589,4M,100000,Paid,0.0,Mature 17+,2022-06-17,android,play_store,throughout_app_android
-Story App,SOCIAL,0.8,962963,54M,10000000,Free,0.0,Everyone,2022-05-19,android,play_store,story_app_android
-Five App,GAME,2.7,555934,68M,10000,Paid,0.0,Everyone,2023-01-14,android,play_store,five_app_android
-Will App,PRODUCTIVITY,2.5,260870,91M,100000,Paid,0.0,Everyone,2021-08-03,android,play_store,will_app_android
-Cause App,FINANCE,4.6,707617,2M,1000000,Paid,0.0,Teen,2021-04-29,android,play_store,cause_app_android
-Information App,GAME,0.1,701110,32M,10000000,Paid,0.0,Everyone,2022-08-01,android,play_store,information_app_android
-Official App,HEALTH,2.1,862490,33M,1000000,Free,19.0,Everyone,2023-08-28,android,play_store,official_app_android
-Side App,SOCIAL,2.7,840657,45M,1000000,Free,0.0,Teen,2025-08-27,android,play_store,side_app_android
-Research App,HEALTH,4.7,981397,50M,1000,Paid,0.0,Teen,2021-05-01,android,play_store,research_app_android
-Figure App,SOCIAL,1.7,905998,66M,1000,Paid,5.0,Mature 17+,2024-02-03,android,play_store,figure_app_android
-Beyond App,HEALTH,1.1,709832,98M,10000000,Paid,14.0,Mature 17+,2023-09-18,android,play_store,beyond_app_android
-None App,SOCIAL,3.1,836697,35M,100000,Free,0.0,Mature 17+,2023-06-14,android,play_store,none_app_android
-Song App,FINANCE,4.4,681597,84M,1000,Paid,19.0,Mature 17+,2020-12-28,android,play_store,song_app_android
-Whom App,HEALTH,0.7,995700,98M,10000000,Free,0.0,Mature 17+,2025-07-10,android,play_store,whom_app_android
-Town App,SOCIAL,2.1,99349,93M,1000,Free,18.0,Teen,2020-12-30,android,play_store,town_app_android
-Affect App,EDUCATION,3.3,630648,65M,1000000,Paid,19.0,Teen,2024-08-08,android,play_store,affect_app_android
-Political App,GAME,1.8,708861,38M,1000,Paid,14.0,Everyone,2022-08-07,android,play_store,political_app_android
-Season App,GAME,3.1,504763,34M,10000,Paid,0.0,Teen,2023-10-01,android,play_store,season_app_android
-Individual App,HEALTH,1.1,72320,35M,100000,Paid,20.0,Everyone,2020-07-27,android,play_store,individual_app_android
-Shake App,PRODUCTIVITY,1.6,417238,20M,1000000,Free,9.0,Mature 17+,2023-06-28,android,play_store,shake_app_android
-Finally App,PRODUCTIVITY,0.4,348965,63M,10000000,Paid,16.0,Teen,2023-09-07,android,play_store,finally_app_android
-Point App,HEALTH,2.9,667594,93M,1000000,Free,7.0,Mature 17+,2024-02-12,android,play_store,point_app_android
-Deep App,EDUCATION,1.2,774778,64M,100000,Paid,0.0,Mature 17+,2025-07-19,android,play_store,deep_app_android
-Edge App,HEALTH,2.0,466291,86M,1000000,Free,0.0,Teen,2020-01-09,android,play_store,edge_app_android
-True App,HEALTH,0.1,342251,86M,10000,Paid,5.0,Teen,2020-10-16,android,play_store,true_app_android
-Type App,HEALTH,3.6,996583,29M,1000,Paid,9.0,Mature 17+,2020-12-24,android,play_store,type_app_android
-Time App,SOCIAL,0.4,722568,28M,10000,Paid,0.0,Everyone,2020-01-02,android,play_store,time_app_android
-End App,FINANCE,0.9,960674,85M,100000,Paid,0.0,Teen,2022-10-16,android,play_store,end_app_android
-Box App,HEALTH,3.6,88374,67M,10000,Paid,0.0,Teen,2024-05-19,android,play_store,box_app_android
-East App,EDUCATION,0.1,17798,23M,1000,Paid,5.0,Everyone,2025-02-25,android,play_store,east_app_android
-Prepare App,EDUCATION,1.3,697247,77M,10000000,Paid,15.0,Teen,2024-09-05,android,play_store,prepare_app_android
-Idea App,EDUCATION,0.7,362560,92M,100000,Paid,1.0,Everyone,2024-05-30,android,play_store,idea_app_android
-Social App,GAME,3.6,694252,26M,10000000,Free,16.0,Everyone,2020-12-24,android,play_store,social_app_android
-Set App,PRODUCTIVITY,3.7,805527,61M,100000,Paid,16.0,Everyone,2024-03-07,android,play_store,set_app_android
-Back App,EDUCATION,0.1,770977,44M,1000000,Free,0.0,Teen,2025-03-18,android,play_store,back_app_android
-Possible App,HEALTH,0.9,328185,57M,10000,Free,13.0,Teen,2020-11-21,android,play_store,possible_app_android
-Very App,HEALTH,4.2,464718,27M,10000000,Free,0.0,Teen,2020-06-04,android,play_store,very_app_android
-Husband App,HEALTH,3.4,24319,24M,10000,Free,0.0,Everyone,2021-10-17,android,play_store,husband_app_android
-Raise App,PRODUCTIVITY,3.4,386505,13M,1000,Free,20.0,Mature 17+,2024-06-18,android,play_store,raise_app_android
-Manager App,PRODUCTIVITY,1.7,685345,35M,10000,Free,15.0,Everyone,2023-01-05,android,play_store,manager_app_android
-Sure App,PRODUCTIVITY,0.6,90474,58M,1000,Paid,0.0,Teen,2020-06-12,android,play_store,sure_app_android
-Life App,GAME,1.0,845618,90M,10000,Free,19.0,Teen,2022-03-12,android,play_store,life_app_android
-Early App,HEALTH,4.1,730919,58M,10000000,Paid,20.0,Teen,2025-09-26,android,play_store,early_app_android
-Discover App,FINANCE,0.1,655532,60M,10000,Paid,19.0,Everyone,2023-05-21,android,play_store,discover_app_android
-Effort App,FINANCE,1.2,364601,41M,10000,Paid,19.0,Mature 17+,2020-01-30,android,play_store,effort_app_android
-Heavy App,FINANCE,4.7,553443,59M,1000000,Paid,0.0,Mature 17+,2021-09-17,android,play_store,heavy_app_android
-Second App,EDUCATION,1.4,42659,28M,10000,Paid,6.0,Teen,2021-10-25,android,play_store,second_app_android
-Tend App,GAME,4.2,189821,72M,1000000,Paid,11.0,Everyone,2024-12-16,android,play_store,tend_app_android
-Table App,SOCIAL,1.1,449830,11M,10000000,Free,0.0,Teen,2024-09-19,android,play_store,table_app_android
-Team App,GAME,2.4,659868,100M,1000,Free,10.0,Teen,2021-10-28,android,play_store,team_app_android
-Dark App,PRODUCTIVITY,1.1,848706,8M,1000000,Paid,20.0,Teen,2022-07-30,android,play_store,dark_app_android
-Language App,GAME,2.3,116258,26M,10000,Free,0.0,Everyone,2024-12-27,android,play_store,language_app_android
-Middle App,PRODUCTIVITY,0.9,171527,26M,1000000,Free,2.0,Mature 17+,2022-11-30,android,play_store,middle_app_android
-Impact App,PRODUCTIVITY,3.8,942333,85M,1000,Paid,0.0,Everyone,2022-07-10,android,play_store,impact_app_android
-Else App,PRODUCTIVITY,0.3,442810,30M,10000000,Paid,11.0,Teen,2023-10-22,android,play_store,else_app_android
-Look App,EDUCATION,4.6,720017,19M,10000,Free,0.0,Everyone,2020-05-27,android,play_store,look_app_android
-Movement App,FINANCE,0.8,427575,13M,10000,Free,15.0,Mature 17+,2021-02-14,android,play_store,movement_app_android
-All App,SOCIAL,4.8,98596,19M,1000000,Paid,15.0,Everyone,2020-06-08,android,play_store,all_app_android
-Election App,FINANCE,0.3,799871,63M,10000000,Paid,0.0,Teen,2021-08-04,android,play_store,election_app_android
-Member App,SOCIAL,0.6,501335,74M,10000,Free,0.0,Teen,2020-10-17,android,play_store,member_app_android
-Star App,GAME,3.8,303817,62M,10000,Free,2.0,Everyone,2021-05-03,android,play_store,star_app_android
-Identify App,PRODUCTIVITY,5.0,302666,39M,1000000,Free,2.0,Mature 17+,2023-10-03,android,play_store,identify_app_android
-Occur App,EDUCATION,2.6,331590,88M,1000000,Free,2.0,Everyone,2024-03-03,android,play_store,occur_app_android
-Bar App,PRODUCTIVITY,5.0,397034,63M,1000000,Free,10.0,Everyone,2020-06-13,android,play_store,bar_app_android
-Trip App,GAME,0.8,373614,46M,1000000,Paid,11.0,Mature 17+,2022-04-24,android,play_store,trip_app_android
-Four App,FINANCE,1.5,462321,57M,100000,Free,0.0,Everyone,2021-07-08,android,play_store,four_app_android
-Traditional App,EDUCATION,0.3,731782,45M,10000000,Paid,0.0,Everyone,2021-12-02,android,play_store,traditional_app_android
-Eight App,EDUCATION,4.1,400505,36M,100000,Free,8.0,Everyone,2021-08-29,android,play_store,eight_app_android
-Loss App,HEALTH,2.5,901166,35M,1000000,Free,3.0,Everyone,2021-03-31,android,play_store,loss_app_android
-Rule App,GAME,2.7,457732,78M,1000000,Free,15.0,Mature 17+,2020-06-08,android,play_store,rule_app_android
-Among App,PRODUCTIVITY,1.6,979751,94M,1000000,Paid,0.0,Everyone,2025-09-05,android,play_store,among_app_android
-Someone App,SOCIAL,5.0,6376,61M,100000,Free,4.0,Everyone,2023-12-06,android,play_store,someone_app_android
-Reach App,GAME,2.7,343586,23M,10000000,Free,0.0,Teen,2024-07-08,android,play_store,reach_app_android
-Service App,GAME,3.2,400720,84M,1000,Free,0.0,Teen,2022-01-26,android,play_store,service_app_android
-Involve App,FINANCE,0.9,336800,94M,1000000,Paid,0.0,Everyone,2022-09-16,android,play_store,involve_app_android
-Pressure App,FINANCE,3.1,899552,98M,100000,Paid,0.0,Teen,2021-02-20,android,play_store,pressure_app_android
-Firm App,EDUCATION,4.6,590425,95M,10000,Paid,10.0,Mature 17+,2021-11-19,android,play_store,firm_app_android
-Animal App,GAME,1.8,783139,74M,1000,Free,0.0,Everyone,2025-06-06,android,play_store,animal_app_android
-Week App,EDUCATION,4.1,171306,98M,1000,Paid,0.0,Mature 17+,2024-05-02,android,play_store,week_app_android
-Stop App,GAME,3.4,94161,98M,10000000,Paid,0.0,Teen,2025-07-17,android,play_store,stop_app_android
-Hospital App,SOCIAL,3.2,59401,21M,1000,Paid,0.0,Mature 17+,2020-04-26,android,play_store,hospital_app_android
-Hair App,GAME,2.0,94629,12M,10000000,Free,11.0,Everyone,2025-03-05,android,play_store,hair_app_android
-Able App,GAME,4.7,737472,78M,1000,Paid,0.0,Everyone,2020-02-11,android,play_store,able_app_android
-Threat App,FINANCE,3.4,90692,100M,1000,Paid,0.0,Everyone,2024-06-13,android,play_store,threat_app_android
-Watch App,HEALTH,4.1,952180,88M,1000,Paid,0.0,Mature 17+,2023-04-08,android,play_store,watch_app_android
-Begin App,PRODUCTIVITY,2.7,544916,35M,1000,Free,0.0,Teen,2025-09-11,android,play_store,begin_app_android
-Different App,SOCIAL,0.6,751808,63M,1000000,Free,0.0,Teen,2021-01-19,android,play_store,different_app_android
-Onto App,EDUCATION,0.2,702833,97M,10000000,Paid,0.0,Teen,2023-06-04,android,play_store,onto_app_android
-Generation App,GAME,1.3,270244,81M,10000000,Paid,20.0,Everyone,2022-11-19,android,play_store,generation_app_android
-Grow App,HEALTH,1.7,230661,66M,10000000,Free,17.0,Everyone,2021-05-20,android,play_store,grow_app_android
-Author App,EDUCATION,3.0,621161,63M,10000000,Free,18.0,Mature 17+,2020-04-28,android,play_store,author_app_android
-Still App,FINANCE,1.1,372695,95M,10000000,Paid,7.0,Everyone,2023-09-02,android,play_store,still_app_android
-Statement App,GAME,3.6,607086,68M,1000,Free,13.0,Everyone,2023-08-16,android,play_store,statement_app_android
-Wish App,FINANCE,1.5,813330,25M,1000000,Paid,0.0,Teen,2021-12-23,android,play_store,wish_app_android
-Dream App,EDUCATION,3.0,391891,97M,10000000,Paid,0.0,Teen,2021-02-06,android,play_store,dream_app_android
-Laugh App,SOCIAL,5.0,917181,14M,100000,Free,0.0,Everyone,2023-07-22,android,play_store,laugh_app_android
-Others App,EDUCATION,4.3,761616,39M,10000,Paid,0.0,Mature 17+,2022-06-14,android,play_store,others_app_android
-Station App,FINANCE,0.4,512588,27M,1000000,Paid,0.0,Everyone,2022-03-29,android,play_store,station_app_android
-Unit App,HEALTH,1.9,848759,31M,10000,Paid,0.0,Everyone,2023-05-18,android,play_store,unit_app_android
-Expect App,GAME,0.3,70922,81M,10000,Free,0.0,Teen,2024-10-15,android,play_store,expect_app_android
-Stuff App,GAME,3.9,71483,57M,1000000,Free,0.0,Teen,2022-05-04,android,play_store,stuff_app_android
-Religious App,HEALTH,1.0,638997,5M,1000,Free,2.0,Mature 17+,2024-03-12,android,play_store,religious_app_android
-Player App,SOCIAL,1.0,729024,34M,10000,Paid,0.0,Everyone,2023-11-26,android,play_store,player_app_android
-Write App,EDUCATION,2.5,538146,1M,100000,Free,0.0,Everyone,2021-05-25,android,play_store,write_app_android
-Employee App,EDUCATION,1.3,206260,58M,10000,Free,18.0,Teen,2023-10-22,android,play_store,employee_app_android
-Professional App,HEALTH,4.6,541919,88M,10000000,Paid,20.0,Everyone,2023-10-27,android,play_store,professional_app_android
-Pass App,FINANCE,0.9,422033,75M,10000,Paid,0.0,Teen,2020-05-19,android,play_store,pass_app_android
-Child App,SOCIAL,1.5,3553,2M,10000,Paid,16.0,Everyone,2022-12-18,android,play_store,child_app_android
-Let App,GAME,3.1,285014,95M,100000,Free,0.0,Everyone,2025-06-12,android,play_store,let_app_android
-Bring App,PRODUCTIVITY,4.2,770929,61M,100000,Free,0.0,Everyone,2023-02-28,android,play_store,bring_app_android
-From App,GAME,0.5,772001,12M,100000,Paid,2.0,Mature 17+,2023-04-06,android,play_store,from_app_android
-Wall App,SOCIAL,0.3,430695,37M,10000,Free,9.0,Everyone,2023-06-15,android,play_store,wall_app_android
-Including App,EDUCATION,2.4,715625,66M,10000,Free,0.0,Everyone,2024-06-13,android,play_store,including_app_android
-West App,SOCIAL,4.3,849007,13M,1000000,Free,2.0,Mature 17+,2025-06-02,android,play_store,west_app_android
-Step App,PRODUCTIVITY,1.5,726434,82M,100000,Free,11.0,Everyone,2024-12-21,android,play_store,step_app_android
-Knowledge App,GAME,2.8,919009,57M,100000,Paid,12.0,Teen,2020-01-17,android,play_store,knowledge_app_android
-For App,GAME,3.6,699338,56M,1000,Paid,1.0,Teen,2024-03-06,android,play_store,for_app_android
-Include App,GAME,4.0,713130,6M,1000,Free,0.0,Mature 17+,2025-05-22,android,play_store,include_app_android
-Level App,HEALTH,0.7,87195,32M,100000,Paid,0.0,Teen,2023-07-14,android,play_store,level_app_android
-Candidate App,HEALTH,2.1,915766,38M,1000000,Free,14.0,Teen,2025-09-02,android,play_store,candidate_app_android
-Guess App,SOCIAL,3.6,165146,48M,1000000,Free,0.0,Everyone,2020-01-21,android,play_store,guess_app_android
-Year App,EDUCATION,1.1,653052,50M,1000000,Free,0.0,Everyone,2024-09-19,android,play_store,year_app_android
-When App,GAME,0.8,819055,61M,1000,Free,0.0,Teen,2025-06-16,android,play_store,when_app_android
-Serve App,GAME,1.1,474205,70M,10000000,Free,0.0,Mature 17+,2021-07-05,android,play_store,serve_app_android
-Final App,EDUCATION,0.1,93089,52M,1000,Free,3.0,Mature 17+,2022-06-20,android,play_store,final_app_android
-Professor App,EDUCATION,2.5,162949,43M,100000,Paid,8.0,Everyone,2023-09-25,android,play_store,professor_app_android
-Despite App,HEALTH,4.5,509686,64M,10000000,Free,17.0,Teen,2023-07-01,android,play_store,despite_app_android
-Lead App,SOCIAL,1.2,207891,56M,1000000,Free,14.0,Everyone,2022-11-13,android,play_store,lead_app_android
-Beat App,SOCIAL,0.5,51283,70M,1000000,Free,3.0,Everyone,2021-09-16,android,play_store,beat_app_android
-To App,HEALTH,4.2,434989,4M,1000,Free,0.0,Mature 17+,2021-10-25,android,play_store,to_app_android
-Career App,FINANCE,0.7,206468,9M,100000,Free,10.0,Teen,2021-05-31,android,play_store,career_app_android
-Color App,FINANCE,3.2,361329,67M,100000,Free,17.0,Mature 17+,2024-12-14,android,play_store,color_app_android
-Perform App,PRODUCTIVITY,3.0,976755,82M,10000000,Paid,0.0,Everyone,2023-08-12,android,play_store,perform_app_android
-Machine App,PRODUCTIVITY,4.4,648685,44M,10000,Paid,0.0,Everyone,2025-01-13,android,play_store,machine_app_android
-Sign App,HEALTH,4.7,797105,15M,100000,Free,0.0,Mature 17+,2022-10-14,android,play_store,sign_app_android
-Just App,EDUCATION,0.1,459144,16M,1000,Free,0.0,Teen,2023-09-18,android,play_store,just_app_android
-Indicate App,SOCIAL,0.5,123118,96M,100000,Paid,6.0,Teen,2023-02-02,android,play_store,indicate_app_android
-Receive App,HEALTH,2.7,99770,3M,1000,Free,18.0,Mature 17+,2024-07-10,android,play_store,receive_app_android
-Physical App,GAME,3.0,962012,75M,10000,Paid,0.0,Teen,2022-05-03,android,play_store,physical_app_android
-Hit App,SOCIAL,4.1,222865,74M,100000,Free,0.0,Teen,2023-01-10,android,play_store,hit_app_android
-Instead App,EDUCATION,0.3,662295,89M,100000,Free,0.0,Mature 17+,2024-03-28,android,play_store,instead_app_android
-Weight App,PRODUCTIVITY,4.5,297993,66M,10000,Paid,8.0,Teen,2024-08-25,android,play_store,weight_app_android
-Be App,EDUCATION,0.9,945977,16M,10000000,Free,9.0,Teen,2020-06-25,android,play_store,be_app_android
-Get App,GAME,1.4,593627,71M,10000,Free,0.0,Teen,2021-01-29,android,play_store,get_app_android
-Increase App,HEALTH,4.8,470186,63M,10000,Paid,5.0,Everyone,2023-12-05,android,play_store,increase_app_android
-Start App,SOCIAL,4.8,479922,34M,1000,Paid,6.0,Mature 17+,2021-01-13,android,play_store,start_app_android
-Benefit App,GAME,4.9,317404,43M,100000,Paid,0.0,Teen,2021-12-05,android,play_store,benefit_app_android
-Late App,GAME,1.3,936571,32M,10000,Paid,0.0,Teen,2024-11-25,android,play_store,late_app_android
-Order App,HEALTH,1.1,476852,17M,1000000,Free,0.0,Teen,2023-12-23,android,play_store,order_app_android
-Save App,FINANCE,1.4,306549,76M,10000000,Free,17.0,Teen,2022-01-06,android,play_store,save_app_android
-Race App,EDUCATION,3.5,574997,100M,1000,Free,0.0,Everyone,2020-08-19,android,play_store,race_app_android
-Administration App,GAME,2.5,780471,11M,10000000,Free,0.0,Mature 17+,2025-08-02,android,play_store,administration_app_android
-Present App,PRODUCTIVITY,0.8,874026,48M,10000000,Free,0.0,Mature 17+,2021-05-31,android,play_store,present_app_android
-It App,FINANCE,3.1,330899,2M,1000,Paid,0.0,Everyone,2020-01-15,android,play_store,it_app_android
-Field App,EDUCATION,3.4,807066,20M,1000,Free,17.0,Teen,2020-12-05,android,play_store,field_app_android
-Mean App,GAME,3.5,995042,35M,1000,Paid,7.0,Everyone,2021-10-26,android,play_store,mean_app_android
-Authority App,EDUCATION,0.1,742796,63M,1000000,Paid,0.0,Mature 17+,2022-09-29,android,play_store,authority_app_android
-Into App,FINANCE,4.2,798836,28M,100000,Paid,0.0,Mature 17+,2024-12-14,android,play_store,into_app_android
-Film App,EDUCATION,3.7,122675,35M,10000,Free,3.0,Mature 17+,2023-03-06,android,play_store,film_app_android
-Project App,PRODUCTIVITY,4.6,569518,53M,10000,Paid,19.0,Teen,2025-04-04,android,play_store,project_app_android
-During App,FINANCE,1.2,209708,65M,100000,Free,6.0,Mature 17+,2022-08-12,android,play_store,during_app_android
-Support App,FINANCE,3.9,902660,89M,10000,Paid,12.0,Teen,2022-09-03,android,play_store,support_app_android
-Continue App,EDUCATION,2.1,582021,37M,1000,Paid,0.0,Mature 17+,2024-02-19,android,play_store,continue_app_android
-Even App,GAME,0.6,867754,32M,1000000,Free,10.0,Mature 17+,2021-05-20,android,play_store,even_app_android
-Day App,SOCIAL,4.1,414412,42M,1000,Paid,20.0,Mature 17+,2025-09-27,android,play_store,day_app_android
-We App,GAME,2.2,368968,49M,1000,Free,0.0,Mature 17+,2022-10-12,android,play_store,we_app_android
-List App,EDUCATION,0.7,438841,100M,100000,Free,0.0,Teen,2024-09-22,android,play_store,list_app_android
-Through App,GAME,2.2,796067,80M,1000000,Paid,0.0,Teen,2022-06-05,android,play_store,through_app_android
-Page App,GAME,1.1,594845,31M,1000,Paid,0.0,Everyone,2023-02-03,android,play_store,page_app_android
-Strategy App,HEALTH,3.3,719512,37M,10000000,Free,11.0,Teen,2021-06-16,android,play_store,strategy_app_android
-Senior App,FINANCE,3.3,976836,55M,10000000,Free,15.0,Teen,2020-02-26,android,play_store,senior_app_android
-Yeah App,SOCIAL,2.1,678160,12M,100000,Paid,0.0,Teen,2023-05-22,android,play_store,yeah_app_android
-Democratic App,HEALTH,4.1,887649,39M,100000,Free,20.0,Teen,2020-06-24,android,play_store,democratic_app_android
-Sport App,FINANCE,0.1,655667,8M,1000000,Paid,0.0,Everyone,2020-07-17,android,play_store,sport_app_android
-Data App,GAME,0.7,932497,81M,10000,Paid,5.0,Mature 17+,2020-11-16,android,play_store,data_app_android
-Thought App,EDUCATION,2.6,879897,1M,1000000,Free,0.0,Everyone,2022-08-29,android,play_store,thought_app_android
-Special App,HEALTH,3.4,985394,61M,1000,Free,5.0,Mature 17+,2024-03-12,android,play_store,special_app_android
-Deal App,HEALTH,1.9,337390,63M,10000,Paid,0.0,Teen,2021-07-16,android,play_store,deal_app_android
-Note App,HEALTH,1.9,728414,52M,10000000,Paid,0.0,Teen,2025-07-16,android,play_store,note_app_android
-Big App,GAME,3.9,183444,51M,100000,Free,0.0,Everyone,2025-08-06,android,play_store,big_app_android
-Mention App,SOCIAL,2.8,494926,11M,10000,Free,0.0,Everyone,2025-08-26,android,play_store,mention_app_android
-Degree App,HEALTH,2.1,444473,73M,100000,Free,0.0,Mature 17+,2020-01-23,android,play_store,degree_app_android
-Performance App,PRODUCTIVITY,1.7,998460,26M,100000,Paid,1.0,Teen,2024-12-24,android,play_store,performance_app_android
-Produce App,SOCIAL,0.1,739672,84M,10000000,Free,0.0,Teen,2023-09-11,android,play_store,produce_app_android
-There App,PRODUCTIVITY,2.1,795110,64M,10000,Paid,0.0,Mature 17+,2022-07-09,android,play_store,there_app_android
-Theory App,GAME,2.8,461697,76M,100000,Paid,0.0,Everyone,2021-01-16,android,play_store,theory_app_android
-Several App,HEALTH,0.8,994270,8M,1000000,Paid,0.0,Teen,2020-01-21,android,play_store,several_app_android
-Relate App,HEALTH,1.0,36977,89M,10000,Free,0.0,Teen,2023-05-31,android,play_store,relate_app_android
-Reason App,EDUCATION,0.1,791358,17M,1000,Paid,10.0,Teen,2020-06-08,android,play_store,reason_app_android
-Defense App,FINANCE,4.4,851872,22M,10000000,Free,0.0,Teen,2021-02-20,android,play_store,defense_app_android
-Growth App,SOCIAL,0.1,284858,57M,1000,Paid,9.0,Teen,2022-09-05,android,play_store,growth_app_android
-Course App,HEALTH,1.7,964115,22M,10000,Paid,0.0,Mature 17+,2025-03-19,android,play_store,course_app_android
-Campaign App,FINANCE,2.4,91977,9M,100000,Free,20.0,Everyone,2022-01-04,android,play_store,campaign_app_android
-Themselves App,HEALTH,0.8,293972,69M,1000,Free,6.0,Mature 17+,2022-06-09,android,play_store,themselves_app_android
-Sort App,EDUCATION,1.3,637541,46M,100000,Paid,9.0,Teen,2020-12-29,android,play_store,sort_app_android
-Also App,FINANCE,1.3,569998,83M,1000,Paid,0.0,Mature 17+,2020-10-26,android,play_store,also_app_android
-Agency App,EDUCATION,1.9,824155,88M,10000,Free,10.0,Teen,2022-04-03,android,play_store,agency_app_android
-News App,SOCIAL,1.4,619154,18M,10000,Free,0.0,Everyone,2020-04-29,android,play_store,news_app_android
-Decision App,PRODUCTIVITY,4.2,879099,19M,10000,Free,0.0,Everyone,2025-05-25,android,play_store,decision_app_android
-Article App,PRODUCTIVITY,3.4,153396,77M,10000,Free,18.0,Everyone,2023-02-23,android,play_store,article_app_android
-Certainly App,SOCIAL,4.0,755640,82M,10000000,Paid,4.0,Teen,2025-08-17,android,play_store,certainly_app_android
-Business App,HEALTH,0.4,185655,11M,10000,Paid,0.0,Everyone,2022-09-14,android,play_store,business_app_android
-Born App,SOCIAL,2.6,561249,5M,1000,Free,0.0,Mature 17+,2020-05-19,android,play_store,born_app_android
-Both App,GAME,1.8,601959,62M,100000,Free,0.0,Teen,2025-05-07,android,play_store,both_app_android
-Enough App,HEALTH,4.1,192330,47M,10000,Free,11.0,Teen,2023-05-09,android,play_store,enough_app_android
-Operation App,SOCIAL,4.1,279282,30M,10000000,Free,15.0,Mature 17+,2022-12-29,android,play_store,operation_app_android
-Record App,FINANCE,3.0,96996,27M,1000000,Paid,6.0,Teen,2021-04-12,android,play_store,record_app_android
-Customer App,PRODUCTIVITY,0.4,683957,6M,1000000,Free,0.0,Everyone,2022-02-05,android,play_store,customer_app_android
-Particular App,EDUCATION,4.3,40350,3M,100000,Paid,0.0,Everyone,2020-09-09,android,play_store,particular_app_android
-Decide App,EDUCATION,3.1,363293,86M,100000,Paid,0.0,Mature 17+,2021-10-25,android,play_store,decide_app_android
-Human App,GAME,0.7,12288,8M,100000,Free,0.0,Teen,2020-04-17,android,play_store,human_app_android
-Make App,HEALTH,3.3,991675,14M,10000,Paid,20.0,Mature 17+,2024-11-19,android,play_store,make_app_android
-Nothing App,PRODUCTIVITY,4.4,778876,25M,1000000,Paid,4.0,Teen,2020-05-06,android,play_store,nothing_app_android
-And App,EDUCATION,2.9,78876,34M,10000,Paid,0.0,Mature 17+,2022-07-12,android,play_store,and_app_android
-Happy App,HEALTH,2.8,46667,68M,100000,Paid,0.0,Everyone,2025-03-16,android,play_store,happy_app_android
-Future App,GAME,1.8,221328,56M,1000000,Paid,0.0,Everyone,2023-12-19,android,play_store,future_app_android
-Decade App,SOCIAL,1.0,292036,25M,10000000,Paid,2.0,Mature 17+,2022-12-11,android,play_store,decade_app_android
-Lose App,GAME,2.1,635333,84M,10000,Paid,5.0,Everyone,2024-06-14,android,play_store,lose_app_android
-Truth App,SOCIAL,1.9,951706,15M,1000,Paid,18.0,Mature 17+,2024-11-30,android,play_store,truth_app_android
-Structure App,GAME,0.9,828200,42M,10000,Free,0.0,Mature 17+,2023-02-14,android,play_store,structure_app_android
-Spend App,FINANCE,1.1,884138,19M,1000000,Free,0.0,Mature 17+,2024-02-15,android,play_store,spend_app_android
-Apply App,EDUCATION,3.9,26700,61M,10000,Free,0.0,Teen,2022-08-31,android,play_store,apply_app_android
-Appear App,PRODUCTIVITY,0.3,807192,73M,100000,Free,0.0,Everyone,2022-11-01,android,play_store,appear_app_android
-Group App,FINANCE,5.0,829485,83M,10000000,Paid,17.0,Everyone,2023-03-31,android,play_store,group_app_android
-Feeling App,EDUCATION,2.4,524222,7M,10000,Paid,0.0,Mature 17+,2025-05-02,android,play_store,feeling_app_android
-Music App,SOCIAL,3.8,76008,53M,10000,Paid,14.0,Everyone,2023-05-21,android,play_store,music_app_android
-Wait App,GAME,3.9,103771,97M,10000000,Free,0.0,Teen,2025-04-24,android,play_store,wait_app_android
-Condition App,GAME,4.0,129967,53M,1000000,Paid,5.0,Everyone,2024-05-29,android,play_store,condition_app_android
-Mind App,PRODUCTIVITY,4.7,747036,57M,100000,Free,10.0,Mature 17+,2024-08-30,android,play_store,mind_app_android
-Collection App,EDUCATION,4.6,622856,17M,1000,Paid,0.0,Everyone,2021-04-26,android,play_store,collection_app_android
-Development App,HEALTH,1.2,80051,72M,100000,Paid,0.0,Teen,2025-08-31,android,play_store,development_app_android
-Poor App,HEALTH,2.4,385913,69M,100000,Paid,0.0,Mature 17+,2024-07-16,android,play_store,poor_app_android
-Doctor App,GAME,3.7,632046,79M,1000,Paid,19.0,Teen,2022-04-25,android,play_store,doctor_app_android
-Oil App,PRODUCTIVITY,4.6,913194,32M,100000,Paid,9.0,Mature 17+,2023-12-18,android,play_store,oil_app_android
-Camera App,HEALTH,4.9,231188,100M,100000,Free,10.0,Everyone,2021-05-18,android,play_store,camera_app_android
-Most App,GAME,0.8,25151,92M,100000,Paid,13.0,Teen,2020-09-23,android,play_store,most_app_android
-Conference App,SOCIAL,3.4,224248,47M,10000,Paid,0.0,Mature 17+,2022-08-17,android,play_store,conference_app_android
-Before App,FINANCE,2.6,754370,65M,10000000,Paid,3.0,Mature 17+,2023-04-06,android,play_store,before_app_android
-With App,PRODUCTIVITY,3.9,206491,78M,1000,Paid,14.0,Mature 17+,2020-10-14,android,play_store,with_app_android
-Sometimes App,PRODUCTIVITY,2.8,590572,73M,1000000,Paid,0.0,Mature 17+,2025-07-06,android,play_store,sometimes_app_android
-Across App,PRODUCTIVITY,2.7,235969,57M,100000,Paid,7.0,Everyone,2023-03-11,android,play_store,across_app_android
-Account App,GAME,4.8,241213,8M,1000000,Paid,0.0,Mature 17+,2023-02-13,android,play_store,account_app_android
-Vote App,GAME,1.4,463518,49M,10000,Paid,10.0,Everyone,2024-08-13,android,play_store,vote_app_android
-Give App,EDUCATION,1.3,832457,38M,1000000,Free,12.0,Mature 17+,2023-10-30,android,play_store,give_app_android
-Argue App,EDUCATION,1.9,754044,14M,100000,Paid,0.0,Everyone,2020-06-12,android,play_store,argue_app_android
-Expert App,EDUCATION,4.0,851971,69M,10000000,Paid,0.0,Mature 17+,2023-08-23,android,play_store,expert_app_android
-More App,GAME,1.6,531202,96M,1000000,Paid,0.0,Everyone,2023-06-26,android,play_store,more_app_android
-Care App,FINANCE,0.7,609489,1M,10000,Paid,0.0,Teen,2020-08-02,android,play_store,care_app_android
-Somebody App,FINANCE,4.7,711356,7M,1000000,Paid,0.0,Teen,2020-11-17,android,play_store,somebody_app_android
-Fact App,PRODUCTIVITY,3.2,238645,86M,100000,Paid,16.0,Mature 17+,2023-03-11,android,play_store,fact_app_android
-Outside App,GAME,3.9,102632,5M,1000000,Free,12.0,Mature 17+,2025-06-21,android,play_store,outside_app_android
-The App,PRODUCTIVITY,2.6,737653,31M,10000,Free,5.0,Mature 17+,2020-07-18,android,play_store,the_app_android
-Turn App,EDUCATION,4.9,509712,85M,10000,Paid,18.0,Mature 17+,2020-05-20,android,play_store,turn_app_android
-Design App,FINANCE,3.5,449639,45M,10000,Free,6.0,Mature 17+,2022-10-30,android,play_store,design_app_android
-Car App,SOCIAL,1.0,871873,73M,10000000,Free,18.0,Everyone,2024-08-18,android,play_store,car_app_android
-Hard App,GAME,3.4,917589,81M,10000,Paid,0.0,Teen,2023-08-08,android,play_store,hard_app_android
-Amount App,HEALTH,0.1,388499,46M,1000000,Free,0.0,Teen,2024-02-18,android,play_store,amount_app_android
-Exist App,PRODUCTIVITY,2.6,88650,2M,1000000,Free,0.0,Everyone,2025-05-10,android,play_store,exist_app_android
-Go App,GAME,1.2,19425,74M,10000000,Free,0.0,Mature 17+,2020-05-25,android,play_store,go_app_android
-Such App,SOCIAL,2.4,437845,96M,10000000,Paid,0.0,Mature 17+,2023-10-11,android,play_store,such_app_android
-Air App,HEALTH,2.1,540291,50M,1000,Free,4.0,Teen,2020-12-03,android,play_store,air_app_android
-Tough App,GAME,4.1,271295,29M,1000,Paid,0.0,Everyone,2021-01-23,android,play_store,tough_app_android
-While App,EDUCATION,1.2,456509,21M,100000,Free,0.0,Everyone,2022-02-15,android,play_store,while_app_android
-Investment App,FINANCE,4.0,496961,38M,1000000,Free,0.0,Mature 17+,2023-08-16,android,play_store,investment_app_android
-Finish App,PRODUCTIVITY,1.3,278603,17M,10000000,Free,0.0,Teen,2022-10-24,android,play_store,finish_app_android
-So App,FINANCE,2.6,397758,12M,10000000,Paid,0.0,Mature 17+,2020-01-28,android,play_store,so_app_android
-Them App,FINANCE,4.7,122398,32M,1000,Free,0.0,Everyone,2023-07-04,android,play_store,them_app_android
-As App,SOCIAL,1.4,441136,90M,1000000,Free,0.0,Mature 17+,2025-02-02,android,play_store,as_app_android
-Never App,SOCIAL,4.8,248522,70M,10000000,Free,0.0,Teen,2022-08-11,android,play_store,never_app_android
-Rock App,FINANCE,4.7,112226,50M,1000000,Free,0.0,Everyone,2023-10-27,android,play_store,rock_app_android
-Meeting App,SOCIAL,0.6,479603,74M,100000,Paid,12.0,Teen,2021-10-12,android,play_store,meeting_app_android
-Everything App,EDUCATION,3.2,398500,56M,100000,Paid,0.0,Everyone,2025-07-15,android,play_store,everything_app_android
-Quite App,HEALTH,3.5,710201,21M,1000,Free,0.0,Mature 17+,2023-09-07,android,play_store,quite_app_android
-Close App,FINANCE,4.1,170019,9M,1000,Free,0.0,Mature 17+,2023-04-19,android,play_store,close_app_android
-Economy App,EDUCATION,0.7,847198,72M,100000,Paid,9.0,Teen,2020-11-18,android,play_store,economy_app_android
-Tonight App,EDUCATION,1.1,77953,1M,10000,Free,0.0,Teen,2024-04-07,android,play_store,tonight_app_android
-Throw App,FINANCE,1.6,670293,34M,10000,Free,2.0,Teen,2022-05-18,android,play_store,throw_app_android
-Indeed App,PRODUCTIVITY,2.0,803377,48M,1000,Free,0.0,Mature 17+,2024-05-17,android,play_store,indeed_app_android
-Law App,EDUCATION,0.7,311232,78M,10000,Paid,0.0,Everyone,2021-06-14,android,play_store,law_app_android
-Their App,SOCIAL,2.4,120649,23M,100000,Free,0.0,Teen,2022-03-18,android,play_store,their_app_android
-Imagine App,GAME,2.6,165910,94M,100000,Free,9.0,Teen,2022-07-07,android,play_store,imagine_app_android
-Us App,PRODUCTIVITY,3.2,394971,51M,1000,Free,0.0,Everyone,2021-08-02,android,play_store,us_app_android
-Wife App,SOCIAL,2.9,651532,72M,10000,Paid,7.0,Mature 17+,2021-03-04,android,play_store,wife_app_android
-Visit App,HEALTH,2.3,625799,21M,10000000,Paid,0.0,Teen,2025-02-26,android,play_store,visit_app_android
-Now App,PRODUCTIVITY,3.0,528694,72M,1000,Paid,0.0,Teen,2020-04-07,android,play_store,now_app_android
-Inside App,HEALTH,3.5,596683,6M,10000,Free,0.0,Everyone,2023-12-05,android,play_store,inside_app_android
-Floor App,HEALTH,1.0,894286,27M,10000000,Free,0.0,Teen,2022-03-16,android,play_store,floor_app_android
-Public App,EDUCATION,1.2,347764,70M,10000000,Free,3.0,Teen,2024-03-27,android,play_store,public_app_android
-Along App,GAME,3.6,445861,7M,10000,Free,11.0,Teen,2025-09-29,android,play_store,along_app_android
-Century App,HEALTH,3.5,880598,46M,10000,Free,0.0,Mature 17+,2020-11-21,android,play_store,century_app_android
-Budget App,FINANCE,1.8,663736,65M,1000000,Free,11.0,Mature 17+,2025-06-13,android,play_store,budget_app_android
-Television App,HEALTH,3.3,621534,73M,100000,Free,0.0,Mature 17+,2020-01-14,android,play_store,television_app_android
-Kind App,GAME,4.1,695346,81M,10000000,Free,0.0,Everyone,2025-09-05,android,play_store,kind_app_android
-Similar App,HEALTH,3.4,437573,15M,10000000,Free,0.0,Everyone,2022-10-30,android,play_store,similar_app_android
-Couple App,EDUCATION,3.8,643330,69M,10000,Free,15.0,Everyone,2022-03-03,android,play_store,couple_app_android
-Issue App,SOCIAL,4.0,66683,32M,10000000,Free,0.0,Mature 17+,2024-12-10,android,play_store,issue_app_android
-Compare App,FINANCE,2.5,612509,48M,100000,Paid,0.0,Mature 17+,2024-03-03,android,play_store,compare_app_android
-President App,PRODUCTIVITY,1.3,927784,5M,10000,Free,20.0,Everyone,2023-11-18,android,play_store,president_app_android
-Image App,SOCIAL,3.7,774561,37M,100000,Paid,0.0,Teen,2021-11-19,android,play_store,image_app_android
-Consider App,FINANCE,1.8,684937,27M,100000,Paid,20.0,Everyone,2023-06-09,android,play_store,consider_app_android
-Everyone App,PRODUCTIVITY,2.9,194875,76M,10000,Free,0.0,Mature 17+,2023-10-21,android,play_store,everyone_app_android
-Source App,EDUCATION,3.1,26406,88M,1000,Free,3.0,Mature 17+,2020-11-01,android,play_store,source_app_android
-Within App,EDUCATION,1.3,125301,85M,10000000,Free,13.0,Everyone,2020-12-26,android,play_store,within_app_android
-Fly App,SOCIAL,4.3,43742,74M,1000,Paid,0.0,Everyone,2023-07-07,android,play_store,fly_app_android
-Stock App,HEALTH,0.2,5995,75M,1000,Paid,0.0,Mature 17+,2025-03-19,android,play_store,stock_app_android
-Suggest App,HEALTH,0.8,372557,2M,10000000,Paid,8.0,Teen,2021-02-04,android,play_store,suggest_app_android
-Experience App,EDUCATION,2.4,152296,78M,1000000,Free,13.0,Mature 17+,2020-07-07,android,play_store,experience_app_android
-Then App,FINANCE,3.5,836599,13M,1000,Paid,0.0,Everyone,2020-07-18,android,play_store,then_app_android
-Something App,HEALTH,4.7,891371,17M,10000,Free,0.0,Mature 17+,2025-08-06,android,play_store,something_app_android
-Option App,HEALTH,4.4,779042,71M,10000000,Paid,0.0,Teen,2021-12-14,android,play_store,option_app_android
-Again App,FINANCE,2.1,362035,99M,10000000,Paid,0.0,Teen,2022-03-16,android,play_store,again_app_android
-Power App,EDUCATION,4.6,559410,98M,10000000,Free,18.0,Everyone,2022-02-27,android,play_store,power_app_android
-Total App,EDUCATION,1.7,45969,23M,1000000,Paid,0.0,Teen,2023-12-03,android,play_store,total_app_android
-Walk App,SOCIAL,4.4,711894,72M,100000,Paid,8.0,Mature 17+,2021-11-11,android,play_store,walk_app_android
-Ten App,HEALTH,1.3,982292,35M,1000000,Free,0.0,Teen,2021-09-24,android,play_store,ten_app_android
-They App,HEALTH,0.9,638915,49M,1000000,Free,0.0,Mature 17+,2023-02-04,android,play_store,they_app_android
-Which App,SOCIAL,3.6,465054,42M,10000000,Free,3.0,Teen,2024-07-17,android,play_store,which_app_android
-Whether App,HEALTH,3.8,42330,29M,1000,Paid,0.0,Mature 17+,2022-11-23,android,play_store,whether_app_android
-Police App,SOCIAL,0.9,987567,28M,1000000,Free,0.0,Teen,2020-09-08,android,play_store,police_app_android
-Maintain App,HEALTH,4.1,241220,79M,10000,Paid,1.0,Everyone,2020-02-28,android,play_store,maintain_app_android
-Dog App,FINANCE,2.6,281961,96M,10000,Free,19.0,Mature 17+,2022-08-02,android,play_store,dog_app_android
-Your App,SOCIAL,2.4,498217,79M,100000,Paid,20.0,Teen,2022-08-02,android,play_store,your_app_android
-Win App,SOCIAL,1.1,745281,48M,100000,Paid,15.0,Everyone,2024-05-18,android,play_store,win_app_android
-Street App,GAME,3.9,959958,85M,100000,Free,0.0,Mature 17+,2025-04-18,android,play_store,street_app_android
-Water App,PRODUCTIVITY,4.1,814526,83M,10000,Paid,0.0,Everyone,2022-07-21,android,play_store,water_app_android
-Community App,SOCIAL,1.1,922240,98M,10000000,Paid,0.0,Mature 17+,2020-03-19,android,play_store,community_app_android
-Assume App,EDUCATION,3.3,667091,36M,100000,Paid,0.0,Mature 17+,2022-06-29,android,play_store,assume_app_android
-Memory App,GAME,1.8,169655,54M,10000000,Free,0.0,Teen,2020-10-16,android,play_store,memory_app_android
-Think App,PRODUCTIVITY,1.4,607681,42M,10000,Paid,3.0,Teen,2022-12-29,android,play_store,think_app_android
-Simply App,PRODUCTIVITY,2.5,99191,9M,1000000,Free,1.0,Mature 17+,2021-08-03,android,play_store,simply_app_android
-Talk App,EDUCATION,1.4,429226,6M,1000000,Free,18.0,Everyone,2025-06-24,android,play_store,talk_app_android
-Risk App,HEALTH,0.7,238491,86M,1000,Paid,3.0,Everyone,2020-12-04,android,play_store,risk_app_android
-Probably App,EDUCATION,2.9,410224,65M,10000000,Paid,11.0,Mature 17+,2021-04-09,android,play_store,probably_app_android
-Store App,GAME,1.3,880326,96M,1000,Free,0.0,Everyone,2022-01-29,android,play_store,store_app_android
-Road App,PRODUCTIVITY,1.1,548402,67M,1000000,Free,0.0,Mature 17+,2025-08-21,android,play_store,road_app_android
-Drug App,FINANCE,1.4,632074,50M,10000,Free,1.0,Teen,2021-07-20,android,play_store,drug_app_android
-Civil App,PRODUCTIVITY,1.2,770764,30M,100000,Paid,14.0,Mature 17+,2020-04-15,android,play_store,civil_app_android
-Offer App,EDUCATION,1.3,417676,35M,1000,Paid,0.0,Mature 17+,2021-10-21,android,play_store,offer_app_android
-Mouth App,EDUCATION,1.9,852315,92M,1000000,Free,0.0,Mature 17+,2022-12-05,android,play_store,mouth_app_android
-Create App,FINANCE,4.1,957434,52M,1000000,Free,6.0,Teen,2020-12-24,android,play_store,create_app_android
-Seek App,HEALTH,3.7,222265,87M,10000,Paid,14.0,Teen,2025-06-17,android,play_store,seek_app_android
-Person App,EDUCATION,3.7,726711,58M,100000,Free,20.0,Mature 17+,2021-11-15,android,play_store,person_app_android
-Difficult App,EDUCATION,2.6,413710,82M,10000,Free,0.0,Everyone,2023-06-18,android,play_store,difficult_app_android
-Rise App,HEALTH,1.7,887888,93M,10000,Free,0.0,Mature 17+,2021-09-15,android,play_store,rise_app_android
-Family App,HEALTH,3.2,203172,82M,1000,Paid,0.0,Everyone,2025-08-22,android,play_store,family_app_android
-Glass App,SOCIAL,2.3,911034,92M,1000,Free,19.0,Everyone,2021-08-02,android,play_store,glass_app_android
-Common App,PRODUCTIVITY,1.2,36235,21M,10000000,Paid,11.0,Everyone,2021-11-12,android,play_store,common_app_android
-Paper App,HEALTH,1.1,860364,23M,10000000,Paid,19.0,Everyone,2023-01-14,android,play_store,paper_app_android
-Owner App,HEALTH,3.6,354381,80M,10000,Paid,0.0,Everyone,2024-05-30,android,play_store,owner_app_android
-Door App,PRODUCTIVITY,3.7,663152,90M,10000,Free,14.0,Everyone,2024-12-31,android,play_store,door_app_android
-Cold App,PRODUCTIVITY,3.2,729261,80M,1000000,Paid,16.0,Teen,2025-08-21,android,play_store,cold_app_android
-You App,PRODUCTIVITY,2.0,479854,8M,1000000,Free,13.0,Everyone,2020-08-14,android,play_store,you_app_android
-Strong App,GAME,2.0,481841,18M,100000,Paid,0.0,Teen,2021-05-04,android,play_store,strong_app_android
-Industry App,EDUCATION,2.3,642776,15M,1000000,Paid,0.0,Everyone,2023-10-05,android,play_store,industry_app_android
-Single App,GAME,1.6,249253,65M,10000000,Free,1.0,Mature 17+,2024-01-07,android,play_store,single_app_android
-History App,HEALTH,0.1,298790,50M,10000000,Paid,0.0,Everyone,2025-07-06,android,play_store,history_app_android
-Forward App,FINANCE,4.6,644052,76M,100000,Free,10.0,Everyone,2021-12-14,android,play_store,forward_app_android
-Consumer App,EDUCATION,3.3,817095,62M,1000,Free,0.0,Everyone,2024-07-17,android,play_store,consumer_app_android
-Can App,EDUCATION,2.6,216367,64M,1000000,Free,15.0,Everyone,2024-04-11,android,play_store,can_app_android
-Establish App,PRODUCTIVITY,2.8,106040,52M,10000000,Free,0.0,Mature 17+,2023-01-07,android,play_store,establish_app_android
-Picture App,EDUCATION,3.2,130940,23M,1000000,Free,0.0,Teen,2022-04-27,android,play_store,picture_app_android
-Require App,GAME,3.9,848602,30M,10000,Free,17.0,Teen,2023-08-19,android,play_store,require_app_android
-Thus App,FINANCE,4.4,997167,93M,10000000,Free,16.0,Teen,2025-08-26,android,play_store,thus_app_android
-Trade App,PRODUCTIVITY,0.7,290443,61M,100000,Free,16.0,Teen,2025-06-04,android,play_store,trade_app_android
-Window App,SOCIAL,1.4,708138,69M,1000000,Free,0.0,Everyone,2020-04-06,android,play_store,window_app_android
-Leader App,SOCIAL,3.4,954143,82M,10000,Free,15.0,Mature 17+,2025-07-12,android,play_store,leader_app_android
-Past App,GAME,3.8,166270,93M,1000000,Paid,0.0,Teen,2022-07-09,android,play_store,past_app_android
-Hundred App,SOCIAL,3.6,423848,31M,10000,Free,0.0,Everyone,2024-05-24,android,play_store,hundred_app_android
-Line App,GAME,3.7,327746,34M,10000000,Free,0.0,Mature 17+,2024-04-17,android,play_store,line_app_android
-Debate App,EDUCATION,4.1,533478,66M,1000,Free,5.0,Teen,2023-10-08,android,play_store,debate_app_android
-Matter App,SOCIAL,3.2,762296,85M,1000,Free,10.0,Everyone,2023-11-01,android,play_store,matter_app_android
-Need App,SOCIAL,1.9,864618,22M,10000000,Paid,0.0,Teen,2023-12-26,android,play_store,need_app_android
-Large App,PRODUCTIVITY,3.7,407565,10M,10000000,Free,12.0,Mature 17+,2021-06-30,android,play_store,large_app_android
-Per App,HEALTH,4.8,895515,3M,100000,Free,0.0,Teen,2020-11-27,android,play_store,per_app_android
-Boy App,EDUCATION,1.7,363534,32M,1000000,Paid,0.0,Teen,2022-03-30,android,play_store,boy_app_android
-Student App,HEALTH,4.5,868049,92M,1000000,Free,13.0,Teen,2020-02-12,android,play_store,student_app_android
-What App,FINANCE,1.1,134072,82M,1000000,Paid,0.0,Teen,2022-05-12,android,play_store,what_app_android
-Capital App,GAME,2.0,927010,21M,1000000,Paid,1.0,Everyone,2023-09-14,android,play_store,capital_app_android
-Country App,SOCIAL,2.5,353975,2M,1000,Paid,7.0,Everyone,2023-05-15,android,play_store,country_app_android
-Could App,FINANCE,4.9,674019,20M,10000,Free,0.0,Everyone,2024-04-24,android,play_store,could_app_android
-Fall App,SOCIAL,0.8,999107,26M,100000,Paid,2.0,Teen,2025-06-17,android,play_store,fall_app_android
-Eye App,HEALTH,1.2,398773,38M,10000,Free,0.0,Mature 17+,2021-06-25,android,play_store,eye_app_android
-Positive App,EDUCATION,1.9,28854,61M,10000000,Paid,19.0,Teen,2021-09-06,android,play_store,positive_app_android
-Learn App,SOCIAL,3.7,116043,96M,1000000,Free,10.0,Everyone,2023-10-05,android,play_store,learn_app_android
-May App,HEALTH,4.9,658019,65M,1000,Free,16.0,Everyone,2025-09-10,android,play_store,may_app_android
-But App,GAME,1.1,304845,61M,1000000,Paid,4.0,Everyone,2020-01-22,android,play_store,but_app_android
-Thank App,PRODUCTIVITY,3.7,45479,100M,1000000,Paid,17.0,Mature 17+,2020-07-01,android,play_store,thank_app_android
-Training App,PRODUCTIVITY,2.2,184223,18M,1000,Paid,12.0,Everyone,2025-03-14,android,play_store,training_app_android
-Recent App,PRODUCTIVITY,3.1,201491,99M,10000,Free,16.0,Everyone,2023-02-23,android,play_store,recent_app_android
-Avoid App,GAME,4.1,421213,27M,10000000,Paid,7.0,Teen,2021-01-03,android,play_store,avoid_app_android
-Already App,FINANCE,3.6,1682,8M,10000,Paid,0.0,Mature 17+,2020-01-08,android,play_store,already_app_android
-Mr App,GAME,2.6,173170,28M,10000000,Paid,0.0,Teen,2020-09-07,android,play_store,mr_app_android
-Policy App,EDUCATION,0.5,883354,81M,10000000,Paid,0.0,Everyone,2023-04-08,android,play_store,policy_app_android
-Take App,EDUCATION,1.2,356781,4M,100000,Paid,0.0,Everyone,2022-05-18,android,play_store,take_app_android
-Situation App,PRODUCTIVITY,3.8,43719,27M,100000,Paid,8.0,Mature 17+,2022-11-09,android,play_store,situation_app_android
-Discussion App,FINANCE,1.2,666433,93M,10000,Paid,1.0,Everyone,2024-04-03,android,play_store,discussion_app_android
-Character App,EDUCATION,3.1,110253,52M,1000000,Free,0.0,Mature 17+,2025-01-12,android,play_store,character_app_android
-This App,SOCIAL,4.9,92564,19M,10000000,Free,4.0,Everyone,2021-05-15,android,play_store,this_app_android
-Morning App,GAME,4.9,87922,89M,10000000,Free,0.0,Teen,2022-03-23,android,play_store,morning_app_android
-Blood App,HEALTH,0.8,203821,19M,1000,Free,0.0,Teen,2020-01-23,android,play_store,blood_app_android
-Maybe App,GAME,3.3,343334,77M,10000000,Paid,19.0,Everyone,2021-10-05,android,play_store,maybe_app_android
-Responsibility App,PRODUCTIVITY,2.7,934759,38M,100000,Paid,1.0,Mature 17+,2024-12-25,android,play_store,responsibility_app_android
-Scene App,GAME,0.8,556659,34M,10000000,Paid,0.0,Everyone,2024-12-25,android,play_store,scene_app_android
-Ground App,HEALTH,3.1,977527,40M,1000,Paid,20.0,Everyone,2020-08-19,android,play_store,ground_app_android
-Wide App,EDUCATION,4.1,942222,19M,1000,Paid,11.0,Mature 17+,2022-02-09,android,play_store,wide_app_android
-Region App,EDUCATION,1.0,41124,57M,1000,Free,0.0,Everyone,2025-01-12,android,play_store,region_app_android
-Card App,FINANCE,2.9,480733,1M,1000,Paid,14.0,Everyone,2023-01-29,android,play_store,card_app_android
-Easy App,GAME,0.6,668118,74M,1000000,Free,18.0,Teen,2021-02-22,android,play_store,easy_app_android
-Artist App,GAME,1.7,881776,93M,10000,Free,17.0,Teen,2025-04-29,android,play_store,artist_app_android
-Accept App,FINANCE,1.2,779694,10M,1000000,Free,13.0,Everyone,2025-02-25,android,play_store,accept_app_android
-Hope App,HEALTH,3.8,971141,27M,10000000,Free,0.0,Everyone,2020-04-13,android,play_store,hope_app_android
-Mother App,HEALTH,3.6,745713,13M,10000,Free,19.0,Everyone,2021-04-08,android,play_store,mother_app_android
-Find App,EDUCATION,4.1,30648,39M,100000,Free,0.0,Everyone,2024-01-14,android,play_store,find_app_android
-White App,SOCIAL,0.8,469485,59M,100000,Paid,10.0,Mature 17+,2024-10-13,android,play_store,white_app_android
-Simple App,GAME,0.7,190511,18M,100000,Free,0.0,Mature 17+,2023-07-05,android,play_store,simple_app_android
-Health App,SOCIAL,3.0,825496,74M,10000000,Paid,14.0,Mature 17+,2024-06-09,android,play_store,health_app_android
-Describe App,EDUCATION,1.2,313769,56M,1000,Free,17.0,Everyone,2021-11-22,android,play_store,describe_app_android
-Free App,FINANCE,5.0,652550,53M,100000,Paid,0.0,Everyone,2024-10-28,android,play_store,free_app_android
-Buy App,FINANCE,2.1,310150,81M,1000,Free,0.0,Everyone,2021-05-12,android,play_store,buy_app_android
-Girl App,GAME,3.0,720125,62M,10000,Paid,20.0,Everyone,2023-09-09,android,play_store,girl_app_android
-Pick App,FINANCE,3.1,945069,64M,100000,Free,18.0,Mature 17+,2023-02-25,android,play_store,pick_app_android
-Church App,GAME,2.5,40951,68M,10000,Paid,0.0,Teen,2023-11-12,android,play_store,church_app_android
-Whole App,SOCIAL,4.1,581530,58M,1000,Paid,5.0,Mature 17+,2021-12-11,android,play_store,whole_app_android
-Likely App,PRODUCTIVITY,3.0,960039,26M,10000000,Free,0.0,Teen,2021-05-02,android,play_store,likely_app_android
-Than App,HEALTH,2.5,430587,96M,10000,Free,0.0,Mature 17+,2024-03-24,android,play_store,than_app_android
-Attorney App,SOCIAL,3.4,872882,66M,100000,Paid,0.0,Teen,2022-06-11,android,play_store,attorney_app_android
-Feel App,PRODUCTIVITY,0.5,505169,8M,1000000,Free,10.0,Mature 17+,2024-10-27,android,play_store,feel_app_android
-Suddenly App,EDUCATION,1.8,424699,98M,10000000,Paid,0.0,Mature 17+,2020-10-21,android,play_store,suddenly_app_android
-Pay App,EDUCATION,1.0,328137,68M,10000000,Free,0.0,Mature 17+,2023-12-19,android,play_store,pay_app_android
-Director App,SOCIAL,1.8,833784,34M,10000,Paid,0.0,Everyone,2022-11-24,android,play_store,director_app_android
-Government App,HEALTH,0.1,532938,80M,1000,Paid,0.0,Everyone,2021-05-11,android,play_store,government_app_android
-About App,GAME,4.6,675977,70M,1000000,Paid,19.0,Mature 17+,2023-03-09,android,play_store,about_app_android
-Citizen App,SOCIAL,4.5,114591,94M,1000000,Free,13.0,Everyone,2021-12-08,android,play_store,citizen_app_android
-Around App,SOCIAL,1.2,436859,15M,10000,Paid,0.0,Mature 17+,2020-01-15,android,play_store,around_app_android
-Too App,HEALTH,4.0,418000,91M,1000,Paid,6.0,Everyone,2023-05-26,android,play_store,too_app_android
-Nearly App,FINANCE,2.3,377325,30M,10000,Paid,9.0,Everyone,2024-04-03,android,play_store,nearly_app_android
-Admit App,FINANCE,2.3,873389,35M,10000000,Free,16.0,Teen,2024-10-10,android,play_store,admit_app_android
-Measure App,HEALTH,3.9,36198,5M,10000000,Paid,6.0,Everyone,2020-03-01,android,play_store,measure_app_android
-Son App,PRODUCTIVITY,4.2,538108,34M,10000,Free,20.0,Mature 17+,2024-03-10,android,play_store,son_app_android
-Prevent App,SOCIAL,0.3,825881,20M,100000,Paid,0.0,Teen,2020-03-24,android,play_store,prevent_app_android
-Must App,EDUCATION,4.0,216519,46M,10000000,Paid,2.0,Mature 17+,2020-09-18,android,play_store,must_app_android
-Entire App,SOCIAL,4.9,202896,61M,1000,Free,6.0,Everyone,2021-04-05,android,play_store,entire_app_android
-Attention App,HEALTH,1.4,712767,44M,1000000,Free,17.0,Everyone,2022-01-01,android,play_store,attention_app_android
-Evidence App,GAME,1.6,462327,77M,100000,Free,0.0,Mature 17+,2020-01-19,android,play_store,evidence_app_android
-Activity App,FINANCE,2.4,192440,72M,1000000,Free,2.0,Teen,2023-09-24,android,play_store,activity_app_android
-Like App,GAME,0.2,282946,9M,100000,Free,12.0,Mature 17+,2024-11-03,android,play_store,like_app_android
-Class App,PRODUCTIVITY,2.2,394445,32M,100000,Paid,18.0,Everyone,2023-02-16,android,play_store,class_app_android
-Court App,GAME,2.7,176759,58M,1000,Free,2.0,Teen,2023-11-26,android,play_store,court_app_android
-Ok App,FINANCE,1.5,810679,17M,1000000,Paid,0.0,Teen,2020-07-31,android,play_store,ok_app_android
-Blue App,EDUCATION,3.4,99144,29M,10000000,Free,16.0,Mature 17+,2023-07-17,android,play_store,blue_app_android
-Top App,PRODUCTIVITY,2.0,713688,65M,1000,Paid,17.0,Everyone,2022-07-19,android,play_store,top_app_android
-Body App,FINANCE,3.8,189869,2M,10000,Paid,0.0,Teen,2021-06-30,android,play_store,body_app_android
-Worry App,EDUCATION,1.5,253021,32M,1000000,Free,0.0,Teen,2020-05-20,android,play_store,worry_app_android
-Full App,EDUCATION,1.4,567574,86M,10000,Paid,18.0,Teen,2022-06-03,android,play_store,full_app_android
-New App,GAME,3.5,908923,7M,100000,Paid,20.0,Mature 17+,2025-06-11,android,play_store,new_app_android
-Thing App,SOCIAL,2.1,852857,84M,1000,Free,11.0,Teen,2021-02-27,android,play_store,thing_app_android
-Wrong App,PRODUCTIVITY,3.3,297056,32M,10000000,Paid,0.0,Teen,2022-11-29,android,play_store,wrong_app_android
-Remember App,SOCIAL,3.7,569448,60M,100000,Paid,0.0,Mature 17+,2022-11-09,android,play_store,remember_app_android
-Bed App,EDUCATION,1.0,799812,30M,10000,Paid,9.0,Everyone,2021-01-20,android,play_store,bed_app_android
-Pretty App,HEALTH,3.5,549816,54M,1000000,Paid,0.0,Teen,2023-07-28,android,play_store,pretty_app_android
-At App,EDUCATION,1.1,300457,99M,1000000,Paid,0.0,Mature 17+,2023-05-02,android,play_store,at_app_android
-Number App,HEALTH,1.5,179609,42M,1000,Paid,6.0,Mature 17+,2020-03-30,android,play_store,number_app_android
-Case App,EDUCATION,1.9,917998,75M,1000000,Paid,0.0,Teen,2020-05-11,android,play_store,case_app_android
-Approach App,HEALTH,1.7,8954,55M,10000000,Paid,17.0,Teen,2023-09-18,android,play_store,approach_app_android
-Myself App,HEALTH,2.6,247619,71M,1000000,Paid,3.0,Mature 17+,2022-08-10,android,play_store,myself_app_android
-Area App,EDUCATION,4.5,65740,66M,10000,Paid,8.0,Everyone,2022-11-30,android,play_store,area_app_android
-Central App,FINANCE,2.0,382824,30M,10000000,Free,0.0,Mature 17+,2024-10-01,android,play_store,central_app_android
-Tax App,EDUCATION,0.2,720188,32M,100000,Free,10.0,Mature 17+,2023-10-26,android,play_store,tax_app_android
-Pattern App,EDUCATION,0.5,254840,40M,100000,Free,0.0,Mature 17+,2022-03-21,android,play_store,pattern_app_android
-Challenge App,PRODUCTIVITY,3.8,686189,97M,100000,Free,0.0,Teen,2021-02-28,android,play_store,challenge_app_android
-Successful App,EDUCATION,3.1,426444,36M,1000000,Free,10.0,Everyone,2023-12-14,android,play_store,successful_app_android
-He App,FINANCE,0.2,441622,24M,1000,Paid,16.0,Teen,2025-06-14,android,play_store,he_app_android
-Next App,EDUCATION,0.7,766896,40M,1000000,Free,0.0,Everyone,2020-02-08,android,play_store,next_app_android
-Ever App,PRODUCTIVITY,3.7,88972,100M,1000,Paid,16.0,Mature 17+,2024-11-27,android,play_store,ever_app_android
-Stay App,EDUCATION,2.4,299954,91M,1000000,Free,0.0,Teen,2021-05-25,android,play_store,stay_app_android
-I App,FINANCE,2.0,895663,1M,10000,Free,20.0,Mature 17+,2020-05-20,android,play_store,i_app_android
-Opportunity App,EDUCATION,4.6,179065,88M,1000000,Paid,0.0,Mature 17+,2023-10-31,android,play_store,opportunity_app_android
-Education App,HEALTH,4.6,749751,30M,1000000,Free,0.0,Everyone,2022-01-31,android,play_store,education_app_android
-Manage App,GAME,2.7,138489,64M,1000000,Free,0.0,Everyone,2021-05-08,android,play_store,manage_app_android
-Travel App,SOCIAL,4.2,613143,93M,100000,Free,7.0,Everyone,2021-10-02,android,play_store,travel_app_android
-Want App,FINANCE,3.2,790280,27M,1000000,Paid,16.0,Everyone,2021-09-17,android,play_store,want_app_android
-Organization App,EDUCATION,3.3,368249,11M,10000,Paid,0.0,Mature 17+,2020-01-20,android,play_store,organization_app_android
-Stage App,SOCIAL,1.3,500543,92M,1000,Free,0.0,Teen,2025-01-04,android,play_store,stage_app_android
-Tell App,EDUCATION,0.5,490475,43M,10000000,Paid,13.0,Mature 17+,2022-08-09,android,play_store,tell_app_android
-Red App,SOCIAL,3.5,819698,36M,10000000,Paid,0.0,Mature 17+,2020-08-05,android,play_store,red_app_android
-Under App,HEALTH,5.0,544788,49M,10000,Paid,0.0,Mature 17+,2023-12-06,android,play_store,under_app_android
-Add App,EDUCATION,1.6,502228,96M,100000,Paid,2.0,Everyone,2024-03-03,android,play_store,add_app_android
-Place App,GAME,1.6,582514,79M,10000000,Paid,19.0,Everyone,2024-09-07,android,play_store,place_app_android
-Style App,PRODUCTIVITY,3.7,481551,17M,1000000,Paid,0.0,Mature 17+,2024-05-14,android,play_store,style_app_android
-Skill App,PRODUCTIVITY,2.9,661642,100M,1000000,Free,0.0,Everyone,2024-10-31,android,play_store,skill_app_android
-Here App,SOCIAL,1.2,426451,64M,1000000,Paid,15.0,Teen,2021-04-08,android,play_store,here_app_android
-Particularly App,SOCIAL,1.6,37874,12M,100000,Paid,5.0,Mature 17+,2020-11-03,android,play_store,particularly_app_android
-Realize App,PRODUCTIVITY,0.3,375507,82M,100000,Paid,14.0,Mature 17+,2020-11-27,android,play_store,realize_app_android
-Evening App,GAME,4.1,773500,39M,10000000,Paid,0.0,Mature 17+,2020-01-02,android,play_store,evening_app_android
-Believe App,PRODUCTIVITY,2.6,894694,84M,100000,Paid,0.0,Teen,2025-03-27,android,play_store,believe_app_android
-Himself App,HEALTH,2.3,900578,3M,10000000,Free,0.0,Everyone,2024-06-17,android,play_store,himself_app_android
-Magazine App,GAME,1.9,558847,46M,100000,Paid,4.0,Mature 17+,2023-06-21,android,play_store,magazine_app_android
-Peace App,GAME,3.9,889495,64M,10000000,Paid,5.0,Teen,2020-08-30,android,play_store,peace_app_android
-Word App,FINANCE,2.0,800571,12M,1000,Free,2.0,Everyone,2025-08-30,android,play_store,word_app_android
-Billion App,FINANCE,3.9,522925,53M,10000,Paid,5.0,Everyone,2023-12-04,android,play_store,billion_app_android
-Participant App,EDUCATION,0.5,564949,26M,10000000,Free,0.0,Mature 17+,2021-09-17,android,play_store,participant_app_android
-Draw App,PRODUCTIVITY,2.4,368457,97M,10000000,Paid,0.0,Teen,2022-03-12,android,play_store,draw_app_android
-Material App,FINANCE,0.9,925875,40M,10000000,Paid,0.0,Mature 17+,2024-12-17,android,play_store,material_app_android
-Position App,GAME,0.8,42377,91M,1000,Paid,7.0,Mature 17+,2021-05-27,android,play_store,position_app_android
-Always App,EDUCATION,3.6,835927,98M,100000,Free,0.0,Everyone,2022-09-16,android,play_store,always_app_android
-Dinner App,GAME,2.8,143357,24M,1000,Free,2.0,Everyone,2023-07-30,android,play_store,dinner_app_android
-On App,FINANCE,2.7,56326,96M,10000000,Paid,1.0,Teen,2022-08-24,android,play_store,on_app_android
-Society App,SOCIAL,4.0,469465,97M,10000000,Free,0.0,Everyone,2022-08-15,android,play_store,society_app_android
-Light App,PRODUCTIVITY,3.4,915562,61M,10000,Paid,14.0,Mature 17+,2023-03-14,android,play_store,light_app_android
-Prove App,HEALTH,3.2,929597,92M,1000000,Paid,0.0,Everyone,2023-03-19,android,play_store,prove_app_android
-Hotel App,GAME,2.5,935796,59M,1000,Free,14.0,Everyone,2021-06-20,android,play_store,hotel_app_android
-Item App,GAME,0.2,150575,88M,1000000,Free,0.0,Teen,2023-06-10,android,play_store,item_app_android
-Relationship App,PRODUCTIVITY,4.5,698675,93M,10000000,Paid,11.0,Everyone,2023-09-14,android,play_store,relationship_app_android
-Attack App,PRODUCTIVITY,0.9,727474,36M,10000000,Paid,0.0,Mature 17+,2023-10-28,android,play_store,attack_app_android
-Old App,PRODUCTIVITY,2.1,70671,99M,1000,Free,7.0,Everyone,2024-01-04,android,play_store,old_app_android
-Should App,FINANCE,2.0,478631,63M,100000,Paid,9.0,Everyone,2021-02-12,android,play_store,should_app_android
-Together App,GAME,4.7,191642,33M,10000000,Free,0.0,Teen,2025-04-16,android,play_store,together_app_android
-Share App,GAME,4.2,25573,86M,1000,Free,4.0,Mature 17+,2024-02-01,android,play_store,share_app_android
-Contain App,SOCIAL,3.3,97665,51M,100000,Paid,7.0,Everyone,2021-08-14,android,play_store,contain_app_android
-Above App,GAME,4.3,673685,70M,10000000,Free,0.0,Mature 17+,2024-08-02,android,play_store,above_app_android
-Available App,GAME,4.6,582595,48M,1000000,Paid,18.0,Everyone,2023-05-07,android,play_store,available_app_android
-Certain App,FINANCE,0.9,789564,68M,1000,Paid,0.0,Everyone,2024-11-28,android,play_store,certain_app_android
-Reveal App,GAME,4.2,215922,64M,10000,Paid,0.0,Teen,2021-08-29,android,play_store,reveal_app_android
-North App,SOCIAL,1.2,715184,90M,100000,Free,6.0,Teen,2020-09-11,android,play_store,north_app_android
-Mission App,SOCIAL,4.0,690243,80M,1000000,Paid,0.0,Everyone,2023-07-17,android,play_store,mission_app_android
-Those App,EDUCATION,0.4,104095,74M,1000,Paid,4.0,Mature 17+,2025-09-24,android,play_store,those_app_android
-Western App,PRODUCTIVITY,1.9,698375,92M,10000000,Free,0.0,Mature 17+,2021-05-18,android,play_store,western_app_android
-Officer App,HEALTH,3.4,186970,22M,100000,Paid,1.0,Mature 17+,2024-06-28,android,play_store,officer_app_android
-Check App,GAME,0.6,733826,13M,1000,Free,20.0,Teen,2021-06-14,android,play_store,check_app_android
-Especially App,HEALTH,2.0,496197,100M,1000,Paid,5.0,Everyone,2024-08-26,android,play_store,especially_app_android
-Remain App,GAME,1.9,781358,54M,10000,Paid,0.0,Everyone,2024-12-09,android,play_store,remain_app_android
-Scientist App,SOCIAL,4.9,126921,29M,1000,Free,15.0,Teen,2021-02-19,android,play_store,scientist_app_android
-Interesting App,SOCIAL,1.2,680408,13M,10000,Paid,8.0,Everyone,2025-03-30,android,play_store,interesting_app_android
-How App,HEALTH,1.7,401154,51M,1000000,Free,10.0,Teen,2022-11-21,android,play_store,how_app_android
-Better App,FINANCE,0.4,867132,43M,1000,Paid,10.0,Everyone,2024-10-05,android,play_store,better_app_android
-Institution App,EDUCATION,4.1,844471,66M,10000000,Free,0.0,Everyone,2020-09-09,android,play_store,institution_app_android
-American App,EDUCATION,3.6,40069,54M,10000000,Paid,0.0,Everyone,2023-12-22,android,play_store,american_app_android
-Guy App,PRODUCTIVITY,5.0,319796,62M,10000000,Free,4.0,Everyone,2020-04-08,android,play_store,guy_app_android
-Thousand App,GAME,0.1,381812,41M,10000000,Paid,17.0,Teen,2022-02-26,android,play_store,thousand_app_android
-College App,PRODUCTIVITY,5.0,635892,44M,10000,Paid,5.0,Teen,2022-05-10,android,play_store,college_app_android
-Interest App,PRODUCTIVITY,4.9,490491,45M,10000,Free,0.0,Teen,2023-01-02,android,play_store,interest_app_android
-Bad App,GAME,4.5,415331,57M,10000000,Paid,12.0,Mature 17+,2024-07-29,android,play_store,bad_app_android
-Or App,EDUCATION,0.4,590796,46M,1000,Free,1.0,Teen,2022-06-23,android,play_store,or_app_android
-Bank App,GAME,3.0,172100,42M,1000000,Paid,0.0,Everyone,2022-11-20,android,play_store,bank_app_android
-Parent App,GAME,5.0,366806,68M,10000000,Paid,18.0,Everyone,2022-07-28,android,play_store,parent_app_android
-Open App,SOCIAL,3.2,694110,31M,10000,Paid,11.0,Mature 17+,2020-12-16,android,play_store,open_app_android
-Other App,HEALTH,1.4,10958,79M,10000000,Free,0.0,Everyone,2025-01-14,android,play_store,other_app_android
-Hear App,HEALTH,0.6,899801,46M,1000000,Paid,2.0,Everyone,2024-03-31,android,play_store,hear_app_android
-Head App,FINANCE,4.9,738546,15M,10000,Free,11.0,Mature 17+,2021-11-25,android,play_store,head_app_android
-Property App,FINANCE,3.4,360897,7M,1000,Paid,0.0,Everyone,2021-11-20,android,play_store,property_app_android
-Environmental App,GAME,0.6,690497,64M,1000000,Free,8.0,Mature 17+,2023-02-14,android,play_store,environmental_app_android
-Population App,EDUCATION,3.2,503531,41M,10000,Paid,0.0,Mature 17+,2023-11-13,android,play_store,population_app_android
-Base App,PRODUCTIVITY,4.8,834866,71M,1000,Free,0.0,Everyone,2023-11-25,android,play_store,base_app_android
-Anyone App,HEALTH,1.1,620592,92M,1000000,Free,19.0,Teen,2020-11-14,android,play_store,anyone_app_android
-Any App,EDUCATION,2.6,423705,90M,100000,Paid,0.0,Mature 17+,2021-07-29,android,play_store,any_app_android
-Spring App,HEALTH,4.0,850167,5M,10000,Free,0.0,Teen,2020-02-09,android,play_store,spring_app_android
-Hand App,EDUCATION,0.9,952691,17M,10000000,Free,13.0,Everyone,2021-05-28,android,play_store,hand_app_android
-Yard App,GAME,2.9,670646,1M,100000,Free,7.0,Mature 17+,2022-05-27,android,play_store,yard_app_android
-Garden App,GAME,4.3,731276,29M,1000000,Paid,6.0,Mature 17+,2021-10-26,android,play_store,garden_app_android
-Only App,HEALTH,3.3,867821,44M,1000000,Paid,3.0,Teen,2022-07-11,android,play_store,only_app_android
-Southern App,GAME,3.8,311581,99M,1000,Paid,3.0,Teen,2023-10-07,android,play_store,southern_app_android
-Cost App,GAME,1.4,210633,4M,1000,Paid,0.0,Mature 17+,2023-07-20,android,play_store,cost_app_android
-Eat App,GAME,1.9,692937,29M,10000000,Paid,7.0,Everyone,2021-03-23,android,play_store,eat_app_android
-Sit App,GAME,1.7,925860,75M,100000,Paid,0.0,Everyone,2022-08-28,android,play_store,sit_app_android
-Cover App,PRODUCTIVITY,3.2,745511,59M,10000000,Paid,0.0,Everyone,2024-11-19,android,play_store,cover_app_android
-Ahead App,PRODUCTIVITY,5.0,153564,51M,1000000,Free,8.0,Everyone,2020-03-15,android,play_store,ahead_app_android
-Wear App,HEALTH,3.7,990970,44M,1000,Paid,0.0,Teen,2022-09-14,android,play_store,wear_app_android
-Actually App,GAME,1.9,951879,59M,1000000,Paid,1.0,Everyone,2024-01-01,android,play_store,actually_app_android
-Choice App,EDUCATION,0.1,311039,77M,10000,Free,0.0,Everyone,2021-04-10,android,play_store,choice_app_android
-Local App,PRODUCTIVITY,1.6,600372,30M,10000000,Free,0.0,Everyone,2024-04-05,android,play_store,local_app_android
-Media App,FINANCE,3.4,422105,25M,10000,Paid,0.0,Mature 17+,2021-11-21,android,play_store,media_app_android
-Reflect App,EDUCATION,4.6,664097,53M,1000,Free,0.0,Everyone,2023-02-08,android,play_store,reflect_app_android
-Success App,SOCIAL,2.9,706428,100M,10000000,Paid,1.0,Everyone,2020-05-18,android,play_store,success_app_android
-Few App,EDUCATION,0.1,936597,91M,10000000,Free,0.0,Teen,2023-03-23,android,play_store,few_app_android
-Often App,GAME,0.1,840573,52M,10000,Free,0.0,Teen,2024-03-23,android,play_store,often_app_android
+name,category,rating,review_count,size_original,installs_original,type,price_original,content_rating,last_updated,platform,source,app_id,developer,size_bytes
+Behavior App,PRODUCTIVITY,1.9,516853,43M,100000,Paid,18.0,Everyone,2021-05-02 00:00:00,android,play_store,behavior_app_android,,
+Write App,EDUCATION,1.6,364466,50M,1000000,Paid,0.0,Everyone,2020-06-29 00:00:00,android,play_store,write_app_android,,
+Art App,PRODUCTIVITY,4.6,874903,41M,100000,Paid,0.0,Everyone,2022-03-15 00:00:00,android,play_store,art_app_android,,
+Knowledge App,PRODUCTIVITY,1.9,65918,26M,10000,Free,0.0,Everyone,2025-09-30 00:00:00,android,play_store,knowledge_app_android,,
+Situation App,FINANCE,2.5,138074,68M,10000000,Free,0.0,Teen,2020-12-14 00:00:00,android,play_store,situation_app_android,,
+Whole App,FINANCE,2.2,35146,70M,100000,Paid,0.0,Teen,2020-01-24 00:00:00,android,play_store,whole_app_android,,
+Activity App,GAME,1.3,984821,52M,1000,Paid,14.0,Everyone,2021-07-04 00:00:00,android,play_store,activity_app_android,,
+Dark App,HEALTH,3.5,735391,94M,1000,Paid,7.0,Teen,2025-05-18 00:00:00,android,play_store,dark_app_android,,
+White App,EDUCATION,0.3,338216,11M,10000,Free,4.0,Mature 17+,2022-12-31 00:00:00,android,play_store,white_app_android,,
+Last App,FINANCE,1.4,765345,24M,1000000,Free,0.0,Mature 17+,2022-07-20 00:00:00,android,play_store,last_app_android,,
+Have App,FINANCE,4.5,165447,43M,1000000,Free,2.0,Mature 17+,2021-06-10 00:00:00,android,play_store,have_app_android,,
+Over App,SOCIAL,0.1,554996,61M,1000000,Paid,5.0,Everyone,2020-07-21 00:00:00,android,play_store,over_app_android,,
+Concern App,SOCIAL,1.0,553192,55M,100000,Free,0.0,Teen,2023-07-28 00:00:00,android,play_store,concern_app_android,,
+Mrs App,PRODUCTIVITY,0.9,274958,69M,10000,Paid,0.0,Mature 17+,2021-04-24 00:00:00,android,play_store,mrs_app_android,,
+Much App,GAME,3.6,590785,11M,1000,Free,0.0,Teen,2025-07-16 00:00:00,android,play_store,much_app_android,,
+Decide App,GAME,2.6,452487,1M,100000,Free,11.0,Mature 17+,2023-08-20 00:00:00,android,play_store,decide_app_android,,
+Wear App,SOCIAL,5.0,838391,35M,100000,Free,2.0,Mature 17+,2022-01-08 00:00:00,android,play_store,wear_app_android,,
+My App,SOCIAL,2.8,174546,51M,10000,Paid,20.0,Mature 17+,2022-03-14 00:00:00,android,play_store,my_app_android,,
+Daughter App,PRODUCTIVITY,4.3,643277,3M,1000,Free,0.0,Everyone,2023-12-10 00:00:00,android,play_store,daughter_app_android,,
+Foreign App,PRODUCTIVITY,1.0,361801,75M,1000000,Paid,17.0,Everyone,2024-06-28 00:00:00,android,play_store,foreign_app_android,,
+Stock App,EDUCATION,2.9,997429,20M,1000,Paid,0.0,Teen,2022-03-03 00:00:00,android,play_store,stock_app_android,,
+Read App,PRODUCTIVITY,2.3,789820,94M,1000000,Paid,0.0,Everyone,2020-05-28 00:00:00,android,play_store,read_app_android,,
+Campaign App,SOCIAL,2.2,383331,88M,1000000,Paid,20.0,Everyone,2022-08-23 00:00:00,android,play_store,campaign_app_android,,
+Sort App,PRODUCTIVITY,2.6,112863,16M,1000000,Paid,20.0,Teen,2025-06-07 00:00:00,android,play_store,sort_app_android,,
+Eye App,HEALTH,5.0,948433,35M,100000,Paid,14.0,Everyone,2021-07-24 00:00:00,android,play_store,eye_app_android,,
+Record App,SOCIAL,2.3,698863,92M,1000000,Paid,7.0,Everyone,2021-02-16 00:00:00,android,play_store,record_app_android,,
+Science App,GAME,0.1,118376,58M,10000000,Paid,0.0,Mature 17+,2022-11-23 00:00:00,android,play_store,science_app_android,,
+Maybe App,PRODUCTIVITY,0.8,326878,74M,10000,Free,1.0,Mature 17+,2020-06-30 00:00:00,android,play_store,maybe_app_android,,
+Address App,FINANCE,2.3,61091,49M,10000000,Paid,0.0,Everyone,2022-09-13 00:00:00,android,play_store,address_app_android,,
+Light App,PRODUCTIVITY,4.8,361940,88M,1000,Free,0.0,Everyone,2021-08-14 00:00:00,android,play_store,light_app_android,,
+Treat App,EDUCATION,2.9,125318,27M,1000,Free,20.0,Teen,2020-09-26 00:00:00,android,play_store,treat_app_android,,
+Tv App,HEALTH,2.8,550992,99M,10000,Paid,0.0,Mature 17+,2021-10-12 00:00:00,android,play_store,tv_app_android,,
+Choose App,PRODUCTIVITY,0.4,378107,12M,10000000,Free,0.0,Teen,2021-01-18 00:00:00,android,play_store,choose_app_android,,
+Heart App,PRODUCTIVITY,1.5,231201,65M,1000000,Paid,10.0,Everyone,2024-04-29 00:00:00,android,play_store,heart_app_android,,
+Person App,EDUCATION,3.1,61848,65M,100000,Paid,20.0,Everyone,2024-05-14 00:00:00,android,play_store,person_app_android,,
+Action App,PRODUCTIVITY,5.0,118028,96M,10000000,Paid,7.0,Teen,2022-02-08 00:00:00,android,play_store,action_app_android,,
+You App,EDUCATION,1.2,63043,10M,1000000,Paid,5.0,Everyone,2024-07-19 00:00:00,android,play_store,you_app_android,,
+Debate App,HEALTH,0.5,104573,90M,1000,Free,0.0,Mature 17+,2021-07-05 00:00:00,android,play_store,debate_app_android,,
+Decision App,PRODUCTIVITY,1.1,468691,73M,10000000,Free,0.0,Teen,2025-07-06 00:00:00,android,play_store,decision_app_android,,
+Term App,FINANCE,3.7,180811,20M,100000,Paid,17.0,Teen,2020-05-12 00:00:00,android,play_store,term_app_android,,
+Street App,PRODUCTIVITY,4.6,297927,90M,10000000,Paid,0.0,Everyone,2023-08-27 00:00:00,android,play_store,street_app_android,,
+Rather App,PRODUCTIVITY,2.0,543716,9M,10000000,Free,0.0,Teen,2023-08-19 00:00:00,android,play_store,rather_app_android,,
+Parent App,SOCIAL,4.6,771722,28M,10000000,Paid,0.0,Teen,2020-12-15 00:00:00,android,play_store,parent_app_android,,
+Score App,SOCIAL,4.6,335830,63M,10000,Free,1.0,Teen,2021-08-04 00:00:00,android,play_store,score_app_android,,
+Through App,HEALTH,2.1,858712,92M,100000,Paid,11.0,Everyone,2022-11-08 00:00:00,android,play_store,through_app_android,,
+Way App,FINANCE,4.1,456878,9M,10000,Paid,0.0,Mature 17+,2021-09-27 00:00:00,android,play_store,way_app_android,,
+Like App,HEALTH,4.8,30767,53M,10000000,Free,0.0,Mature 17+,2023-06-01 00:00:00,android,play_store,like_app_android,,
+Responsibility App,SOCIAL,4.1,707266,19M,1000,Free,15.0,Mature 17+,2021-01-09 00:00:00,android,play_store,responsibility_app_android,,
+Identify App,HEALTH,2.5,662272,82M,1000000,Paid,0.0,Everyone,2021-03-13 00:00:00,android,play_store,identify_app_android,,
+Old App,FINANCE,3.8,769504,53M,1000,Free,20.0,Everyone,2020-03-20 00:00:00,android,play_store,old_app_android,,
+Sign App,HEALTH,2.0,555904,58M,1000000,Free,16.0,Mature 17+,2020-07-21 00:00:00,android,play_store,sign_app_android,,
+Perhaps App,PRODUCTIVITY,2.7,391629,66M,10000,Paid,0.0,Everyone,2024-08-17 00:00:00,android,play_store,perhaps_app_android,,
+Gas App,GAME,2.6,334508,64M,1000,Paid,4.0,Mature 17+,2025-07-19 00:00:00,android,play_store,gas_app_android,,
+Tax App,EDUCATION,0.4,781373,15M,1000000,Paid,18.0,Teen,2024-07-01 00:00:00,android,play_store,tax_app_android,,
+Range App,FINANCE,5.0,783948,33M,100000,Free,2.0,Mature 17+,2025-06-11 00:00:00,android,play_store,range_app_android,,
+Despite App,HEALTH,3.0,973604,56M,10000000,Paid,5.0,Teen,2024-02-16 00:00:00,android,play_store,despite_app_android,,
+Go App,GAME,0.9,732528,27M,10000000,Paid,0.0,Mature 17+,2024-10-10 00:00:00,android,play_store,go_app_android,,
+Beat App,SOCIAL,2.8,578838,43M,1000,Free,6.0,Everyone,2020-05-23 00:00:00,android,play_store,beat_app_android,,
+Expect App,HEALTH,5.0,852496,4M,10000000,Free,0.0,Teen,2025-06-07 00:00:00,android,play_store,expect_app_android,,
+Great App,EDUCATION,3.0,400990,64M,10000000,Free,15.0,Teen,2022-01-22 00:00:00,android,play_store,great_app_android,,
+Reveal App,FINANCE,3.5,341848,31M,100000,Paid,5.0,Mature 17+,2021-03-26 00:00:00,android,play_store,reveal_app_android,,
+Produce App,EDUCATION,4.1,368368,4M,10000,Free,12.0,Mature 17+,2021-11-03 00:00:00,android,play_store,produce_app_android,,
+About App,GAME,0.7,830588,58M,10000000,Free,2.0,Everyone,2025-01-16 00:00:00,android,play_store,about_app_android,,
+Hand App,GAME,3.3,109576,25M,100000,Paid,0.0,Teen,2021-04-15 00:00:00,android,play_store,hand_app_android,,
+Chair App,EDUCATION,1.2,69298,54M,1000000,Free,0.0,Teen,2022-03-20 00:00:00,android,play_store,chair_app_android,,
+Life App,PRODUCTIVITY,3.0,670973,11M,10000,Free,3.0,Teen,2024-11-10 00:00:00,android,play_store,life_app_android,,
+Front App,GAME,2.0,573583,33M,10000000,Free,0.0,Everyone,2024-12-14 00:00:00,android,play_store,front_app_android,,
+Statement App,EDUCATION,0.7,45600,63M,1000,Free,10.0,Everyone,2025-04-17 00:00:00,android,play_store,statement_app_android,,
+Doctor App,PRODUCTIVITY,3.3,123360,84M,100000,Free,4.0,Teen,2025-05-17 00:00:00,android,play_store,doctor_app_android,,
+Method App,HEALTH,1.0,627790,6M,100000,Paid,0.0,Everyone,2024-07-17 00:00:00,android,play_store,method_app_android,,
+Most App,HEALTH,4.4,502119,75M,100000,Free,0.0,Everyone,2025-04-01 00:00:00,android,play_store,most_app_android,,
+Pay App,HEALTH,1.8,48483,84M,1000000,Free,0.0,Teen,2021-03-14 00:00:00,android,play_store,pay_app_android,,
+Cup App,GAME,4.6,524771,9M,1000,Paid,0.0,Everyone,2020-08-19 00:00:00,android,play_store,cup_app_android,,
+Might App,FINANCE,4.6,846088,96M,1000000,Paid,1.0,Everyone,2022-07-23 00:00:00,android,play_store,might_app_android,,
+In App,FINANCE,3.8,881440,100M,1000000,Paid,0.0,Everyone,2021-01-10 00:00:00,android,play_store,in_app_android,,
+Start App,PRODUCTIVITY,1.6,495890,67M,10000000,Paid,0.0,Mature 17+,2025-06-02 00:00:00,android,play_store,start_app_android,,
+Plant App,GAME,3.3,812152,89M,100000,Paid,17.0,Everyone,2022-01-12 00:00:00,android,play_store,plant_app_android,,
+Store App,HEALTH,3.7,847532,18M,100000,Paid,0.0,Mature 17+,2021-11-16 00:00:00,android,play_store,store_app_android,,
+Training App,FINANCE,4.1,571048,69M,10000000,Free,0.0,Teen,2023-12-28 00:00:00,android,play_store,training_app_android,,
+True App,HEALTH,3.8,628677,53M,10000000,Free,13.0,Teen,2020-10-10 00:00:00,android,play_store,true_app_android,,
+Offer App,FINANCE,4.9,276305,73M,1000000,Paid,18.0,Mature 17+,2023-06-24 00:00:00,android,play_store,offer_app_android,,
+Cell App,GAME,0.5,372121,100M,10000,Paid,0.0,Teen,2023-02-09 00:00:00,android,play_store,cell_app_android,,
+Must App,EDUCATION,2.6,149789,52M,10000,Free,0.0,Mature 17+,2023-12-25 00:00:00,android,play_store,must_app_android,,
+Model App,EDUCATION,3.9,587994,20M,1000000,Free,6.0,Teen,2021-08-11 00:00:00,android,play_store,model_app_android,,
+Similar App,EDUCATION,1.7,75677,85M,100000,Paid,0.0,Everyone,2023-01-31 00:00:00,android,play_store,similar_app_android,,
+Foot App,PRODUCTIVITY,2.5,17624,62M,1000,Free,0.0,Mature 17+,2021-06-24 00:00:00,android,play_store,foot_app_android,,
+Reality App,GAME,2.6,312074,63M,10000000,Free,0.0,Everyone,2021-11-21 00:00:00,android,play_store,reality_app_android,,
+Late App,SOCIAL,1.8,929596,21M,10000000,Free,0.0,Everyone,2020-08-03 00:00:00,android,play_store,late_app_android,,
+Force App,HEALTH,5.0,659563,57M,10000000,Paid,0.0,Everyone,2021-06-23 00:00:00,android,play_store,force_app_android,,
+Certain App,EDUCATION,2.9,977426,87M,1000000,Paid,0.0,Teen,2020-01-11 00:00:00,android,play_store,certain_app_android,,
+Entire App,EDUCATION,3.7,846912,10M,10000,Free,15.0,Everyone,2020-12-31 00:00:00,android,play_store,entire_app_android,,
+Lay App,EDUCATION,1.7,215882,100M,1000,Free,0.0,Teen,2021-04-25 00:00:00,android,play_store,lay_app_android,,
+At App,PRODUCTIVITY,1.3,108795,16M,1000,Free,11.0,Mature 17+,2022-08-13 00:00:00,android,play_store,at_app_android,,
+Structure App,GAME,4.2,46113,88M,100000,Paid,0.0,Mature 17+,2020-07-16 00:00:00,android,play_store,structure_app_android,,
+College App,SOCIAL,4.2,627505,74M,1000,Free,2.0,Teen,2023-11-20 00:00:00,android,play_store,college_app_android,,
+Lead App,FINANCE,1.1,856404,23M,10000000,Free,16.0,Teen,2023-10-23 00:00:00,android,play_store,lead_app_android,,
+Cause App,HEALTH,1.8,108046,72M,1000000,Paid,0.0,Teen,2023-06-12 00:00:00,android,play_store,cause_app_android,,
+Series App,HEALTH,2.5,598641,50M,100000,Paid,8.0,Teen,2024-04-09 00:00:00,android,play_store,series_app_android,,
+High App,SOCIAL,2.9,364343,73M,1000,Paid,13.0,Mature 17+,2022-05-22 00:00:00,android,play_store,high_app_android,,
+Toward App,SOCIAL,0.7,57046,45M,100000,Paid,5.0,Mature 17+,2022-01-16 00:00:00,android,play_store,toward_app_android,,
+Memory App,GAME,3.3,223964,40M,10000,Paid,10.0,Everyone,2020-03-12 00:00:00,android,play_store,memory_app_android,,
+Able App,FINANCE,4.6,128312,53M,1000,Free,0.0,Everyone,2021-11-05 00:00:00,android,play_store,able_app_android,,
+Dinner App,GAME,2.3,506960,90M,100000,Paid,0.0,Everyone,2020-04-10 00:00:00,android,play_store,dinner_app_android,,
+Safe App,GAME,2.6,937460,53M,1000000,Free,0.0,Teen,2020-10-09 00:00:00,android,play_store,safe_app_android,,
+West App,HEALTH,3.5,164363,15M,10000,Free,0.0,Mature 17+,2021-11-04 00:00:00,android,play_store,west_app_android,,
+Center App,EDUCATION,4.5,643346,11M,10000,Free,0.0,Everyone,2025-09-11 00:00:00,android,play_store,center_app_android,,
+Partner App,SOCIAL,2.7,964061,59M,100000,Free,0.0,Mature 17+,2022-01-13 00:00:00,android,play_store,partner_app_android,,
+Many App,EDUCATION,5.0,394749,22M,1000,Paid,3.0,Mature 17+,2025-08-11 00:00:00,android,play_store,many_app_android,,
+Get App,SOCIAL,2.9,370964,75M,1000,Free,0.0,Teen,2020-08-20 00:00:00,android,play_store,get_app_android,,
+Try App,FINANCE,0.4,368125,84M,1000,Free,0.0,Teen,2020-03-18 00:00:00,android,play_store,try_app_android,,
+Question App,GAME,1.2,449892,90M,10000000,Paid,0.0,Teen,2024-01-01 00:00:00,android,play_store,question_app_android,,
+Run App,GAME,4.3,767902,74M,10000000,Paid,10.0,Teen,2024-04-20 00:00:00,android,play_store,run_app_android,,
+However App,PRODUCTIVITY,1.6,806211,16M,10000000,Paid,0.0,Mature 17+,2025-01-23 00:00:00,android,play_store,however_app_android,,
+Raise App,SOCIAL,1.8,197926,37M,10000,Paid,0.0,Mature 17+,2024-03-11 00:00:00,android,play_store,raise_app_android,,
+Home App,GAME,3.4,656999,66M,10000,Paid,0.0,Teen,2025-02-20 00:00:00,android,play_store,home_app_android,,
+Former App,PRODUCTIVITY,4.7,35785,97M,1000,Free,0.0,Everyone,2023-03-08 00:00:00,android,play_store,former_app_android,,
+Those App,FINANCE,3.2,893903,37M,1000000,Free,4.0,Everyone,2023-09-25 00:00:00,android,play_store,those_app_android,,
+Policy App,PRODUCTIVITY,2.3,186032,73M,1000000,Paid,0.0,Teen,2022-05-06 00:00:00,android,play_store,policy_app_android,,
+Particular App,SOCIAL,1.1,426161,10M,10000,Paid,0.0,Everyone,2025-04-11 00:00:00,android,play_store,particular_app_android,,
+Which App,HEALTH,2.1,487630,62M,100000,Free,14.0,Teen,2021-04-23 00:00:00,android,play_store,which_app_android,,
+A App,FINANCE,3.4,533585,13M,10000,Free,13.0,Everyone,2021-12-02 00:00:00,android,play_store,a_app_android,,
+Claim App,HEALTH,3.8,341344,12M,100000,Free,0.0,Mature 17+,2023-03-28 00:00:00,android,play_store,claim_app_android,,
+Glass App,FINANCE,1.8,161799,88M,10000000,Paid,19.0,Everyone,2024-01-30 00:00:00,android,play_store,glass_app_android,,
+Yes App,FINANCE,1.5,236500,56M,1000,Free,0.0,Teen,2023-08-12 00:00:00,android,play_store,yes_app_android,,
+Color App,GAME,0.2,693995,47M,10000000,Free,6.0,Mature 17+,2022-06-11 00:00:00,android,play_store,color_app_android,,
+Society App,GAME,2.2,610597,46M,100000,Paid,0.0,Teen,2025-02-02 00:00:00,android,play_store,society_app_android,,
+Especially App,FINANCE,4.3,491754,7M,1000,Paid,0.0,Mature 17+,2021-04-30 00:00:00,android,play_store,especially_app_android,,
+Recently App,PRODUCTIVITY,0.4,922139,63M,1000000,Free,0.0,Teen,2024-07-23 00:00:00,android,play_store,recently_app_android,,
+Lot App,PRODUCTIVITY,2.8,738222,61M,10000,Free,0.0,Everyone,2020-03-14 00:00:00,android,play_store,lot_app_android,,
+Deep App,GAME,3.8,815603,33M,1000,Paid,0.0,Everyone,2024-08-22 00:00:00,android,play_store,deep_app_android,,
+Election App,HEALTH,0.4,715984,99M,1000,Free,0.0,Mature 17+,2023-08-31 00:00:00,android,play_store,election_app_android,,
+Environment App,GAME,3.2,767954,62M,10000000,Paid,18.0,Everyone,2020-12-14 00:00:00,android,play_store,environment_app_android,,
+Contain App,SOCIAL,3.9,816452,97M,100000,Paid,0.0,Mature 17+,2025-01-09 00:00:00,android,play_store,contain_app_android,,
+Station App,PRODUCTIVITY,1.2,500600,41M,100000,Paid,0.0,Teen,2025-07-23 00:00:00,android,play_store,station_app_android,,
+Necessary App,GAME,0.6,643684,54M,10000,Free,0.0,Teen,2024-04-06 00:00:00,android,play_store,necessary_app_android,,
+Agree App,GAME,0.2,568791,57M,1000,Free,0.0,Mature 17+,2022-08-01 00:00:00,android,play_store,agree_app_android,,
+Analysis App,FINANCE,4.4,891790,33M,10000000,Paid,0.0,Teen,2024-03-15 00:00:00,android,play_store,analysis_app_android,,
+Her App,PRODUCTIVITY,1.1,50165,19M,1000000,Paid,4.0,Teen,2021-08-23 00:00:00,android,play_store,her_app_android,,
+She App,FINANCE,2.7,416058,28M,10000000,Free,0.0,Everyone,2025-05-29 00:00:00,android,play_store,she_app_android,,
+Marriage App,SOCIAL,2.0,671068,100M,10000000,Free,0.0,Teen,2024-07-09 00:00:00,android,play_store,marriage_app_android,,
+Add App,SOCIAL,2.1,662030,28M,1000,Paid,0.0,Mature 17+,2021-02-27 00:00:00,android,play_store,add_app_android,,
+The App,GAME,3.3,862689,71M,10000000,Free,15.0,Everyone,2025-02-16 00:00:00,android,play_store,the_app_android,,
+Risk App,PRODUCTIVITY,4.1,747403,37M,1000,Free,0.0,Mature 17+,2025-01-06 00:00:00,android,play_store,risk_app_android,,
+Treatment App,PRODUCTIVITY,3.5,15317,63M,10000000,Free,0.0,Mature 17+,2025-07-03 00:00:00,android,play_store,treatment_app_android,,
+Option App,HEALTH,0.7,907324,14M,100000,Free,0.0,Everyone,2020-11-04 00:00:00,android,play_store,option_app_android,,
+Space App,SOCIAL,0.7,380696,37M,10000,Free,18.0,Teen,2021-07-28 00:00:00,android,play_store,space_app_android,,
+Modern App,FINANCE,1.6,815299,75M,1000,Free,0.0,Teen,2024-01-01 00:00:00,android,play_store,modern_app_android,,
+Clearly App,GAME,2.5,868475,1M,10000000,Free,0.0,Mature 17+,2021-05-05 00:00:00,android,play_store,clearly_app_android,,
+Dog App,PRODUCTIVITY,4.9,146164,55M,1000000,Free,0.0,Everyone,2021-10-10 00:00:00,android,play_store,dog_app_android,,
+Success App,SOCIAL,4.2,871049,19M,10000000,Free,0.0,Teen,2021-12-30 00:00:00,android,play_store,success_app_android,,
+Present App,EDUCATION,0.9,409442,9M,100000,Paid,0.0,Everyone,2020-05-04 00:00:00,android,play_store,present_app_android,,
+Bank App,HEALTH,0.8,511052,47M,10000000,Free,12.0,Everyone,2021-04-26 00:00:00,android,play_store,bank_app_android,,
+Part App,EDUCATION,4.2,278910,34M,10000000,Free,5.0,Everyone,2022-11-28 00:00:00,android,play_store,part_app_android,,
+List App,FINANCE,3.1,11987,44M,1000,Paid,0.0,Teen,2022-11-22 00:00:00,android,play_store,list_app_android,,
+Own App,FINANCE,2.5,29458,35M,10000,Free,18.0,Everyone,2025-07-02 00:00:00,android,play_store,own_app_android,,
+Message App,EDUCATION,1.5,699464,7M,1000,Paid,0.0,Mature 17+,2022-10-16 00:00:00,android,play_store,message_app_android,,
+Fall App,GAME,3.5,740035,14M,1000000,Paid,0.0,Teen,2024-12-19 00:00:00,android,play_store,fall_app_android,,
+Short App,HEALTH,1.4,767718,47M,1000,Free,0.0,Mature 17+,2025-02-15 00:00:00,android,play_store,short_app_android,,
+Resource App,PRODUCTIVITY,3.5,788983,39M,1000000,Free,0.0,Everyone,2024-10-11 00:00:00,android,play_store,resource_app_android,,
+Every App,SOCIAL,2.8,172750,48M,10000,Free,0.0,Everyone,2022-03-01 00:00:00,android,play_store,every_app_android,,
+Receive App,PRODUCTIVITY,0.5,120227,45M,100000,Free,0.0,Teen,2025-09-23 00:00:00,android,play_store,receive_app_android,,
+Nothing App,PRODUCTIVITY,2.3,724426,80M,10000,Free,0.0,Teen,2022-11-29 00:00:00,android,play_store,nothing_app_android,,
+Theory App,SOCIAL,1.0,814789,51M,100000,Free,0.0,Mature 17+,2021-03-25 00:00:00,android,play_store,theory_app_android,,
+Usually App,GAME,5.0,164039,46M,1000000,Free,20.0,Everyone,2024-03-30 00:00:00,android,play_store,usually_app_android,,
+Key App,FINANCE,3.2,846297,94M,10000000,Free,14.0,Everyone,2022-10-14 00:00:00,android,play_store,key_app_android,,
+Central App,SOCIAL,0.5,535093,68M,1000000,Free,0.0,Everyone,2024-06-10 00:00:00,android,play_store,central_app_android,,
+Should App,GAME,2.1,401046,61M,100000,Paid,0.0,Everyone,2020-04-07 00:00:00,android,play_store,should_app_android,,
+Hear App,PRODUCTIVITY,0.4,639505,49M,100000,Paid,0.0,Everyone,2022-01-23 00:00:00,android,play_store,hear_app_android,,
+Call App,GAME,1.7,512198,35M,10000000,Free,0.0,Mature 17+,2022-04-20 00:00:00,android,play_store,call_app_android,,
+Happy App,PRODUCTIVITY,1.1,660121,26M,1000,Free,0.0,Everyone,2025-07-11 00:00:00,android,play_store,happy_app_android,,
+Detail App,HEALTH,3.4,620846,52M,100000,Paid,19.0,Teen,2023-08-02 00:00:00,android,play_store,detail_app_android,,
+Any App,GAME,0.3,731316,21M,10000000,Free,6.0,Mature 17+,2023-03-02 00:00:00,android,play_store,any_app_android,,
+That App,HEALTH,5.0,262337,75M,1000000,Free,17.0,Mature 17+,2025-09-13 00:00:00,android,play_store,that_app_android,,
+Sell App,PRODUCTIVITY,1.1,247453,97M,10000000,Paid,16.0,Mature 17+,2021-03-26 00:00:00,android,play_store,sell_app_android,,
+Role App,HEALTH,0.5,491087,90M,10000000,Free,0.0,Teen,2021-08-13 00:00:00,android,play_store,role_app_android,,
+Throw App,EDUCATION,1.4,312371,61M,10000000,Free,0.0,Mature 17+,2020-08-26 00:00:00,android,play_store,throw_app_android,,
+Push App,HEALTH,2.1,329019,88M,1000,Paid,12.0,Teen,2021-12-26 00:00:00,android,play_store,push_app_android,,
+Star App,FINANCE,1.9,482480,70M,100000,Paid,10.0,Everyone,2020-12-05 00:00:00,android,play_store,star_app_android,,
+Couple App,FINANCE,1.9,869090,50M,10000,Paid,0.0,Everyone,2022-10-15 00:00:00,android,play_store,couple_app_android,,
+Pick App,SOCIAL,1.6,689634,62M,1000,Paid,5.0,Everyone,2025-08-25 00:00:00,android,play_store,pick_app_android,,
+Strategy App,HEALTH,1.4,378651,23M,10000000,Paid,0.0,Mature 17+,2021-06-05 00:00:00,android,play_store,strategy_app_android,,
+Hot App,SOCIAL,3.5,128833,6M,10000000,Paid,0.0,Mature 17+,2020-06-02 00:00:00,android,play_store,hot_app_android,,
+Political App,FINANCE,4.8,116350,68M,100000,Paid,16.0,Everyone,2022-08-18 00:00:00,android,play_store,political_app_android,,
+Face App,PRODUCTIVITY,4.8,236814,29M,100000,Free,0.0,Everyone,2024-10-01 00:00:00,android,play_store,face_app_android,,
+Probably App,PRODUCTIVITY,2.5,552636,59M,10000,Free,0.0,Everyone,2023-06-11 00:00:00,android,play_store,probably_app_android,,
+Nor App,SOCIAL,0.4,948232,20M,100000,Paid,0.0,Teen,2024-04-01 00:00:00,android,play_store,nor_app_android,,
+Perform App,HEALTH,2.3,948333,71M,1000,Paid,18.0,Mature 17+,2023-10-11 00:00:00,android,play_store,perform_app_android,,
+Feeling App,PRODUCTIVITY,3.9,844024,88M,1000,Free,0.0,Teen,2023-11-17 00:00:00,android,play_store,feeling_app_android,,
+Indicate App,HEALTH,0.8,979355,53M,1000000,Paid,0.0,Teen,2024-08-24 00:00:00,android,play_store,indicate_app_android,,
+Better App,HEALTH,5.0,119343,78M,10000000,Paid,13.0,Everyone,2023-05-24 00:00:00,android,play_store,better_app_android,,
+Item App,PRODUCTIVITY,3.4,929609,82M,10000,Paid,0.0,Mature 17+,2021-08-16 00:00:00,android,play_store,item_app_android,,
+Air App,GAME,3.3,390794,21M,1000,Free,0.0,Everyone,2022-12-09 00:00:00,android,play_store,air_app_android,,
+Meet App,SOCIAL,3.6,866815,3M,10000,Free,18.0,Teen,2024-05-14 00:00:00,android,play_store,meet_app_android,,
+Between App,EDUCATION,4.4,921263,82M,100000,Paid,3.0,Everyone,2023-05-30 00:00:00,android,play_store,between_app_android,,
+Head App,GAME,4.4,266373,63M,10000,Free,0.0,Mature 17+,2020-11-13 00:00:00,android,play_store,head_app_android,,
+Stage App,EDUCATION,2.1,408094,20M,10000,Paid,14.0,Teen,2023-04-27 00:00:00,android,play_store,stage_app_android,,
+Character App,HEALTH,1.5,494412,89M,1000,Paid,5.0,Everyone,2023-09-08 00:00:00,android,play_store,character_app_android,,
+Would App,PRODUCTIVITY,1.7,881708,97M,100000,Paid,0.0,Mature 17+,2020-08-28 00:00:00,android,play_store,would_app_android,,
+Deal App,EDUCATION,3.4,112502,39M,1000,Paid,2.0,Teen,2024-10-04 00:00:00,android,play_store,deal_app_android,,
+Relate App,GAME,3.3,88965,30M,10000000,Paid,20.0,Teen,2020-06-16 00:00:00,android,play_store,relate_app_android,,
+Special App,PRODUCTIVITY,1.9,477836,34M,10000,Paid,0.0,Mature 17+,2024-07-01 00:00:00,android,play_store,special_app_android,,
+Discuss App,FINANCE,1.4,72857,24M,10000,Paid,2.0,Teen,2023-02-25 00:00:00,android,play_store,discuss_app_android,,
+Value App,SOCIAL,3.8,204410,41M,10000,Paid,0.0,Teen,2024-06-17 00:00:00,android,play_store,value_app_android,,
+Stand App,PRODUCTIVITY,0.4,97515,34M,100000,Paid,3.0,Everyone,2021-11-04 00:00:00,android,play_store,stand_app_android,,
+Continue App,SOCIAL,3.8,976738,3M,1000000,Paid,0.0,Everyone,2021-01-26 00:00:00,android,play_store,continue_app_android,,
+Explain App,SOCIAL,3.3,512916,71M,1000000,Paid,9.0,Everyone,2023-02-18 00:00:00,android,play_store,explain_app_android,,
+Red App,HEALTH,2.5,583587,52M,10000,Free,0.0,Teen,2020-07-30 00:00:00,android,play_store,red_app_android,,
+Pretty App,SOCIAL,2.5,98526,25M,10000,Paid,19.0,Mature 17+,2021-06-09 00:00:00,android,play_store,pretty_app_android,,
+Rich App,HEALTH,2.3,41156,3M,100000,Free,0.0,Mature 17+,2023-10-23 00:00:00,android,play_store,rich_app_android,,
+Around App,EDUCATION,1.6,187940,32M,10000,Free,0.0,Teen,2025-05-29 00:00:00,android,play_store,around_app_android,,
+Establish App,EDUCATION,0.6,396430,76M,1000000,Free,0.0,Mature 17+,2023-06-08 00:00:00,android,play_store,establish_app_android,,
+Admit App,HEALTH,4.1,298570,84M,1000,Paid,0.0,Everyone,2022-08-22 00:00:00,android,play_store,admit_app_android,,
+Into App,PRODUCTIVITY,2.2,400448,51M,1000,Paid,0.0,Everyone,2024-10-14 00:00:00,android,play_store,into_app_android,,
+Represent App,SOCIAL,0.9,83055,97M,1000,Paid,16.0,Teen,2023-06-06 00:00:00,android,play_store,represent_app_android,,
+Suggest App,FINANCE,1.2,4821,26M,100000,Paid,20.0,Mature 17+,2020-08-22 00:00:00,android,play_store,suggest_app_android,,
+On App,PRODUCTIVITY,1.9,501105,99M,1000,Paid,18.0,Everyone,2021-02-22 00:00:00,android,play_store,on_app_android,,
+Talk App,SOCIAL,1.5,621909,10M,1000,Paid,15.0,Everyone,2020-11-30 00:00:00,android,play_store,talk_app_android,,
+Court App,FINANCE,0.1,901554,64M,10000000,Free,0.0,Everyone,2021-03-26 00:00:00,android,play_store,court_app_android,,
+Brother App,SOCIAL,0.1,740883,67M,1000,Free,0.0,Everyone,2023-11-17 00:00:00,android,play_store,brother_app_android,,
+Wife App,GAME,4.8,144721,9M,1000000,Paid,4.0,Mature 17+,2025-09-03 00:00:00,android,play_store,wife_app_android,,
+Scene App,SOCIAL,3.8,116891,91M,10000,Paid,14.0,Everyone,2023-09-24 00:00:00,android,play_store,scene_app_android,,
+Enter App,FINANCE,3.1,656454,79M,100000,Free,0.0,Mature 17+,2020-03-23 00:00:00,android,play_store,enter_app_android,,
+Challenge App,HEALTH,3.4,417963,93M,1000,Paid,3.0,Everyone,2025-05-06 00:00:00,android,play_store,challenge_app_android,,
+Heavy App,PRODUCTIVITY,5.0,961592,26M,1000,Paid,0.0,Teen,2021-07-06 00:00:00,android,play_store,heavy_app_android,,
+Husband App,SOCIAL,4.6,75422,42M,1000,Paid,0.0,Everyone,2024-06-01 00:00:00,android,play_store,husband_app_android,,
+Media App,EDUCATION,1.2,606844,96M,1000000,Free,0.0,Teen,2024-10-15 00:00:00,android,play_store,media_app_android,,
+Region App,SOCIAL,2.4,464034,20M,1000000,Paid,17.0,Everyone,2024-12-13 00:00:00,android,play_store,region_app_android,,
+Article App,EDUCATION,0.9,973183,95M,10000,Free,1.0,Mature 17+,2022-10-04 00:00:00,android,play_store,article_app_android,,
+During App,EDUCATION,1.0,862886,34M,10000,Free,0.0,Teen,2023-04-03 00:00:00,android,play_store,during_app_android,,
+Or App,HEALTH,1.0,80501,80M,10000,Free,2.0,Mature 17+,2024-11-11 00:00:00,android,play_store,or_app_android,,
+Ground App,GAME,2.4,834466,47M,10000,Paid,0.0,Mature 17+,2023-04-14 00:00:00,android,play_store,ground_app_android,,
+Staff App,FINANCE,0.8,483286,31M,10000,Free,0.0,Everyone,2025-01-18 00:00:00,android,play_store,staff_app_android,,
+Government App,FINANCE,0.7,581408,2M,100000,Paid,11.0,Mature 17+,2024-01-18 00:00:00,android,play_store,government_app_android,,
+Seem App,SOCIAL,4.3,643734,7M,10000000,Paid,0.0,Teen,2020-05-21 00:00:00,android,play_store,seem_app_android,,
+Others App,HEALTH,4.1,358508,76M,10000000,Paid,0.0,Everyone,2021-02-18 00:00:00,android,play_store,others_app_android,,
+Mean App,EDUCATION,1.7,182953,50M,10000,Free,10.0,Mature 17+,2023-04-12 00:00:00,android,play_store,mean_app_android,,
+Cultural App,EDUCATION,2.2,683513,83M,10000000,Paid,15.0,Everyone,2021-03-02 00:00:00,android,play_store,cultural_app_android,,
+Allow App,EDUCATION,3.0,249211,98M,1000,Paid,12.0,Teen,2022-02-19 00:00:00,android,play_store,allow_app_android,,
+Unit App,SOCIAL,3.5,25436,72M,10000,Paid,7.0,Mature 17+,2024-09-29 00:00:00,android,play_store,unit_app_android,,
+If App,SOCIAL,0.7,316453,47M,1000,Free,0.0,Everyone,2025-02-28 00:00:00,android,play_store,if_app_android,,
+Adult App,PRODUCTIVITY,2.8,768616,15M,100000,Paid,3.0,Mature 17+,2020-07-05 00:00:00,android,play_store,adult_app_android,,
+Reach App,EDUCATION,3.1,748319,3M,100000,Free,7.0,Mature 17+,2021-01-13 00:00:00,android,play_store,reach_app_android,,
+One App,FINANCE,4.0,518380,63M,100000,Free,19.0,Teen,2022-07-24 00:00:00,android,play_store,one_app_android,,
+Friend App,HEALTH,2.4,221065,77M,100000,Free,9.0,Teen,2020-10-31 00:00:00,android,play_store,friend_app_android,,
+Institution App,HEALTH,0.3,699557,46M,10000,Paid,1.0,Teen,2023-10-20 00:00:00,android,play_store,institution_app_android,,
+Long App,FINANCE,2.8,734184,17M,100000,Paid,14.0,Everyone,2020-03-13 00:00:00,android,play_store,long_app_android,,
+Line App,PRODUCTIVITY,2.0,846905,22M,10000000,Free,17.0,Teen,2025-03-25 00:00:00,android,play_store,line_app_android,,
+Assume App,PRODUCTIVITY,4.6,504599,100M,1000000,Free,2.0,Everyone,2021-09-11 00:00:00,android,play_store,assume_app_android,,
+Charge App,EDUCATION,2.2,66199,73M,10000,Paid,11.0,Teen,2023-08-16 00:00:00,android,play_store,charge_app_android,,
+Middle App,PRODUCTIVITY,4.2,70010,30M,100000,Free,0.0,Mature 17+,2025-01-23 00:00:00,android,play_store,middle_app_android,,
+Thousand App,SOCIAL,1.5,341442,54M,1000000,Paid,0.0,Teen,2022-07-03 00:00:00,android,play_store,thousand_app_android,,
+Medical App,EDUCATION,1.7,95238,85M,10000,Free,0.0,Everyone,2021-09-02 00:00:00,android,play_store,medical_app_android,,
+Remember App,EDUCATION,2.7,952037,27M,10000,Paid,20.0,Everyone,2023-12-03 00:00:00,android,play_store,remember_app_android,,
+Tonight App,PRODUCTIVITY,3.1,531244,37M,1000000,Paid,13.0,Teen,2022-08-09 00:00:00,android,play_store,tonight_app_android,,
+Sometimes App,GAME,3.9,45363,86M,1000000,Free,4.0,Teen,2020-07-01 00:00:00,android,play_store,sometimes_app_android,,
+Worker App,GAME,4.9,678380,34M,10000000,Free,19.0,Everyone,2022-09-08 00:00:00,android,play_store,worker_app_android,,
+While App,GAME,3.3,521905,19M,10000,Free,0.0,Everyone,2022-05-17 00:00:00,android,play_store,while_app_android,,
+Rest App,EDUCATION,4.0,486549,45M,1000000,Paid,0.0,Teen,2022-04-09 00:00:00,android,play_store,rest_app_android,,
+Trip App,HEALTH,1.3,570135,21M,10000000,Paid,0.0,Teen,2020-04-10 00:00:00,android,play_store,trip_app_android,,
+Good App,EDUCATION,0.3,772042,33M,1000000,Paid,11.0,Mature 17+,2021-01-21 00:00:00,android,play_store,good_app_android,,
+Among App,FINANCE,3.1,49465,64M,100000,Free,0.0,Mature 17+,2024-05-01 00:00:00,android,play_store,among_app_android,,
+Several App,PRODUCTIVITY,1.0,50160,22M,1000,Paid,9.0,Mature 17+,2025-03-01 00:00:00,android,play_store,several_app_android,,
+Newspaper App,SOCIAL,2.8,155129,40M,10000000,Free,1.0,Teen,2021-11-28 00:00:00,android,play_store,newspaper_app_android,,
+Wish App,GAME,1.4,199805,79M,1000,Paid,0.0,Mature 17+,2022-08-07 00:00:00,android,play_store,wish_app_android,,
+Actually App,EDUCATION,3.4,229763,56M,100000,Free,0.0,Teen,2023-08-08 00:00:00,android,play_store,actually_app_android,,
+Majority App,FINANCE,4.1,346907,5M,100000,Paid,0.0,Everyone,2025-02-21 00:00:00,android,play_store,majority_app_android,,
+Race App,FINANCE,3.2,221903,76M,100000,Free,1.0,Everyone,2022-02-10 00:00:00,android,play_store,race_app_android,,
+Involve App,PRODUCTIVITY,0.3,724382,88M,100000,Paid,15.0,Mature 17+,2025-08-24 00:00:00,android,play_store,involve_app_android,,
+Say App,HEALTH,3.0,866909,41M,10000000,Free,14.0,Mature 17+,2022-01-15 00:00:00,android,play_store,say_app_android,,
+Performance App,FINANCE,2.5,858681,13M,1000,Free,5.0,Mature 17+,2022-11-19 00:00:00,android,play_store,performance_app_android,,
+Still App,PRODUCTIVITY,3.7,546524,60M,1000,Free,0.0,Everyone,2020-06-23 00:00:00,android,play_store,still_app_android,,
+Seat App,SOCIAL,1.0,201236,33M,10000000,Free,0.0,Mature 17+,2024-12-27 00:00:00,android,play_store,seat_app_android,,
+Pass App,EDUCATION,3.3,103707,41M,10000,Paid,14.0,Teen,2021-06-21 00:00:00,android,play_store,pass_app_android,,
+Month App,PRODUCTIVITY,1.3,104086,81M,100000,Paid,19.0,Teen,2020-10-17 00:00:00,android,play_store,month_app_android,,
+Step App,GAME,0.4,695239,75M,1000000,Free,0.0,Everyone,2024-06-28 00:00:00,android,play_store,step_app_android,,
+From App,HEALTH,1.7,650011,91M,1000000,Free,12.0,Everyone,2021-02-22 00:00:00,android,play_store,from_app_android,,
+Popular App,PRODUCTIVITY,1.4,70362,37M,100000,Free,12.0,Everyone,2023-05-25 00:00:00,android,play_store,popular_app_android,,
+Citizen App,GAME,2.0,960480,22M,10000,Free,0.0,Mature 17+,2024-10-25 00:00:00,android,play_store,citizen_app_android,,
+Away App,SOCIAL,1.7,280456,10M,1000,Free,0.0,Everyone,2020-11-11 00:00:00,android,play_store,away_app_android,,
+Give App,SOCIAL,1.4,701920,67M,100000,Free,0.0,Everyone,2025-06-18 00:00:00,android,play_store,give_app_android,,
+Nearly App,PRODUCTIVITY,0.9,659788,62M,100000,Free,12.0,Teen,2023-08-12 00:00:00,android,play_store,nearly_app_android,,
+Small App,GAME,1.3,252328,42M,1000,Free,8.0,Everyone,2021-10-12 00:00:00,android,play_store,small_app_android,,
+So App,SOCIAL,4.8,50439,38M,100000,Free,6.0,Everyone,2022-07-13 00:00:00,android,play_store,so_app_android,,
+Him App,EDUCATION,2.7,597059,78M,10000,Paid,0.0,Teen,2023-10-22 00:00:00,android,play_store,him_app_android,,
+Back App,SOCIAL,3.7,726315,98M,10000,Paid,0.0,Mature 17+,2023-11-26 00:00:00,android,play_store,back_app_android,,
+Size App,GAME,4.2,325420,35M,10000000,Free,0.0,Mature 17+,2021-12-06 00:00:00,android,play_store,size_app_android,,
+Current App,GAME,4.3,877500,53M,10000000,Free,0.0,Mature 17+,2021-12-31 00:00:00,android,play_store,current_app_android,,
+Forward App,FINANCE,2.1,238914,6M,10000,Paid,0.0,Everyone,2020-04-25 00:00:00,android,play_store,forward_app_android,,
+Common App,HEALTH,2.8,81713,21M,10000,Free,14.0,Mature 17+,2022-11-24 00:00:00,android,play_store,common_app_android,,
+Notice App,HEALTH,1.7,624068,21M,10000000,Free,0.0,Teen,2022-11-11 00:00:00,android,play_store,notice_app_android,,
+Community App,EDUCATION,4.1,486149,58M,10000,Paid,14.0,Mature 17+,2025-09-03 00:00:00,android,play_store,community_app_android,,
+Road App,FINANCE,0.6,800220,71M,10000,Paid,0.0,Mature 17+,2023-10-08 00:00:00,android,play_store,road_app_android,,
+Such App,EDUCATION,1.6,741415,54M,1000,Free,0.0,Mature 17+,2025-08-19 00:00:00,android,play_store,such_app_android,,
+Police App,GAME,1.5,923633,11M,1000,Paid,8.0,Teen,2024-09-08 00:00:00,android,play_store,police_app_android,,
+Bad App,FINANCE,2.1,873572,18M,100000,Paid,18.0,Mature 17+,2022-08-11 00:00:00,android,play_store,bad_app_android,,
+Though App,GAME,4.6,23870,30M,10000,Free,2.0,Teen,2024-10-04 00:00:00,android,play_store,though_app_android,,
+Apply App,SOCIAL,1.8,910110,22M,100000,Paid,0.0,Mature 17+,2025-06-08 00:00:00,android,play_store,apply_app_android,,
+Response App,PRODUCTIVITY,2.5,468290,68M,10000,Free,0.0,Mature 17+,2023-06-09 00:00:00,android,play_store,response_app_android,,
+Here App,GAME,0.7,652103,19M,10000000,Free,20.0,Everyone,2024-09-19 00:00:00,android,play_store,here_app_android,,
+Best App,HEALTH,1.4,61619,100M,1000000,Paid,13.0,Teen,2021-04-16 00:00:00,android,play_store,best_app_android,,
+Everyone App,HEALTH,0.3,835955,88M,10000,Paid,14.0,Everyone,2022-05-22 00:00:00,android,play_store,everyone_app_android,,
+Traditional App,GAME,2.4,194872,12M,1000000,Paid,3.0,Everyone,2024-05-13 00:00:00,android,play_store,traditional_app_android,,
+Vote App,GAME,0.2,231687,88M,10000,Paid,0.0,Teen,2021-01-23 00:00:00,android,play_store,vote_app_android,,
+Big App,HEALTH,0.9,3970,23M,1000000,Free,0.0,Teen,2022-08-27 00:00:00,android,play_store,big_app_android,,
+Director App,PRODUCTIVITY,2.7,227619,77M,100000,Paid,0.0,Everyone,2022-05-24 00:00:00,android,play_store,director_app_android,,
+Woman App,PRODUCTIVITY,2.6,824168,84M,100000,Free,0.0,Mature 17+,2020-10-07 00:00:00,android,play_store,woman_app_android,,
+None App,GAME,1.0,489387,49M,10000,Paid,0.0,Everyone,2023-05-26 00:00:00,android,play_store,none_app_android,,
+Drop App,GAME,4.2,973138,25M,10000,Free,0.0,Teen,2022-03-25 00:00:00,android,play_store,drop_app_android,,
+Final App,EDUCATION,5.0,921728,44M,10000000,Paid,0.0,Everyone,2023-06-04 00:00:00,android,play_store,final_app_android,,
+Hour App,SOCIAL,2.4,576979,40M,10000,Free,0.0,Everyone,2024-09-13 00:00:00,android,play_store,hour_app_android,,
+Its App,FINANCE,3.4,723513,57M,1000,Paid,8.0,Everyone,2020-05-11 00:00:00,android,play_store,its_app_android,,
+North App,GAME,1.7,441815,53M,1000,Free,0.0,Everyone,2022-05-28 00:00:00,android,play_store,north_app_android,,
+Hundred App,PRODUCTIVITY,1.7,444745,27M,10000,Free,0.0,Mature 17+,2020-10-10 00:00:00,android,play_store,hundred_app_android,,
+These App,GAME,3.6,951722,23M,1000,Free,12.0,Everyone,2020-03-12 00:00:00,android,play_store,these_app_android,,
+Wide App,FINANCE,3.2,826132,36M,1000000,Paid,0.0,Mature 17+,2021-04-24 00:00:00,android,play_store,wide_app_android,,
+Trade App,HEALTH,1.2,840610,89M,10000000,Paid,0.0,Teen,2023-07-01 00:00:00,android,play_store,trade_app_android,,
+Sure App,SOCIAL,4.0,464104,8M,1000000,Paid,19.0,Teen,2022-05-05 00:00:00,android,play_store,sure_app_android,,
+Nature App,HEALTH,2.4,468049,28M,10000000,Free,1.0,Everyone,2025-08-21 00:00:00,android,play_store,nature_app_android,,
+Generation App,FINANCE,4.2,949232,74M,10000000,Free,0.0,Teen,2025-09-23 00:00:00,android,play_store,generation_app_android,,
+Cut App,PRODUCTIVITY,4.0,86403,21M,100000,Free,0.0,Everyone,2020-10-12 00:00:00,android,play_store,cut_app_android,,
+Type App,EDUCATION,4.4,735599,14M,1000,Paid,0.0,Mature 17+,2024-01-30 00:00:00,android,play_store,type_app_android,,
+Along App,GAME,3.5,552533,58M,1000000,Paid,7.0,Mature 17+,2025-05-26 00:00:00,android,play_store,along_app_android,,
+Decade App,SOCIAL,0.7,456916,90M,1000,Free,0.0,Everyone,2023-02-17 00:00:00,android,play_store,decade_app_android,,
+Material App,GAME,1.5,140509,26M,10000,Free,0.0,Mature 17+,2024-10-25 00:00:00,android,play_store,material_app_android,,
+Research App,SOCIAL,4.8,958736,68M,100000,Paid,15.0,Mature 17+,2025-07-04 00:00:00,android,play_store,research_app_android,,
+Century App,PRODUCTIVITY,4.4,8760,32M,1000000,Free,6.0,Mature 17+,2023-07-24 00:00:00,android,play_store,century_app_android,,
+Firm App,SOCIAL,2.0,886275,41M,100000,Free,0.0,Everyone,2025-04-05 00:00:00,android,play_store,firm_app_android,,
+Few App,EDUCATION,3.6,277985,76M,10000,Free,0.0,Everyone,2023-11-13 00:00:00,android,play_store,few_app_android,,
+Mr App,PRODUCTIVITY,4.5,543396,52M,1000000,Free,0.0,Mature 17+,2025-02-06 00:00:00,android,play_store,mr_app_android,,
+Dream App,HEALTH,2.9,674852,34M,1000,Paid,0.0,Teen,2022-06-30 00:00:00,android,play_store,dream_app_android,,
+Move App,HEALTH,3.4,970909,60M,10000,Free,0.0,Everyone,2023-02-08 00:00:00,android,play_store,move_app_android,,
+Price App,PRODUCTIVITY,3.7,258520,32M,100000,Free,20.0,Mature 17+,2023-05-10 00:00:00,android,play_store,price_app_android,,
+Speak App,SOCIAL,0.2,242709,80M,10000,Free,0.0,Teen,2022-05-19 00:00:00,android,play_store,speak_app_android,,
+Even App,PRODUCTIVITY,4.5,565355,93M,10000000,Free,0.0,Everyone,2023-02-25 00:00:00,android,play_store,even_app_android,,
+Near App,HEALTH,3.0,728296,8M,10000,Paid,0.0,Mature 17+,2021-12-07 00:00:00,android,play_store,near_app_android,,
+Work App,HEALTH,0.9,650176,38M,1000,Free,11.0,Mature 17+,2020-11-03 00:00:00,android,play_store,work_app_android,,
+Within App,EDUCATION,1.4,278053,13M,10000000,Paid,0.0,Everyone,2023-10-04 00:00:00,android,play_store,within_app_android,,
+Ten App,HEALTH,3.5,609911,90M,10000000,Free,9.0,Everyone,2020-11-30 00:00:00,android,play_store,ten_app_android,,
+Population App,PRODUCTIVITY,1.3,615071,74M,1000000,Free,6.0,Everyone,2023-05-02 00:00:00,android,play_store,population_app_android,,
+Congress App,HEALTH,3.0,277293,63M,10000000,Free,1.0,Teen,2020-08-19 00:00:00,android,play_store,congress_app_android,,
+Summer App,SOCIAL,4.4,57785,79M,100000,Paid,19.0,Everyone,2025-01-26 00:00:00,android,play_store,summer_app_android,,
+Help App,EDUCATION,3.2,648557,63M,100000,Paid,0.0,Mature 17+,2023-08-04 00:00:00,android,play_store,help_app_android,,
+Artist App,PRODUCTIVITY,4.7,696190,18M,10000000,Paid,9.0,Mature 17+,2024-01-21 00:00:00,android,play_store,artist_app_android,,
+Truth App,HEALTH,0.4,398208,9M,100000,Paid,18.0,Mature 17+,2024-01-25 00:00:00,android,play_store,truth_app_android,,
+Never App,HEALTH,2.6,461265,75M,100000,Free,0.0,Mature 17+,2021-06-20 00:00:00,android,play_store,never_app_android,,
+Myself App,PRODUCTIVITY,3.6,790983,97M,1000,Free,7.0,Mature 17+,2021-09-22 00:00:00,android,play_store,myself_app_android,,
+Condition App,FINANCE,1.2,977659,37M,10000,Paid,0.0,Teen,2022-09-12 00:00:00,android,play_store,condition_app_android,,
+Mission App,HEALTH,1.9,418044,85M,100000,Paid,3.0,Teen,2024-02-09 00:00:00,android,play_store,mission_app_android,,
+Them App,PRODUCTIVITY,0.1,917232,43M,1000,Paid,0.0,Everyone,2020-03-07 00:00:00,android,play_store,them_app_android,,
+Develop App,HEALTH,2.0,818692,96M,10000,Free,10.0,Everyone,2023-02-17 00:00:00,android,play_store,develop_app_android,,
+Human App,HEALTH,3.4,151750,26M,1000,Paid,7.0,Mature 17+,2025-05-23 00:00:00,android,play_store,human_app_android,,
+Kid App,EDUCATION,0.9,179252,35M,10000,Paid,13.0,Mature 17+,2025-05-16 00:00:00,android,play_store,kid_app_android,,
+Can App,EDUCATION,2.4,738617,38M,100000,Paid,0.0,Teen,2025-09-28 00:00:00,android,play_store,can_app_android,,
+Idea App,FINANCE,0.6,373686,38M,10000000,Paid,16.0,Teen,2020-07-13 00:00:00,android,play_store,idea_app_android,,
+House App,HEALTH,2.9,998356,75M,100000,Free,17.0,Mature 17+,2021-10-25 00:00:00,android,play_store,house_app_android,,
+Six App,SOCIAL,2.0,701235,47M,1000,Free,14.0,Mature 17+,2020-12-02 00:00:00,android,play_store,six_app_android,,
+Environmental App,GAME,2.8,936436,97M,10000000,Free,17.0,Everyone,2024-08-01 00:00:00,android,play_store,environmental_app_android,,
+Fear App,FINANCE,1.9,788849,85M,100000,Free,16.0,Everyone,2024-08-18 00:00:00,android,play_store,fear_app_android,,
+Become App,SOCIAL,4.5,45566,47M,10000,Paid,17.0,Teen,2022-02-01 00:00:00,android,play_store,become_app_android,,
+Note App,GAME,1.5,910859,85M,10000000,Free,12.0,Teen,2024-05-19 00:00:00,android,play_store,note_app_android,,
+Include App,SOCIAL,4.9,924342,73M,10000000,Paid,13.0,Everyone,2024-04-23 00:00:00,android,play_store,include_app_android,,
+Other App,EDUCATION,1.9,322637,19M,10000,Free,2.0,Everyone,2025-09-22 00:00:00,android,play_store,other_app_android,,
+Lose App,EDUCATION,3.8,796115,77M,1000,Paid,0.0,Mature 17+,2025-05-04 00:00:00,android,play_store,lose_app_android,,
+Before App,SOCIAL,3.6,740791,79M,10000000,Paid,12.0,Mature 17+,2022-07-03 00:00:00,android,play_store,before_app_android,,
+Candidate App,HEALTH,3.5,542815,62M,100000,Free,0.0,Teen,2021-01-16 00:00:00,android,play_store,candidate_app_android,,
+Walk App,PRODUCTIVITY,0.8,531010,49M,1000000,Paid,1.0,Teen,2024-10-25 00:00:00,android,play_store,walk_app_android,,
+Manager App,GAME,3.3,422039,31M,1000,Free,6.0,Everyone,2021-06-07 00:00:00,android,play_store,manager_app_android,,
+Very App,PRODUCTIVITY,1.0,497014,36M,10000,Paid,0.0,Mature 17+,2025-09-09 00:00:00,android,play_store,very_app_android,,
+Feel App,SOCIAL,0.1,21370,93M,10000,Paid,3.0,Everyone,2022-08-16 00:00:00,android,play_store,feel_app_android,,
+American App,EDUCATION,2.2,532413,1M,1000,Free,0.0,Teen,2020-04-15 00:00:00,android,play_store,american_app_android,,
+Across App,PRODUCTIVITY,1.0,393347,27M,1000000,Free,16.0,Mature 17+,2023-02-11 00:00:00,android,play_store,across_app_android,,
+Interesting App,GAME,1.3,513468,41M,100000,Free,0.0,Mature 17+,2020-01-02 00:00:00,android,play_store,interesting_app_android,,
+Agreement App,SOCIAL,3.4,116436,25M,10000000,Free,0.0,Everyone,2024-08-13 00:00:00,android,play_store,agreement_app_android,,
+Standard App,PRODUCTIVITY,0.9,666328,82M,10000000,Paid,0.0,Everyone,2021-06-01 00:00:00,android,play_store,standard_app_android,,
+Wind App,SOCIAL,4.9,645041,21M,10000000,Free,0.0,Teen,2022-02-23 00:00:00,android,play_store,wind_app_android,,
+Early App,HEALTH,2.3,699192,95M,1000,Paid,0.0,Mature 17+,2023-12-07 00:00:00,android,play_store,early_app_android,,
+Program App,SOCIAL,2.3,455054,48M,100000,Free,13.0,Mature 17+,2025-02-08 00:00:00,android,play_store,program_app_android,,
+Individual App,FINANCE,1.1,437660,19M,100000,Free,0.0,Everyone,2021-09-26 00:00:00,android,play_store,individual_app_android,,
+Us App,SOCIAL,3.9,37213,99M,10000000,Free,0.0,Everyone,2023-10-24 00:00:00,android,play_store,us_app_android,,
+Example App,EDUCATION,0.6,421250,86M,1000000,Paid,19.0,Everyone,2023-05-26 00:00:00,android,play_store,example_app_android,,
+Low App,EDUCATION,0.6,130557,16M,10000,Free,20.0,Mature 17+,2023-06-22 00:00:00,android,play_store,low_app_android,,
+Spend App,SOCIAL,4.7,917105,77M,1000,Free,0.0,Teen,2020-05-17 00:00:00,android,play_store,spend_app_android,,
+Position App,FINANCE,2.5,721071,77M,100000,Free,0.0,Teen,2020-12-02 00:00:00,android,play_store,position_app_android,,
+Image App,PRODUCTIVITY,4.1,613614,62M,10000,Paid,0.0,Teen,2025-01-07 00:00:00,android,play_store,image_app_android,,
+Already App,FINANCE,1.4,525824,12M,10000000,Free,0.0,Teen,2021-05-11 00:00:00,android,play_store,already_app_android,,
+History App,SOCIAL,0.8,615398,47M,100000,Free,6.0,Mature 17+,2020-11-29 00:00:00,android,play_store,history_app_android,,
+Ability App,FINANCE,3.6,884340,78M,10000000,Paid,15.0,Teen,2022-11-06 00:00:00,android,play_store,ability_app_android,,
+Form App,SOCIAL,1.0,970825,89M,100000,Paid,0.0,Everyone,2021-10-11 00:00:00,android,play_store,form_app_android,,
+Serious App,GAME,3.8,856142,41M,1000,Free,0.0,Teen,2022-08-28 00:00:00,android,play_store,serious_app_android,,
+Itself App,GAME,2.2,943676,27M,1000,Free,0.0,Mature 17+,2023-09-29 00:00:00,android,play_store,itself_app_android,,
+Amount App,FINANCE,4.6,570651,6M,1000000,Paid,0.0,Everyone,2021-07-21 00:00:00,android,play_store,amount_app_android,,
+Upon App,FINANCE,4.5,1102,38M,10000,Paid,0.0,Everyone,2021-02-08 00:00:00,android,play_store,upon_app_android,,
+Fast App,SOCIAL,2.1,547108,99M,100000,Free,0.0,Mature 17+,2023-08-23 00:00:00,android,play_store,fast_app_android,,
+Mind App,GAME,0.5,102510,91M,1000,Free,1.0,Mature 17+,2022-01-21 00:00:00,android,play_store,mind_app_android,,
+Stop App,SOCIAL,2.4,910804,60M,10000000,Paid,10.0,Teen,2025-06-17 00:00:00,android,play_store,stop_app_android,,
+Place App,HEALTH,3.1,617557,90M,10000000,Paid,14.0,Teen,2021-07-21 00:00:00,android,play_store,place_app_android,,
+Successful App,GAME,4.7,957986,32M,10000,Paid,10.0,Everyone,2023-01-17 00:00:00,android,play_store,successful_app_android,,
+Billion App,PRODUCTIVITY,3.9,303212,61M,10000000,Paid,4.0,Everyone,2020-11-15 00:00:00,android,play_store,billion_app_android,,
+Chance App,GAME,0.4,392881,40M,100000,Free,5.0,Mature 17+,2020-08-29 00:00:00,android,play_store,chance_app_android,,
+Direction App,HEALTH,3.3,730547,35M,10000000,Paid,15.0,Everyone,2021-09-30 00:00:00,android,play_store,direction_app_android,,
+Tough App,GAME,4.8,334185,23M,100000,Free,0.0,Teen,2023-08-02 00:00:00,android,play_store,tough_app_android,,
+Enough App,EDUCATION,4.6,928572,84M,1000000,Free,14.0,Teen,2020-07-26 00:00:00,android,play_store,enough_app_android,,
+Reflect App,FINANCE,2.5,17249,92M,100000,Paid,11.0,Mature 17+,2021-08-30 00:00:00,android,play_store,reflect_app_android,,
+By App,PRODUCTIVITY,2.8,359047,94M,1000,Free,4.0,Mature 17+,2020-04-09 00:00:00,android,play_store,by_app_android,,
+Word App,FINANCE,4.2,967109,6M,1000,Paid,0.0,Mature 17+,2025-09-07 00:00:00,android,play_store,word_app_android,,
+Morning App,SOCIAL,3.8,275471,3M,100000,Paid,0.0,Teen,2023-07-21 00:00:00,android,play_store,morning_app_android,,
+Bag App,GAME,2.3,388474,39M,1000,Free,0.0,Teen,2020-02-12 00:00:00,android,play_store,bag_app_android,,
+Case App,FINANCE,2.8,419618,78M,10000,Free,9.0,Everyone,2024-12-05 00:00:00,android,play_store,case_app_android,,
+Lawyer App,HEALTH,2.3,470142,86M,100000,Free,0.0,Mature 17+,2021-12-29 00:00:00,android,play_store,lawyer_app_android,,
+Shake App,HEALTH,1.4,363251,49M,10000,Free,0.0,Teen,2020-10-06 00:00:00,android,play_store,shake_app_android,,
+Data App,GAME,3.5,4618,8M,10000000,Free,0.0,Teen,2024-01-21 00:00:00,android,play_store,data_app_android,,
+Specific App,HEALTH,0.9,537898,90M,10000,Paid,3.0,Mature 17+,2020-12-07 00:00:00,android,play_store,specific_app_android,,
+Green App,SOCIAL,4.7,212331,30M,10000,Free,17.0,Mature 17+,2024-09-05 00:00:00,android,play_store,green_app_android,,
+Young App,GAME,3.4,665469,6M,10000000,Paid,15.0,Mature 17+,2021-09-16 00:00:00,android,play_store,young_app_android,,
+Wonder App,PRODUCTIVITY,0.2,260790,48M,10000,Paid,20.0,Mature 17+,2023-06-09 00:00:00,android,play_store,wonder_app_android,,
+Serve App,FINANCE,4.7,505273,94M,10000000,Free,5.0,Everyone,2022-04-23 00:00:00,android,play_store,serve_app_android,,
+Attention App,GAME,2.7,625010,55M,10000000,Free,12.0,Everyone,2021-05-24 00:00:00,android,play_store,attention_app_android,,
+Wait App,HEALTH,0.3,80269,5M,10000000,Free,2.0,Teen,2020-08-19 00:00:00,android,play_store,wait_app_android,,
+Piece App,PRODUCTIVITY,3.0,496375,16M,100000,Free,15.0,Mature 17+,2020-08-15 00:00:00,android,play_store,piece_app_android,,
+Black App,EDUCATION,3.5,630812,65M,1000,Free,11.0,Everyone,2024-10-23 00:00:00,android,play_store,black_app_android,,
+Room App,GAME,1.0,16211,47M,1000,Paid,0.0,Everyone,2020-11-28 00:00:00,android,play_store,room_app_android,,
+Consumer App,EDUCATION,1.6,502138,21M,10000,Paid,0.0,Mature 17+,2021-08-16 00:00:00,android,play_store,consumer_app_android,,
+Wall App,GAME,3.8,420700,97M,100000,Free,12.0,Everyone,2023-12-31 00:00:00,android,play_store,wall_app_android,,
+Member App,PRODUCTIVITY,3.9,225420,4M,10000,Paid,14.0,Mature 17+,2023-03-04 00:00:00,android,play_store,member_app_android,,
+Cost App,GAME,4.4,181058,54M,10000000,Free,0.0,Everyone,2022-06-29 00:00:00,android,play_store,cost_app_android,,
+Tree App,HEALTH,3.2,451242,15M,1000,Paid,0.0,Everyone,2020-11-16 00:00:00,android,play_store,tree_app_android,,
+Administration App,HEALTH,1.6,712301,98M,1000000,Paid,16.0,Teen,2021-11-23 00:00:00,android,play_store,administration_app_android,,
+What App,HEALTH,4.2,948330,3M,1000000,Paid,8.0,Mature 17+,2024-09-28 00:00:00,android,play_store,what_app_android,,
+Drive App,EDUCATION,3.2,290136,37M,10000000,Paid,0.0,Teen,2024-01-30 00:00:00,android,play_store,drive_app_android,,
+Somebody App,EDUCATION,0.5,478026,68M,10000,Paid,17.0,Mature 17+,2020-10-18 00:00:00,android,play_store,somebody_app_android,,
+Positive App,GAME,1.5,328284,88M,100000,Free,0.0,Mature 17+,2024-08-29 00:00:00,android,play_store,positive_app_android,,
+Again App,SOCIAL,3.3,728066,16M,1000,Free,0.0,Everyone,2021-04-15 00:00:00,android,play_store,again_app_android,,
+Eight App,EDUCATION,3.2,421348,24M,10000,Free,0.0,Everyone,2024-07-15 00:00:00,android,play_store,eight_app_android,,
+Time App,EDUCATION,4.0,588177,13M,1000,Free,13.0,Everyone,2022-08-27 00:00:00,android,play_store,time_app_android,,
+Thing App,FINANCE,2.2,414334,41M,10000000,Free,20.0,Mature 17+,2022-06-20 00:00:00,android,play_store,thing_app_android,,
+Democrat App,EDUCATION,3.0,195459,52M,1000000,Free,14.0,Teen,2025-05-26 00:00:00,android,play_store,democrat_app_android,,
+They App,GAME,3.6,615038,19M,1000000,Paid,0.0,Teen,2024-06-06 00:00:00,android,play_store,they_app_android,,
+All App,SOCIAL,4.4,962689,46M,100000,Paid,1.0,Mature 17+,2020-04-30 00:00:00,android,play_store,all_app_android,,
+Difference App,GAME,2.3,717714,96M,100000,Paid,0.0,Teen,2022-09-26 00:00:00,android,play_store,difference_app_android,,
+Throughout App,SOCIAL,2.3,573401,65M,1000,Paid,0.0,Mature 17+,2020-12-18 00:00:00,android,play_store,throughout_app_android,,
+Less App,PRODUCTIVITY,2.8,699220,15M,1000000,Free,17.0,Teen,2025-09-05 00:00:00,android,play_store,less_app_android,,
+Carry App,PRODUCTIVITY,1.2,96229,84M,10000,Paid,8.0,Teen,2021-10-30 00:00:00,android,play_store,carry_app_android,,
+There App,GAME,3.0,237393,45M,10000000,Free,19.0,Everyone,2022-09-01 00:00:00,android,play_store,there_app_android,,
+Voice App,EDUCATION,3.7,524415,87M,100000,Free,9.0,Mature 17+,2024-01-04 00:00:00,android,play_store,voice_app_android,,
+Figure App,FINANCE,4.6,592066,43M,10000000,Free,19.0,Everyone,2024-07-12 00:00:00,android,play_store,figure_app_android,,
+Poor App,EDUCATION,1.2,111325,98M,10000000,Paid,0.0,Mature 17+,2025-02-04 00:00:00,android,play_store,poor_app_android,,
+Rise App,FINANCE,4.0,232974,19M,100000,Free,19.0,Teen,2021-10-16 00:00:00,android,play_store,rise_app_android,,
+Leave App,HEALTH,3.2,560418,70M,1000000,Free,12.0,Teen,2020-06-13 00:00:00,android,play_store,leave_app_android,,
+Some App,SOCIAL,0.9,346709,98M,1000000,Paid,0.0,Everyone,2023-05-20 00:00:00,android,play_store,some_app_android,,
+Year App,GAME,0.7,827855,43M,1000000,Free,0.0,Teen,2021-10-24 00:00:00,android,play_store,year_app_android,,
+Participant App,GAME,0.1,433949,55M,100000,Paid,0.0,Everyone,2021-04-02 00:00:00,android,play_store,participant_app_android,,
+Public App,SOCIAL,1.9,930337,72M,100000,Free,11.0,Mature 17+,2025-09-02 00:00:00,android,play_store,public_app_android,,
+Thought App,GAME,0.8,222668,88M,10000,Free,2.0,Everyone,2020-03-30 00:00:00,android,play_store,thought_app_android,,
+Significant App,HEALTH,5.0,293144,76M,1000000,Free,0.0,Everyone,2021-02-05 00:00:00,android,play_store,significant_app_android,,
+Crime App,SOCIAL,0.5,750249,36M,10000000,Paid,0.0,Everyone,2023-06-09 00:00:00,android,play_store,crime_app_android,,
+General App,GAME,4.9,357887,22M,10000000,Paid,0.0,Everyone,2023-05-18 00:00:00,android,play_store,general_app_android,,
+Page App,PRODUCTIVITY,2.7,134189,10M,100000,Paid,0.0,Teen,2022-09-03 00:00:00,android,play_store,page_app_android,,
+Executive App,SOCIAL,4.8,425429,35M,10000000,Free,0.0,Mature 17+,2021-03-04 00:00:00,android,play_store,executive_app_android,,
+Up App,SOCIAL,0.3,921640,95M,1000000,Paid,0.0,Everyone,2024-06-10 00:00:00,android,play_store,up_app_android,,
+Above App,PRODUCTIVITY,4.6,897037,19M,10000,Free,0.0,Teen,2020-10-22 00:00:00,android,play_store,above_app_android,,
+Laugh App,FINANCE,3.4,228852,44M,1000,Paid,0.0,Everyone,2024-07-30 00:00:00,android,play_store,laugh_app_android,,
+Relationship App,FINANCE,3.6,215803,47M,1000000,Free,12.0,Teen,2020-07-06 00:00:00,android,play_store,relationship_app_android,,
+Simply App,HEALTH,4.8,661940,7M,10000000,Free,10.0,Everyone,2024-09-05 00:00:00,android,play_store,simply_app_android,,
+Rule App,FINANCE,4.6,183403,94M,10000,Free,13.0,Everyone,2024-03-21 00:00:00,android,play_store,rule_app_android,,
+Care App,HEALTH,3.6,255554,49M,100000,Free,0.0,Mature 17+,2023-12-07 00:00:00,android,play_store,care_app_android,,
+Really App,GAME,0.7,793619,13M,1000,Paid,0.0,Mature 17+,2020-12-13 00:00:00,android,play_store,really_app_android,,
+War App,PRODUCTIVITY,1.3,195847,72M,100000,Paid,12.0,Everyone,2021-02-24 00:00:00,android,play_store,war_app_android,,
+Skin App,FINANCE,5.0,839517,31M,100000,Free,1.0,Everyone,2021-09-02 00:00:00,android,play_store,skin_app_android,,
+Food App,HEALTH,2.4,939284,79M,10000,Paid,0.0,Mature 17+,2021-12-12 00:00:00,android,play_store,food_app_android,,
+Board App,PRODUCTIVITY,4.8,544477,24M,10000000,Paid,1.0,Mature 17+,2022-08-19 00:00:00,android,play_store,board_app_android,,
+International App,HEALTH,3.8,494508,51M,10000000,Paid,11.0,Mature 17+,2022-06-03 00:00:00,android,play_store,international_app_android,,
+View App,GAME,1.4,67396,75M,10000000,Free,3.0,Teen,2024-10-27 00:00:00,android,play_store,view_app_android,,
+Finally App,EDUCATION,2.7,245394,12M,1000000,Free,0.0,Teen,2022-08-28 00:00:00,android,play_store,finally_app_android,,
+According App,FINANCE,4.2,12928,77M,1000,Paid,0.0,Mature 17+,2023-05-30 00:00:00,android,play_store,according_app_android,,
+Build App,GAME,1.6,294799,88M,10000000,Free,14.0,Mature 17+,2022-02-11 00:00:00,android,play_store,build_app_android,,
+Painting App,SOCIAL,3.5,796471,95M,1000,Paid,0.0,Mature 17+,2020-06-22 00:00:00,android,play_store,painting_app_android,,
+Church App,SOCIAL,0.4,663186,9M,10000,Free,2.0,Everyone,2022-12-29 00:00:00,android,play_store,church_app_android,,
+Me App,SOCIAL,1.1,204956,98M,1000000,Paid,9.0,Everyone,2025-07-22 00:00:00,android,play_store,me_app_android,,
+Factor App,PRODUCTIVITY,4.7,383758,38M,10000000,Paid,0.0,Mature 17+,2023-12-20 00:00:00,android,play_store,factor_app_android,,
+Field App,GAME,4.9,631542,65M,1000000,Paid,0.0,Teen,2025-03-10 00:00:00,android,play_store,field_app_android,,
+Since App,SOCIAL,0.9,651599,44M,100000,Paid,0.0,Mature 17+,2024-10-27 00:00:00,android,play_store,since_app_android,,
+Out App,GAME,4.4,311027,57M,10000000,Paid,2.0,Everyone,2023-07-13 00:00:00,android,play_store,out_app_android,,
+Customer App,FINANCE,0.6,915799,66M,100000,Paid,16.0,Mature 17+,2024-11-17 00:00:00,android,play_store,customer_app_android,,
+It App,FINANCE,3.0,448324,55M,1000000,Free,0.0,Mature 17+,2021-04-14 00:00:00,android,play_store,it_app_android,,
+Education App,SOCIAL,2.8,128202,79M,10000,Free,1.0,Mature 17+,2021-12-09 00:00:00,android,play_store,education_app_android,,
+Job App,FINANCE,2.0,709670,16M,1000,Free,4.0,Everyone,2022-11-09 00:00:00,android,play_store,job_app_android,,
+Opportunity App,PRODUCTIVITY,3.0,783628,75M,10000,Paid,7.0,Mature 17+,2021-05-28 00:00:00,android,play_store,opportunity_app_android,,
+Look App,SOCIAL,1.7,520597,22M,10000000,Paid,5.0,Everyone,2024-06-21 00:00:00,android,play_store,look_app_android,,
+Why App,HEALTH,1.9,96803,86M,10000,Paid,0.0,Teen,2025-09-29 00:00:00,android,play_store,why_app_android,,
+Million App,PRODUCTIVITY,4.7,109648,91M,10000,Paid,0.0,Everyone,2022-01-03 00:00:00,android,play_store,million_app_android,,
+Whatever App,GAME,3.4,581722,77M,10000000,Paid,2.0,Everyone,2023-05-28 00:00:00,android,play_store,whatever_app_android,,
+Technology App,HEALTH,2.0,589058,34M,10000000,Free,0.0,Everyone,2024-05-05 00:00:00,android,play_store,technology_app_android,,
+Prevent App,FINANCE,1.2,516685,53M,10000,Paid,11.0,Everyone,2020-05-27 00:00:00,android,play_store,prevent_app_android,,
+Buy App,EDUCATION,1.0,589836,18M,10000000,Free,2.0,Everyone,2025-01-11 00:00:00,android,play_store,buy_app_android,,
+Weight App,PRODUCTIVITY,2.6,850948,27M,10000,Paid,3.0,Teen,2025-04-09 00:00:00,android,play_store,weight_app_android,,
+Play App,GAME,0.9,972491,45M,10000,Paid,9.0,Everyone,2023-04-18 00:00:00,android,play_store,play_app_android,,
+Major App,HEALTH,3.7,961081,66M,1000,Free,0.0,Teen,2021-08-13 00:00:00,android,play_store,major_app_android,,
+Compare App,HEALTH,1.8,894243,50M,1000,Paid,0.0,Teen,2021-07-07 00:00:00,android,play_store,compare_app_android,,
+Whether App,FINANCE,3.8,798206,38M,10000000,Paid,17.0,Everyone,2021-11-07 00:00:00,android,play_store,whether_app_android,,
+Anything App,FINANCE,2.2,379266,37M,10000,Free,0.0,Everyone,2025-06-17 00:00:00,android,play_store,anything_app_android,,
+Guy App,SOCIAL,4.1,477876,65M,1000,Paid,7.0,Mature 17+,2020-09-06 00:00:00,android,play_store,guy_app_android,,
+Happen App,SOCIAL,3.7,711286,55M,100000,Free,0.0,Mature 17+,2021-03-05 00:00:00,android,play_store,happen_app_android,,
+Each App,EDUCATION,0.3,762922,85M,1000000,Paid,0.0,Teen,2025-09-30 00:00:00,android,play_store,each_app_android,,
+Agent App,EDUCATION,4.5,470757,20M,1000000,Free,9.0,Everyone,2024-04-13 00:00:00,android,play_store,agent_app_android,,
+Budget App,PRODUCTIVITY,0.4,53263,90M,10000000,Paid,0.0,Teen,2020-04-01 00:00:00,android,play_store,budget_app_android,,
+Occur App,EDUCATION,3.8,930844,63M,10000,Free,0.0,Teen,2020-03-26 00:00:00,android,play_store,occur_app_android,,
+Garden App,GAME,2.9,892290,6M,1000000,Paid,0.0,Mature 17+,2020-04-01 00:00:00,android,play_store,garden_app_android,,
+Interest App,SOCIAL,4.0,842862,100M,10000000,Free,13.0,Mature 17+,2022-03-08 00:00:00,android,play_store,interest_app_android,,
+Expert App,HEALTH,2.0,664853,21M,1000,Free,0.0,Mature 17+,2021-02-24 00:00:00,android,play_store,expert_app_android,,
+Set App,EDUCATION,2.5,333108,24M,10000000,Free,1.0,Teen,2022-08-12 00:00:00,android,play_store,set_app_android,,
+Fact App,SOCIAL,4.3,208135,52M,1000,Paid,0.0,Teen,2022-05-28 00:00:00,android,play_store,fact_app_android,,
+Teach App,EDUCATION,4.7,546402,42M,100000,Free,14.0,Mature 17+,2024-01-19 00:00:00,android,play_store,teach_app_android,,
+Task App,PRODUCTIVITY,4.3,530980,9M,100000,Free,0.0,Mature 17+,2022-12-16 00:00:00,android,play_store,task_app_android,,
+Natural App,SOCIAL,1.6,813229,66M,1000000,Free,10.0,Everyone,2023-03-06 00:00:00,android,play_store,natural_app_android,,
+Shoulder App,EDUCATION,2.7,916939,39M,100000,Paid,0.0,Everyone,2023-07-22 00:00:00,android,play_store,shoulder_app_android,,
+We App,SOCIAL,3.6,394173,38M,100000,Paid,0.0,Teen,2023-03-04 00:00:00,android,play_store,we_app_android,,
+Tend App,SOCIAL,3.0,609424,70M,1000000,Free,0.0,Teen,2024-04-20 00:00:00,android,play_store,tend_app_android,,
+Business App,EDUCATION,3.2,15434,31M,1000000,Paid,11.0,Everyone,2023-07-19 00:00:00,android,play_store,business_app_android,,
+Report App,HEALTH,4.4,858052,67M,100000,Paid,0.0,Mature 17+,2020-08-24 00:00:00,android,play_store,report_app_android,,
+Father App,SOCIAL,0.6,741261,63M,10000000,Paid,19.0,Teen,2020-03-13 00:00:00,android,play_store,father_app_android,,
+Pattern App,PRODUCTIVITY,0.4,526568,14M,100000,Free,0.0,Everyone,2024-05-11 00:00:00,android,play_store,pattern_app_android,,
+Now App,FINANCE,4.9,149815,24M,100000,Paid,0.0,Mature 17+,2023-07-07 00:00:00,android,play_store,now_app_android,,
+Whose App,PRODUCTIVITY,3.1,806455,45M,1000,Free,4.0,Mature 17+,2020-08-29 00:00:00,android,play_store,whose_app_android,,
+Realize App,SOCIAL,4.4,19393,55M,10000000,Free,0.0,Teen,2025-04-01 00:00:00,android,play_store,realize_app_android,,
+Fill App,FINANCE,1.6,219154,91M,1000000,Paid,8.0,Mature 17+,2020-11-10 00:00:00,android,play_store,fill_app_android,,
+Spring App,GAME,4.0,339472,54M,10000000,Paid,0.0,Everyone,2021-07-15 00:00:00,android,play_store,spring_app_android,,
+Need App,EDUCATION,1.1,61371,2M,1000,Free,0.0,Everyone,2024-11-11 00:00:00,android,play_store,need_app_android,,
+Baby App,HEALTH,3.8,549522,76M,1000,Free,18.0,Mature 17+,2024-01-18 00:00:00,android,play_store,baby_app_android,,
+Body App,PRODUCTIVITY,1.3,827124,42M,1000000,Free,0.0,Teen,2021-09-20 00:00:00,android,play_store,body_app_android,,
+Send App,PRODUCTIVITY,2.4,82463,62M,10000,Paid,0.0,Teen,2025-07-09 00:00:00,android,play_store,send_app_android,,
+Social App,SOCIAL,4.0,898799,99M,1000,Paid,4.0,Everyone,2021-07-11 00:00:00,android,play_store,social_app_android,,
+Begin App,GAME,0.7,533075,94M,10000,Free,0.0,Teen,2024-02-27 00:00:00,android,play_store,begin_app_android,,
+Leader App,SOCIAL,2.1,454506,73M,10000000,Paid,0.0,Everyone,2020-10-21 00:00:00,android,play_store,leader_app_android,,
+Goal App,EDUCATION,3.9,802793,16M,1000,Free,0.0,Teen,2025-03-21 00:00:00,android,play_store,goal_app_android,,
+Southern App,PRODUCTIVITY,1.0,573020,35M,10000,Paid,0.0,Teen,2020-11-06 00:00:00,android,play_store,southern_app_android,,
+Just App,FINANCE,2.6,119898,83M,1000000,Paid,0.0,Mature 17+,2024-03-19 00:00:00,android,play_store,just_app_android,,
+Section App,SOCIAL,1.0,975849,90M,1000,Free,0.0,Mature 17+,2023-10-03 00:00:00,android,play_store,section_app_android,,
+Ever App,EDUCATION,1.0,681163,62M,10000,Free,13.0,Teen,2023-09-24 00:00:00,android,play_store,ever_app_android,,
+Money App,SOCIAL,3.2,546462,91M,1000,Paid,17.0,Everyone,2024-02-10 00:00:00,android,play_store,money_app_android,,
+Together App,SOCIAL,3.9,12306,4M,100000,Paid,3.0,Mature 17+,2025-07-10 00:00:00,android,play_store,together_app_android,,
+Side App,EDUCATION,0.2,774254,77M,100000,Free,0.0,Mature 17+,2023-12-09 00:00:00,android,play_store,side_app_android,,
+Movie App,PRODUCTIVITY,4.5,460146,71M,100000,Paid,14.0,Mature 17+,2025-06-20 00:00:00,android,play_store,movie_app_android,,
+Free App,PRODUCTIVITY,2.7,861665,85M,10000,Free,0.0,Teen,2021-01-06 00:00:00,android,play_store,free_app_android,,
+Various App,EDUCATION,5.0,260365,68M,1000,Free,4.0,Mature 17+,2020-09-19 00:00:00,android,play_store,various_app_android,,
+Financial App,PRODUCTIVITY,3.5,778586,26M,100000,Free,0.0,Everyone,2022-05-19 00:00:00,android,play_store,financial_app_android,,
+Create App,EDUCATION,0.9,688579,53M,1000,Free,0.0,Everyone,2022-10-09 00:00:00,android,play_store,create_app_android,,
+Bit App,PRODUCTIVITY,4.1,730074,75M,100000,Free,0.0,Everyone,2025-02-09 00:00:00,android,play_store,bit_app_android,,
+Their App,GAME,3.6,873551,87M,100000,Paid,0.0,Mature 17+,2022-03-07 00:00:00,android,play_store,their_app_android,,
+Kitchen App,FINANCE,1.0,633198,98M,10000000,Free,19.0,Mature 17+,2020-07-04 00:00:00,android,play_store,kitchen_app_android,,
+Drug App,FINANCE,1.5,833753,88M,10000,Paid,0.0,Everyone,2022-01-15 00:00:00,android,play_store,drug_app_android,,
+Television App,SOCIAL,4.1,800843,14M,1000,Paid,0.0,Everyone,2020-12-06 00:00:00,android,play_store,television_app_android,,
+Stuff App,PRODUCTIVITY,3.1,923576,65M,1000000,Free,8.0,Everyone,2025-09-23 00:00:00,android,play_store,stuff_app_android,,
+Reduce App,SOCIAL,4.7,93421,14M,10000000,Paid,0.0,Everyone,2021-04-01 00:00:00,android,play_store,reduce_app_android,,
+Right App,PRODUCTIVITY,0.2,992113,19M,10000000,Paid,0.0,Everyone,2024-10-31 00:00:00,android,play_store,right_app_android,,
+Nation App,PRODUCTIVITY,2.0,897993,67M,100000,Free,17.0,Everyone,2020-05-30 00:00:00,android,play_store,nation_app_android,,
+Pull App,FINANCE,2.2,704349,45M,10000,Paid,2.0,Teen,2020-05-30 00:00:00,android,play_store,pull_app_android,,
+Grow App,SOCIAL,1.9,550910,44M,100000,Free,0.0,Everyone,2023-03-03 00:00:00,android,play_store,grow_app_android,,
+Yourself App,SOCIAL,1.9,21856,51M,1000,Free,0.0,Mature 17+,2021-04-17 00:00:00,android,play_store,yourself_app_android,,
+Development App,SOCIAL,2.0,625335,85M,10000000,Free,0.0,Mature 17+,2021-12-18 00:00:00,android,play_store,development_app_android,,
+Trouble App,HEALTH,4.3,645221,98M,1000000,Paid,18.0,Everyone,2023-02-01 00:00:00,android,play_store,trouble_app_android,,
+Surface App,SOCIAL,3.7,117870,77M,1000000,Free,0.0,Mature 17+,2023-02-28 00:00:00,android,play_store,surface_app_android,,
+Week App,PRODUCTIVITY,0.7,91355,46M,1000000,Free,15.0,Mature 17+,2025-02-06 00:00:00,android,play_store,week_app_android,,
+Economy App,EDUCATION,3.1,29936,51M,10000,Free,0.0,Mature 17+,2023-03-31 00:00:00,android,play_store,economy_app_android,,
+Because App,SOCIAL,2.0,111099,86M,100000,Paid,0.0,Mature 17+,2022-06-18 00:00:00,android,play_store,because_app_android,,
+Future App,GAME,2.6,357846,56M,10000,Paid,0.0,Mature 17+,2022-02-19 00:00:00,android,play_store,future_app_android,,
+Find App,PRODUCTIVITY,1.9,471985,63M,1000000,Free,8.0,Teen,2024-11-07 00:00:00,android,play_store,find_app_android,,
+Western App,EDUCATION,0.6,86446,6M,10000000,Free,0.0,Everyone,2021-08-26 00:00:00,android,play_store,western_app_android,,
+Discussion App,HEALTH,3.3,647088,30M,100000,Paid,15.0,Teen,2023-09-27 00:00:00,android,play_store,discussion_app_android,,
+Yet App,GAME,1.1,512027,63M,1000,Free,20.0,Mature 17+,2023-12-05 00:00:00,android,play_store,yet_app_android,,
+Hospital App,HEALTH,3.2,311362,54M,10000000,Free,17.0,Mature 17+,2020-04-20 00:00:00,android,play_store,hospital_app_android,,
+Save App,FINANCE,1.7,56996,49M,10000,Paid,0.0,Mature 17+,2022-03-17 00:00:00,android,play_store,save_app_android,,
+Site App,EDUCATION,1.0,627161,62M,10000,Free,0.0,Everyone,2025-06-07 00:00:00,android,play_store,site_app_android,,
+Trial App,EDUCATION,2.4,736502,26M,10000000,Free,0.0,Everyone,2023-08-06 00:00:00,android,play_store,trial_app_android,,
+For App,GAME,3.9,427406,11M,10000000,Free,2.0,Teen,2020-12-27 00:00:00,android,play_store,for_app_android,,
+Remain App,FINANCE,4.7,486636,85M,1000000,Paid,2.0,Mature 17+,2020-08-05 00:00:00,android,play_store,remain_app_android,,
+Far App,PRODUCTIVITY,4.7,179034,74M,1000,Paid,12.0,Everyone,2025-01-15 00:00:00,android,play_store,far_app_android,,
+Including App,HEALTH,0.1,351864,55M,1000000,Paid,18.0,Mature 17+,2022-04-18 00:00:00,android,play_store,including_app_android,,
+Commercial App,SOCIAL,2.3,760778,19M,10000,Free,0.0,Teen,2020-08-28 00:00:00,android,play_store,commercial_app_android,,
+Season App,HEALTH,4.6,970429,90M,1000,Paid,8.0,Teen,2021-10-20 00:00:00,android,play_store,season_app_android,,
+Employee App,GAME,4.0,768447,58M,1000000,Free,0.0,Everyone,2024-05-03 00:00:00,android,play_store,employee_app_android,,
+Large App,EDUCATION,0.6,884237,4M,10000,Paid,0.0,Mature 17+,2024-07-26 00:00:00,android,play_store,large_app_android,,
+Least App,SOCIAL,0.5,372475,46M,1000,Free,0.0,Teen,2024-03-11 00:00:00,android,play_store,least_app_android,,
+Religious App,FINANCE,2.6,689545,71M,1000,Paid,3.0,Everyone,2020-03-15 00:00:00,android,play_store,religious_app_android,,
+Believe App,EDUCATION,4.5,14194,30M,1000,Free,0.0,Everyone,2020-12-29 00:00:00,android,play_store,believe_app_android,,
+National App,HEALTH,3.6,13630,36M,1000000,Paid,5.0,Everyone,2020-01-23 00:00:00,android,play_store,national_app_android,,
+Fish App,SOCIAL,4.2,595720,2M,100000,Free,15.0,Mature 17+,2023-07-06 00:00:00,android,play_store,fish_app_android,,
+Then App,FINANCE,2.8,12552,77M,100000,Free,15.0,Mature 17+,2022-07-23 00:00:00,android,play_store,then_app_android,,
+Clear App,GAME,3.2,726399,37M,10000000,Paid,9.0,Teen,2023-01-04 00:00:00,android,play_store,clear_app_android,,
+Well App,FINANCE,3.6,379111,38M,1000000,Free,0.0,Teen,2021-05-21 00:00:00,android,play_store,well_app_android,,
+Blood App,EDUCATION,4.5,111534,88M,10000000,Paid,0.0,Teen,2021-02-27 00:00:00,android,play_store,blood_app_android,,
+Story App,FINANCE,2.9,882406,69M,10000000,Paid,18.0,Mature 17+,2023-06-18 00:00:00,android,play_store,story_app_android,,
+Subject App,HEALTH,0.6,926689,88M,1000,Free,9.0,Everyone,2025-08-30 00:00:00,android,play_store,subject_app_android,,
+Letter App,GAME,1.8,52590,70M,1000,Free,3.0,Everyone,2023-03-16 00:00:00,android,play_store,letter_app_android,,
+Security App,EDUCATION,1.8,268138,1M,10000,Paid,2.0,Mature 17+,2022-05-08 00:00:00,android,play_store,security_app_android,,
+Loss App,FINANCE,0.6,586404,51M,1000,Free,14.0,Everyone,2024-01-07 00:00:00,android,play_store,loss_app_android,,
+Something App,GAME,0.6,243221,44M,10000,Free,0.0,Mature 17+,2023-02-21 00:00:00,android,play_store,something_app_android,,
+Seek App,SOCIAL,0.5,993517,72M,10000000,Paid,2.0,Mature 17+,2023-06-07 00:00:00,android,play_store,seek_app_android,,
+Join App,PRODUCTIVITY,4.0,289304,8M,100000,Free,0.0,Everyone,2022-03-09 00:00:00,android,play_store,join_app_android,,
+Close App,EDUCATION,0.3,300824,69M,1000000,Free,0.0,Teen,2021-05-19 00:00:00,android,play_store,close_app_android,,
+Career App,GAME,3.4,815214,89M,1000000,Free,7.0,Mature 17+,2021-11-06 00:00:00,android,play_store,career_app_android,,
+Eat App,SOCIAL,3.4,265521,13M,1000,Paid,4.0,Mature 17+,2020-11-21 00:00:00,android,play_store,eat_app_android,,
+Your App,FINANCE,2.0,444596,78M,10000,Paid,0.0,Teen,2020-10-26 00:00:00,android,play_store,your_app_android,,
+Military App,FINANCE,4.5,969919,22M,1000000,Free,0.0,Teen,2024-02-09 00:00:00,android,play_store,military_app_android,,
+Travel App,FINANCE,0.2,779619,65M,10000000,Paid,0.0,Everyone,2020-11-30 00:00:00,android,play_store,travel_app_android,,
+Outside App,FINANCE,0.4,265788,70M,10000000,Free,16.0,Mature 17+,2022-12-10 00:00:00,android,play_store,outside_app_android,,
+Visit App,GAME,4.5,466581,33M,1000000,Free,0.0,Everyone,2022-10-31 00:00:00,android,play_store,visit_app_android,,
+Miss App,HEALTH,0.2,751856,10M,10000,Paid,0.0,Everyone,2020-08-18 00:00:00,android,play_store,miss_app_android,,
+Strong App,FINANCE,2.1,945980,61M,100000,Free,11.0,Everyone,2021-10-28 00:00:00,android,play_store,strong_app_android,,
+Language App,FINANCE,4.4,262158,16M,10000,Free,0.0,Everyone,2020-11-13 00:00:00,android,play_store,language_app_android,,
+Ball App,EDUCATION,4.3,35289,63M,1000000,Free,7.0,Teen,2025-07-21 00:00:00,android,play_store,ball_app_android,,
+Civil App,FINANCE,1.2,537841,42M,10000,Paid,0.0,Everyone,2025-05-23 00:00:00,android,play_store,civil_app_android,,
+Will App,FINANCE,4.4,349247,34M,1000,Paid,0.0,Teen,2021-02-06 00:00:00,android,play_store,will_app_android,,
+Easy App,EDUCATION,4.5,620406,9M,10000000,Paid,3.0,Everyone,2025-03-25 00:00:00,android,play_store,easy_app_android,,
+Quality App,HEALTH,0.9,757952,81M,1000,Free,0.0,Teen,2020-10-20 00:00:00,android,play_store,quality_app_android,,
+Ago App,EDUCATION,0.9,620981,5M,1000000,Free,18.0,Mature 17+,2022-07-28 00:00:00,android,play_store,ago_app_android,,
+Table App,EDUCATION,2.4,989475,58M,10000000,Paid,15.0,Everyone,2025-05-11 00:00:00,android,play_store,table_app_android,,
+Teacher App,FINANCE,4.9,73697,33M,1000,Free,0.0,Teen,2024-07-05 00:00:00,android,play_store,teacher_app_android,,
+Off App,FINANCE,5.0,5665,41M,10000000,Free,15.0,Teen,2024-07-26 00:00:00,android,play_store,off_app_android,,
+Boy App,PRODUCTIVITY,3.9,271575,14M,100000,Paid,0.0,Teen,2024-03-06 00:00:00,android,play_store,boy_app_android,,
+Kind App,FINANCE,0.3,791218,34M,10000000,Free,5.0,Everyone,2023-07-10 00:00:00,android,play_store,kind_app_android,,
+Arrive App,EDUCATION,0.3,368927,59M,1000000,Paid,0.0,Mature 17+,2021-04-09 00:00:00,android,play_store,arrive_app_android,,
+Health App,GAME,3.2,790973,16M,1000000,Paid,7.0,Mature 17+,2021-04-21 00:00:00,android,play_store,health_app_android,,
+Often App,SOCIAL,1.5,299184,1M,1000,Free,20.0,Everyone,2021-11-29 00:00:00,android,play_store,often_app_android,,
+Account App,FINANCE,0.3,328212,76M,10000,Paid,19.0,Mature 17+,2020-04-03 00:00:00,android,play_store,account_app_android,,
+Thank App,HEALTH,3.2,118289,49M,1000,Free,0.0,Teen,2023-04-26 00:00:00,android,play_store,thank_app_android,,
+Economic App,PRODUCTIVITY,2.8,604340,29M,10000,Paid,7.0,Teen,2024-03-02 00:00:00,android,play_store,economic_app_android,,
+Book App,FINANCE,1.4,863789,44M,100000,Free,0.0,Everyone,2020-05-19 00:00:00,android,play_store,book_app_android,,
+Event App,EDUCATION,2.9,679510,10M,10000,Paid,0.0,Teen,2024-10-31 00:00:00,android,play_store,event_app_android,,
+Simply App,Finance,1.8,69749,288.1M,Not Available,Free,0.0,Unknown,2025-01-05,ios,app_store,491183901,Rodriguez-Marshall,302069319.0
+Garden App,Social Networking,2.0,247766,359.8M,Not Available,Free,13.0,Unknown,2025-08-14,ios,app_store,465470509,Fleming-Pittman,377277929.0
+List App,Games,3.0,165873,382.2M,Not Available,Free,0.0,Unknown,2025-01-23,ios,app_store,994584942,Ross-Acevedo,400730028.0
+Everyone App,Productivity,2.0,395749,381.7M,Not Available,Free,0.0,Unknown,2025-03-24,ios,app_store,697978281,Mcgee-Jones,400219502.0
+Interest App,Finance,3.3,111337,346.8M,Not Available,Free,0.0,Unknown,2025-03-14,ios,app_store,621334434,"Hicks, Smith and Smith",363653569.0
+Long App,Games,4.6,407564,208.9M,Not Available,Free,10.0,Unknown,2025-01-06,ios,app_store,185482255,Estrada Ltd,219071434.0
+Available App,Finance,2.3,451178,332.3M,Not Available,Free,0.0,Unknown,2025-08-18,ios,app_store,315376823,Zimmerman-Martin,348450313.0
+Cost App,Productivity,3.7,147840,216.7M,Not Available,Free,0.0,Unknown,2025-05-21,ios,app_store,443915841,"Rogers, Cox and Trujillo",227226390.0
+Base App,Games,3.0,485316,429.2M,Not Available,Free,9.0,Unknown,2025-08-09,ios,app_store,122591154,"Francis, Bailey and Dennis",450058653.0
+Partner App,Education,3.4,116373,453.5M,Not Available,Free,0.0,Unknown,2025-02-09,ios,app_store,264088462,Singleton-Davis,475565231.0
+Central App,Social Networking,3.5,343825,249.2M,Not Available,Free,0.0,Unknown,2025-04-08,ios,app_store,715836098,Davis-Hamilton,261349523.0
+Set App,Health & Fitness,1.9,238099,290.8M,Not Available,Free,0.0,Unknown,2025-02-10,ios,app_store,575199449,"Sanchez, Casey and Berry",304927965.0
+Least App,Social Networking,3.9,428569,362.4M,Not Available,Free,0.0,Unknown,2025-05-21,ios,app_store,216193034,Jones-Harris,379972148.0
+Reach App,Health & Fitness,1.2,261854,430.1M,Not Available,Free,0.0,Unknown,2025-08-15,ios,app_store,306142463,Lopez and Sons,450978887.0
+Defense App,Health & Fitness,1.0,278552,232.9M,Not Available,Free,0.0,Unknown,2025-04-22,ios,app_store,611606105,"Castillo, Leach and Jones",244244975.0
+Current App,Games,4.7,4343,268.2M,Not Available,Free,2.0,Unknown,2025-02-27,ios,app_store,355303704,Burnett-Collins,281211321.0
+Job App,Social Networking,3.7,6586,258.3M,Not Available,Free,0.0,Unknown,2025-05-16,ios,app_store,386441246,Murphy-Smith,270862729.0
+Quality App,Social Networking,2.6,493120,178.8M,Not Available,Free,1.0,Unknown,2025-09-26,ios,app_store,918167824,Carson and Sons,187458004.0
+Ok App,Health & Fitness,4.6,123050,209.6M,Not Available,Free,3.0,Unknown,2025-01-27,ios,app_store,904899620,"Garcia, Willis and Harper",219829657.0
+View App,Education,5.0,312625,133.4M,Not Available,Free,0.0,Unknown,2025-08-07,ios,app_store,322021427,Barrera PLC,139928711.0
+Source App,Finance,1.3,122219,371.8M,Not Available,Free,0.0,Unknown,2025-03-05,ios,app_store,568787677,Guzman-Black,389808575.0
+Analysis App,Social Networking,2.7,35906,251.1M,Not Available,Free,0.0,Unknown,2025-08-22,ios,app_store,484212935,Mitchell Group,263253828.0
+Your App,Productivity,3.3,151221,443.3M,Not Available,Free,8.0,Unknown,2025-03-18,ios,app_store,410945145,"Patterson, Allen and Brown",464784316.0
+Control App,Social Networking,1.5,473159,441.6M,Not Available,Free,0.0,Unknown,2025-03-05,ios,app_store,397296879,Huffman Inc,463037474.0
+Listen App,Social Networking,2.9,161514,102.7M,Not Available,Free,0.0,Unknown,2025-07-25,ios,app_store,649397669,Mills-Bowman,107703230.0
+One App,Health & Fitness,2.8,81797,167.5M,Not Available,Free,0.0,Unknown,2025-01-08,ios,app_store,178403195,"Walker, Gomez and Rodriguez",175593379.0
+Outside App,Education,4.6,284906,356.4M,Not Available,Free,8.0,Unknown,2025-01-19,ios,app_store,814781118,Young and Sons,373743962.0
+Position App,Education,2.8,40818,280.2M,Not Available,Free,1.0,Unknown,2025-01-12,ios,app_store,677537596,Joseph Inc,293779716.0
+Relationship App,Social Networking,3.6,280587,303.7M,Not Available,Free,15.0,Unknown,2025-06-15,ios,app_store,781526134,"Carrillo, Good and Conrad",318435379.0
+Environment App,Health & Fitness,2.5,458650,280.5M,Not Available,Free,0.0,Unknown,2025-09-06,ios,app_store,186772605,Brown Inc,294161996.0
+Office App,Health & Fitness,5.0,442091,343.5M,Not Available,Free,0.0,Unknown,2025-01-28,ios,app_store,258805391,"Park, Moore and Jackson",360232454.0
+Party App,Social Networking,3.5,391426,111.7M,Not Available,Free,7.0,Unknown,2025-03-02,ios,app_store,651449021,"Cooper, Marshall and Waters",117174727.0
+Actually App,Productivity,4.1,481424,211.5M,Not Available,Free,12.0,Unknown,2025-03-31,ios,app_store,829473296,"Greene, Mays and Simmons",221815270.0
+Anyone App,Education,1.4,54020,414.1M,Not Available,Free,0.0,Unknown,2025-05-12,ios,app_store,535676597,Miller LLC,434227915.0
+Serve App,Productivity,4.6,218657,372.3M,Not Available,Free,0.0,Unknown,2025-09-30,ios,app_store,895351905,Raymond-Miles,390405955.0
+Who App,Health & Fitness,1.3,197885,396.8M,Not Available,Free,0.0,Unknown,2025-05-23,ios,app_store,967156479,"Pham, Espinoza and Guerrero",416118079.0
+Plant App,Games,4.3,222570,417.3M,Not Available,Free,0.0,Unknown,2025-07-21,ios,app_store,101456443,"Martinez, Adams and Coleman",437599571.0
+Bit App,Games,4.2,202601,261.0M,Not Available,Free,0.0,Unknown,2025-09-15,ios,app_store,144046500,Jones-Williams,273716571.0
+Property App,Health & Fitness,2.6,12363,239.9M,Not Available,Free,4.0,Unknown,2025-03-07,ios,app_store,960971619,Roach-Anderson,251582008.0
+Wide App,Health & Fitness,4.9,283653,411.6M,Not Available,Free,0.0,Unknown,2025-01-22,ios,app_store,314443063,Salazar-Smith,431558988.0
+Challenge App,Social Networking,4.5,472530,432.9M,Not Available,Free,0.0,Unknown,2025-06-07,ios,app_store,635588757,Booth Inc,453907791.0
+Nothing App,Education,3.6,119114,311.1M,Not Available,Free,0.0,Unknown,2025-03-01,ios,app_store,907651923,Brady Group,326260950.0
+Professor App,Finance,4.5,84880,27.9M,Not Available,Free,1.0,Unknown,2025-04-06,ios,app_store,700140984,Jones Ltd,29229852.0
+Single App,Education,2.5,279816,62.5M,Not Available,Free,0.0,Unknown,2025-09-13,ios,app_store,342905590,Robinson PLC,65493325.0
+Democrat App,Health & Fitness,3.7,236652,210.5M,Not Available,Free,18.0,Unknown,2025-03-27,ios,app_store,527667620,"Dillon, Mitchell and Blair",220691174.0
+Hold App,Games,4.7,98505,271.6M,Not Available,Free,0.0,Unknown,2025-03-16,ios,app_store,412299346,Cortez LLC,284793108.0
+Less App,Finance,1.0,15020,184.0M,Not Available,Free,13.0,Unknown,2025-03-25,ios,app_store,478367020,Nguyen Inc,192918214.0
+Grow App,Productivity,1.1,313358,232.6M,Not Available,Free,0.0,Unknown,2025-02-09,ios,app_store,234287901,"Hayes, Reese and Campbell",243849768.0
+Different App,Education,5.0,264346,37.4M,Not Available,Free,0.0,Unknown,2025-04-05,ios,app_store,263195168,"Le, Mccoy and Robinson",39202284.0
+Fear App,Social Networking,4.4,104024,275.2M,Not Available,Free,0.0,Unknown,2025-07-16,ios,app_store,410765265,Reed PLC,288522909.0
+Nor App,Games,4.9,2772,179.6M,Not Available,Free,7.0,Unknown,2025-03-20,ios,app_store,744057086,Jones-Butler,188296705.0
+Fact App,Social Networking,4.9,154151,11.4M,Not Available,Free,0.0,Unknown,2025-09-04,ios,app_store,164126228,Hughes-Williamson,11942534.0
+Stock App,Games,3.5,118247,412.1M,Not Available,Free,16.0,Unknown,2025-05-11,ios,app_store,462217572,Christensen-Henderson,432130177.0
+Occur App,Productivity,1.2,397159,354.8M,Not Available,Free,0.0,Unknown,2025-07-10,ios,app_store,111131667,Moore-Jones,372066742.0
+Guess App,Productivity,1.9,384666,208.0M,Not Available,Free,5.0,Unknown,2025-05-29,ios,app_store,292243748,"French, Jones and Gibson",218117232.0
+Consider App,Games,1.6,102641,256.7M,Not Available,Free,8.0,Unknown,2025-08-11,ios,app_store,457530657,Myers-Gutierrez,269149361.0
+Pay App,Finance,3.5,444940,226.3M,Not Available,Free,0.0,Unknown,2025-10-02,ios,app_store,108400355,"Walls, Mcpherson and Porter",237260625.0
+Local App,Productivity,3.7,435116,54.1M,Not Available,Free,0.0,Unknown,2025-01-01,ios,app_store,640991725,Larsen-Richardson,56713011.0
+Concern App,Finance,2.5,247301,313.9M,Not Available,Free,19.0,Unknown,2025-08-14,ios,app_store,115353395,"Tucker, Smith and Johnson",329170175.0
+Peace App,Education,4.5,397802,202.2M,Not Available,Free,20.0,Unknown,2025-06-04,ios,app_store,392636043,Sparks LLC,212013160.0
+Win App,Health & Fitness,1.3,428073,303.2M,Not Available,Free,0.0,Unknown,2025-02-16,ios,app_store,903289713,Golden-Bishop,317973098.0
+Knowledge App,Health & Fitness,3.1,265877,272.5M,Not Available,Free,0.0,Unknown,2025-07-10,ios,app_store,460622699,Arellano-Greene,285776120.0
+Price App,Productivity,1.2,473484,413.4M,Not Available,Free,0.0,Unknown,2025-07-29,ios,app_store,975064349,Watts-Anderson,433437770.0
+Choose App,Finance,4.9,69790,22.5M,Not Available,Free,0.0,Unknown,2025-08-31,ios,app_store,979881785,"Coleman, Rich and Reese",23556026.0
+Probably App,Finance,4.6,357068,407.1M,Not Available,Free,13.0,Unknown,2025-05-28,ios,app_store,159885496,Watkins-Nelson,426908702.0
+Candidate App,Games,2.2,151445,441.1M,Not Available,Free,0.0,Unknown,2025-08-14,ios,app_store,400319553,Brandt Ltd,462480913.0
+Food App,Finance,3.3,80284,226.0M,Not Available,Free,0.0,Unknown,2025-08-13,ios,app_store,534124522,Maldonado-Thompson,236951426.0
+Chance App,Social Networking,4.1,365247,157.3M,Not Available,Free,0.0,Unknown,2025-04-11,ios,app_store,814148777,"Roberts, David and Lee",164984854.0
+Sure App,Finance,1.5,192375,26.7M,Not Available,Free,0.0,Unknown,2025-06-04,ios,app_store,527536434,Murphy-Smith,28031779.0
+Power App,Games,2.0,43664,375.2M,Not Available,Free,0.0,Unknown,2025-09-10,ios,app_store,468448685,Franco-Morris,393465413.0
+Grow App,Education,1.6,314457,308.0M,Not Available,Free,0.0,Unknown,2025-03-19,ios,app_store,420006741,"Foster, Mason and Barr",322929541.0
+Strategy App,Social Networking,2.5,339649,140.6M,Not Available,Free,0.0,Unknown,2025-04-28,ios,app_store,883424370,"Woodward, Reid and Sanchez",147462739.0
+Direction App,Education,4.1,436745,32.4M,Not Available,Free,0.0,Unknown,2025-03-01,ios,app_store,170239777,Small-Butler,33976039.0
+Wide App,Productivity,3.9,446041,258.9M,Not Available,Free,0.0,Unknown,2025-09-19,ios,app_store,945903654,Cameron-Kirk,271505615.0
+Sit App,Finance,3.7,125489,397.8M,Not Available,Free,0.0,Unknown,2025-02-21,ios,app_store,661129433,"Smith, Henson and Pruitt",417140854.0
+Door App,Productivity,3.9,301,338.0M,Not Available,Free,0.0,Unknown,2025-08-11,ios,app_store,106628941,Velasquez Inc,354427770.0
+Physical App,Finance,2.4,274443,376.7M,Not Available,Free,0.0,Unknown,2025-07-09,ios,app_store,374443432,"Rogers, Walsh and Kaufman",394975128.0
+Wear App,Health & Fitness,1.1,243154,112.0M,Not Available,Free,0.0,Unknown,2025-04-01,ios,app_store,413576558,"Kelley, Scott and Luna",117421435.0
+Doctor App,Social Networking,1.6,173948,360.6M,Not Available,Free,12.0,Unknown,2025-01-31,ios,app_store,122572142,"Hatfield, Day and Smith",378141745.0
+Already App,Finance,2.4,142661,101.9M,Not Available,Free,0.0,Unknown,2025-07-16,ios,app_store,842186924,"Kidd, Dawson and Mcbride",106842186.0
+System App,Games,5.0,209472,281.4M,Not Available,Free,0.0,Unknown,2025-03-11,ios,app_store,683760982,"Aguilar, Wolfe and Jackson",295038894.0
+Art App,Education,5.0,366767,316.3M,Not Available,Free,0.0,Unknown,2025-01-29,ios,app_store,725854386,"Smith, Munoz and Mason",331629903.0
+Happen App,Social Networking,1.7,47275,42.5M,Not Available,Free,18.0,Unknown,2025-04-20,ios,app_store,219021229,"Gill, Franklin and Lopez",44602387.0
+Make App,Finance,1.7,152614,18.9M,Not Available,Free,12.0,Unknown,2025-05-11,ios,app_store,853210405,Jennings Ltd,19807749.0
+Manage App,Social Networking,1.5,248417,223.6M,Not Available,Free,0.0,Unknown,2025-05-26,ios,app_store,210390837,"Green, Ruiz and Nash",234435724.0
+Meeting App,Games,2.2,89491,443.1M,Not Available,Free,0.0,Unknown,2025-07-16,ios,app_store,232941873,"Soto, Kelly and Wright",464611769.0
+Hundred App,Games,4.1,163658,424.7M,Not Available,Free,0.0,Unknown,2025-07-01,ios,app_store,186711593,Smith-Coffey,445323026.0
+Compare App,Social Networking,3.5,469862,310.4M,Not Available,Free,4.0,Unknown,2025-04-05,ios,app_store,267289002,"Fletcher, Steele and Stanley",325459092.0
+Law App,Education,2.6,143638,183.4M,Not Available,Free,14.0,Unknown,2025-03-31,ios,app_store,951437955,"Yoder, Beck and Fisher",192282867.0
+Change App,Education,3.1,142654,258.5M,Not Available,Free,10.0,Unknown,2025-03-01,ios,app_store,471238716,"Martinez, Flowers and Vang",271091089.0
+Explain App,Games,2.8,243546,434.9M,Not Available,Free,0.0,Unknown,2025-06-30,ios,app_store,570632456,"Bryant, Chavez and Archer",455980224.0
+Happen App,Productivity,3.2,438380,374.5M,Not Available,Free,0.0,Unknown,2025-06-14,ios,app_store,675262652,"Miller, Spencer and Smith",392650010.0
+Least App,Finance,3.9,168786,403.2M,Not Available,Free,0.0,Unknown,2025-05-05,ios,app_store,305370990,White PLC,422768514.0
+Today App,Games,4.5,87467,181.0M,Not Available,Free,16.0,Unknown,2025-05-03,ios,app_store,318519561,Woodard LLC,189749461.0
+Bed App,Games,2.2,179667,419.6M,Not Available,Free,0.0,Unknown,2025-06-30,ios,app_store,231122521,Cardenas-Valencia,439940264.0
+Kid App,Social Networking,1.8,157534,433.6M,Not Available,Free,0.0,Unknown,2025-07-05,ios,app_store,613720380,"Rangel, Thomas and Smith",454641075.0
+Cell App,Games,4.0,225331,187.8M,Not Available,Free,0.0,Unknown,2025-06-12,ios,app_store,831926279,"Johnson, Martinez and Wilson",196920384.0
+Suddenly App,Productivity,2.1,164771,124.1M,Not Available,Free,0.0,Unknown,2025-09-02,ios,app_store,341223785,Phelps-Harper,130097674.0
+Between App,Social Networking,5.0,329239,37.9M,Not Available,Free,17.0,Unknown,2025-08-21,ios,app_store,962653395,Moore-Anderson,39756440.0
+Product App,Productivity,3.1,104747,35.4M,Not Available,Free,16.0,Unknown,2025-01-02,ios,app_store,861408262,"Morris, Mccormick and Burgess",37099051.0
+Compare App,Health & Fitness,2.1,310159,406.8M,Not Available,Free,0.0,Unknown,2025-06-04,ios,app_store,189718091,Ruiz Group,426574013.0
+Morning App,Education,3.7,419415,217.7M,Not Available,Free,0.0,Unknown,2025-09-19,ios,app_store,603737953,"Johnson, Mcdaniel and Hamilton",228315644.0
+Benefit App,Health & Fitness,3.6,354499,347.3M,Not Available,Free,8.0,Unknown,2025-05-27,ios,app_store,864980109,Vincent-Quinn,364218058.0
+General App,Finance,4.9,145859,97.4M,Not Available,Free,0.0,Unknown,2025-05-15,ios,app_store,442082134,Richardson-Watkins,102156553.0
+Word App,Finance,1.9,257203,95.8M,Not Available,Free,0.0,Unknown,2025-09-04,ios,app_store,493833081,Ellis LLC,100441740.0
+Too App,Health & Fitness,2.2,189783,243.7M,Not Available,Free,0.0,Unknown,2025-04-30,ios,app_store,656200742,Taylor-Richardson,255583437.0
+Eye App,Education,1.8,283072,155.9M,Not Available,Free,8.0,Unknown,2025-01-05,ios,app_store,212654874,Dyer LLC,163428948.0
+Against App,Health & Fitness,3.7,408368,463.4M,Not Available,Free,18.0,Unknown,2025-03-10,ios,app_store,407484351,"Wilson, Jones and Hester",485883652.0
+Management App,Education,2.3,297419,266.2M,Not Available,Free,0.0,Unknown,2025-05-27,ios,app_store,221259965,"Green, Wilson and Vincent",279085749.0
+Statement App,Social Networking,3.2,346405,430.0M,Not Available,Free,10.0,Unknown,2025-02-13,ios,app_store,928812863,Reyes and Sons,450853474.0
+Hit App,Games,2.8,52525,431.2M,Not Available,Free,0.0,Unknown,2025-02-20,ios,app_store,326629102,"Reed, Hamilton and Porter",452168425.0
+Site App,Health & Fitness,3.8,34229,475.8M,Not Available,Free,6.0,Unknown,2025-02-09,ios,app_store,451466726,Shields-Wilson,498943444.0
+Student App,Games,3.6,405032,214.0M,Not Available,Free,2.0,Unknown,2025-06-18,ios,app_store,885290354,"Kim, Dorsey and Warren",224372373.0
+Example App,Social Networking,4.7,14790,291.1M,Not Available,Free,8.0,Unknown,2025-03-12,ios,app_store,741436294,Murphy-Butler,305223597.0
+Fear App,Games,1.0,491675,199.2M,Not Available,Free,0.0,Unknown,2025-03-15,ios,app_store,615720784,"Flores, Hunter and Nichols",208861398.0
+Until App,Finance,1.7,396743,42.5M,Not Available,Free,0.0,Unknown,2025-05-12,ios,app_store,467459816,"Raymond, Reynolds and Bush",44562443.0
+Cup App,Finance,2.6,423454,46.0M,Not Available,Free,18.0,Unknown,2025-04-09,ios,app_store,989488596,"Alexander, Chang and Farley",48284983.0
+Explain App,Finance,4.3,75729,356.8M,Not Available,Free,0.0,Unknown,2025-08-12,ios,app_store,660673492,"Rowland, Gomez and Fitzpatrick",374106602.0
+Maybe App,Finance,4.7,238285,420.2M,Not Available,Free,14.0,Unknown,2025-08-01,ios,app_store,998641878,"Williams, Stone and Camacho",440607026.0
+Could App,Education,1.7,107311,409.7M,Not Available,Free,14.0,Unknown,2025-08-18,ios,app_store,251095242,Nunez-Garza,429593056.0
+Partner App,Education,1.5,5786,263.5M,Not Available,Free,20.0,Unknown,2025-01-15,ios,app_store,932869174,"Hudson, Macdonald and Hunt",276253674.0
+Bit App,Productivity,4.6,317524,460.0M,Not Available,Free,0.0,Unknown,2025-06-10,ios,app_store,261283289,Olsen-Richardson,482308504.0
+Page App,Education,2.8,414201,411.2M,Not Available,Free,0.0,Unknown,2025-04-04,ios,app_store,786850067,"Smith, Bailey and Guerra",431182372.0
+Need App,Finance,4.1,289613,305.1M,Not Available,Free,0.0,Unknown,2025-07-26,ios,app_store,853004959,"Williams, Gomez and Duran",319953847.0
+Low App,Health & Fitness,1.8,263380,82.7M,Not Available,Free,0.0,Unknown,2025-04-28,ios,app_store,798243006,Shields Ltd,86667397.0
+Red App,Productivity,4.6,6987,474.3M,Not Available,Free,0.0,Unknown,2025-06-09,ios,app_store,636028194,Mccarthy and Sons,497302301.0
+Color App,Education,3.1,353066,274.7M,Not Available,Free,0.0,Unknown,2025-06-04,ios,app_store,456484076,Wall PLC,288078766.0
+The App,Productivity,3.1,293229,363.9M,Not Available,Free,0.0,Unknown,2025-02-09,ios,app_store,791226681,Hurst Ltd,381617499.0
+End App,Productivity,4.5,317511,108.3M,Not Available,Free,0.0,Unknown,2025-05-17,ios,app_store,348586354,"Frye, Nguyen and Guerrero",113600560.0
+Performance App,Social Networking,3.7,358239,107.3M,Not Available,Free,3.0,Unknown,2025-06-17,ios,app_store,682389208,Nolan-Miller,112484661.0
+Administration App,Finance,2.5,214749,114.2M,Not Available,Free,0.0,Unknown,2025-05-10,ios,app_store,336111748,Carter and Sons,119753838.0
+Available App,Games,2.9,176294,42.4M,Not Available,Free,0.0,Unknown,2025-06-13,ios,app_store,563984697,"Brooks, Flores and Burgess",44454298.0
+More App,Social Networking,2.7,291784,80.8M,Not Available,Free,0.0,Unknown,2025-05-19,ios,app_store,851506952,Anderson-Rogers,84685141.0
+Data App,Finance,1.7,149488,438.7M,Not Available,Free,0.0,Unknown,2025-02-01,ios,app_store,107124538,Shields Ltd,460040499.0
+Position App,Social Networking,3.4,387504,210.8M,Not Available,Free,0.0,Unknown,2025-02-23,ios,app_store,226598871,"Chapman, Wolfe and Richardson",221055679.0
+Agree App,Education,3.5,190142,147.7M,Not Available,Free,5.0,Unknown,2025-02-08,ios,app_store,793496459,Freeman-Smith,154860952.0
+Instead App,Finance,1.4,499223,92.3M,Not Available,Free,0.0,Unknown,2025-07-20,ios,app_store,134348661,Fischer LLC,96770880.0
+There App,Finance,1.9,295455,399.6M,Not Available,Free,0.0,Unknown,2025-05-17,ios,app_store,562496061,Davis PLC,419003082.0
+By App,Health & Fitness,4.7,308111,325.0M,Not Available,Free,6.0,Unknown,2025-02-25,ios,app_store,772474999,"Wright, Ochoa and Rice",340771141.0
+Camera App,Games,3.0,181679,409.5M,Not Available,Free,0.0,Unknown,2025-03-02,ios,app_store,916128875,Rodriguez and Sons,429389765.0
+Human App,Finance,4.8,138649,136.3M,Not Available,Free,0.0,Unknown,2025-01-29,ios,app_store,492440211,"Hatfield, Conley and Cummings",142954239.0
+Step App,Social Networking,1.7,66803,434.2M,Not Available,Free,6.0,Unknown,2025-05-29,ios,app_store,499676898,"Taylor, Mathis and Palmer",455315015.0
+Official App,Games,3.4,105060,135.8M,Not Available,Free,0.0,Unknown,2025-04-28,ios,app_store,526633591,Lamb Inc,142432865.0
+Simply App,Games,1.7,430967,365.3M,Not Available,Free,3.0,Unknown,2025-03-05,ios,app_store,249435458,Smith-Morris,383080971.0
+Financial App,Education,3.9,290148,94.4M,Not Available,Free,14.0,Unknown,2025-02-15,ios,app_store,962007510,"Davis, Gomez and Hernandez",98948624.0
+Race App,Productivity,4.4,65639,278.3M,Not Available,Free,18.0,Unknown,2025-04-07,ios,app_store,886151805,Mahoney-Clark,291857747.0
+Bill App,Finance,3.9,452835,229.2M,Not Available,Free,0.0,Unknown,2025-06-12,ios,app_store,774976832,Jones and Sons,240345791.0
+Phone App,Health & Fitness,2.3,409486,342.9M,Not Available,Free,0.0,Unknown,2025-03-09,ios,app_store,704182536,"Carter, Dixon and Hawkins",359523387.0
+Husband App,Education,1.1,322977,452.0M,Not Available,Free,0.0,Unknown,2025-06-19,ios,app_store,511336290,Gutierrez-Weber,473944536.0
+Deal App,Productivity,3.2,167456,393.5M,Not Available,Free,8.0,Unknown,2025-01-01,ios,app_store,964938989,"Melton, Butler and Zamora",412588668.0
+Beyond App,Education,4.9,366404,344.5M,Not Available,Free,13.0,Unknown,2025-10-01,ios,app_store,377936266,Reed-Hart,361239002.0
+Teach App,Productivity,3.7,188130,181.4M,Not Available,Free,0.0,Unknown,2025-08-13,ios,app_store,960842782,Martinez-Harmon,190243005.0
+Seem App,Games,3.8,394137,357.6M,Not Available,Free,19.0,Unknown,2025-03-17,ios,app_store,910216168,Barajas LLC,374951773.0
+The App,Games,2.2,312718,137.1M,Not Available,Free,0.0,Unknown,2025-07-30,ios,app_store,483362286,Lee Group,143799726.0
+Season App,Education,4.6,442893,227.2M,Not Available,Free,0.0,Unknown,2025-09-10,ios,app_store,629729821,Nguyen-Merritt,238210343.0
+Production App,Games,1.9,201292,71.4M,Not Available,Free,0.0,Unknown,2025-04-17,ios,app_store,641652726,Mills-Baker,74873641.0
+Upon App,Productivity,2.1,233332,384.9M,Not Available,Free,0.0,Unknown,2025-09-17,ios,app_store,559480241,Moss-Warren,403640370.0
+Operation App,Productivity,3.2,491425,441.1M,Not Available,Free,0.0,Unknown,2025-07-24,ios,app_store,838413528,Miller Inc,462480940.0
+Anyone App,Games,1.3,140034,328.7M,Not Available,Free,0.0,Unknown,2025-04-08,ios,app_store,665141990,Chapman-Anderson,344626400.0
+Thought App,Education,1.9,390647,470.8M,Not Available,Free,0.0,Unknown,2025-02-22,ios,app_store,569550582,Pham Ltd,493655133.0
+Ready App,Education,2.2,1075,170.4M,Not Available,Free,0.0,Unknown,2025-08-13,ios,app_store,369291256,Clark-Stone,178726356.0
+Pressure App,Social Networking,5.0,388469,179.1M,Not Available,Free,0.0,Unknown,2025-01-07,ios,app_store,656491526,Norman and Sons,187843948.0
+Such App,Games,2.0,87526,300.1M,Not Available,Free,13.0,Unknown,2025-08-12,ios,app_store,769620101,Johnson-White,314706089.0
+Finally App,Games,4.6,64504,456.3M,Not Available,Free,0.0,Unknown,2025-08-18,ios,app_store,416870236,"Hill, Baldwin and Walls",478416104.0
+Send App,Productivity,1.2,312140,139.0M,Not Available,Free,0.0,Unknown,2025-06-03,ios,app_store,126608284,"Kelly, Lopez and Fowler",145718846.0
+Method App,Games,1.1,421705,56.6M,Not Available,Free,0.0,Unknown,2025-03-07,ios,app_store,452645623,"Martinez, Stevens and Mathews",59333698.0
+Country App,Finance,3.2,267853,49.7M,Not Available,Free,13.0,Unknown,2025-05-14,ios,app_store,544382825,Ellis-Summers,52103558.0
+Deal App,Finance,1.6,435681,426.4M,Not Available,Free,8.0,Unknown,2025-06-30,ios,app_store,535147727,King-Gonzales,447104369.0
+Someone App,Productivity,2.8,399807,324.9M,Not Available,Free,0.0,Unknown,2025-09-13,ios,app_store,362989812,Johnson LLC,340731019.0
+Now App,Finance,2.8,163963,288.0M,Not Available,Free,16.0,Unknown,2025-03-30,ios,app_store,695836732,"Mullins, Dixon and Anderson",302015263.0
+Figure App,Finance,2.0,457008,111.8M,Not Available,Free,0.0,Unknown,2025-09-20,ios,app_store,175352189,"Harris, Wheeler and Cox",117272493.0
+Office App,Social Networking,2.6,163892,179.5M,Not Available,Free,5.0,Unknown,2025-03-26,ios,app_store,400172295,"Harris, Aguirre and Johnson",188178462.0
+Husband App,Health & Fitness,4.3,311806,452.4M,Not Available,Free,0.0,Unknown,2025-03-07,ios,app_store,133835991,Bowman-Duncan,474383888.0
+Available App,Finance,3.1,122466,113.1M,Not Available,Free,1.0,Unknown,2025-08-04,ios,app_store,254722446,Bailey Group,118642497.0
+Fear App,Health & Fitness,2.6,424082,425.1M,Not Available,Free,0.0,Unknown,2025-05-09,ios,app_store,327178906,Cline and Sons,445738501.0
+How App,Education,3.0,278086,110.0M,Not Available,Free,18.0,Unknown,2025-01-24,ios,app_store,980938215,Chen LLC,115391481.0
+Key App,Finance,4.6,21246,325.6M,Not Available,Free,13.0,Unknown,2025-07-07,ios,app_store,279914238,Richardson Inc,341437235.0
+Itself App,Productivity,3.7,5970,336.3M,Not Available,Free,0.0,Unknown,2025-04-04,ios,app_store,180043428,"Munoz, Gordon and Miller",352662572.0
+Program App,Finance,1.5,428140,288.1M,Not Available,Free,0.0,Unknown,2025-09-10,ios,app_store,220001636,"Bailey, Rivera and Clark",302145164.0
+About App,Productivity,4.8,345778,362.6M,Not Available,Free,6.0,Unknown,2025-08-11,ios,app_store,401183360,"Turner, Barnes and Reyes",380183951.0
+Would App,Social Networking,4.9,206054,462.9M,Not Available,Free,0.0,Unknown,2025-03-23,ios,app_store,560458447,Thornton-Crane,485415539.0
+Arrive App,Health & Fitness,4.7,469596,219.0M,Not Available,Free,0.0,Unknown,2025-04-19,ios,app_store,253798708,"Williams, Jackson and Johnson",229624488.0
+Mr App,Social Networking,2.6,484836,282.7M,Not Available,Free,0.0,Unknown,2025-01-07,ios,app_store,274935256,"Hall, Singleton and Church",296380660.0
+Social App,Education,2.2,339688,186.8M,Not Available,Free,0.0,Unknown,2025-06-05,ios,app_store,620882386,Hall Inc,195891586.0
+He App,Education,3.9,278612,286.9M,Not Available,Free,0.0,Unknown,2025-01-11,ios,app_store,664396531,Hunt Group,300851775.0
+Research App,Games,2.0,480847,13.8M,Not Available,Free,0.0,Unknown,2025-03-02,ios,app_store,872434156,Wilson-Stewart,14516526.0
+Participant App,Education,2.3,125807,337.1M,Not Available,Free,0.0,Unknown,2025-09-25,ios,app_store,437137698,Thompson-Krause,353431346.0
+Plant App,Social Networking,3.8,491302,258.3M,Not Available,Free,0.0,Unknown,2025-07-17,ios,app_store,970581449,Briggs Inc,270873302.0
+Important App,Social Networking,2.9,28226,116.4M,Not Available,Free,16.0,Unknown,2025-01-20,ios,app_store,807466454,May-Oconnor,122002142.0
+Matter App,Health & Fitness,4.8,241905,53.1M,Not Available,Free,0.0,Unknown,2025-01-27,ios,app_store,523542251,"Walker, Patterson and Middleton",55628322.0
+War App,Social Networking,4.5,445747,374.3M,Not Available,Free,0.0,Unknown,2025-08-13,ios,app_store,664839528,"Mack, Sullivan and Blackburn",392456269.0
+Staff App,Productivity,4.9,125767,140.7M,Not Available,Free,0.0,Unknown,2025-02-21,ios,app_store,619939400,Ramos LLC,147531301.0
+How App,Education,4.3,283650,120.3M,Not Available,Free,13.0,Unknown,2025-08-30,ios,app_store,282265322,Morris PLC,126185525.0
+Piece App,Finance,4.7,358468,120.4M,Not Available,Free,0.0,Unknown,2025-08-08,ios,app_store,574553376,Johnson-Williams,126207314.0
+Unit App,Finance,2.7,268658,42.2M,Not Available,Free,0.0,Unknown,2025-06-09,ios,app_store,970406656,Barry Group,44296329.0
+Forward App,Health & Fitness,4.9,316880,388.6M,Not Available,Free,12.0,Unknown,2025-03-25,ios,app_store,865255181,"Jenkins, Wright and Bond",407503139.0
+Get App,Productivity,3.7,305868,196.0M,Not Available,Free,0.0,Unknown,2025-06-29,ios,app_store,916970178,Martin-Griffin,205485407.0
+Explain App,Health & Fitness,4.6,479746,426.2M,Not Available,Free,0.0,Unknown,2025-07-16,ios,app_store,198549727,Larson-Long,446909607.0
+Reveal App,Health & Fitness,3.2,79660,172.2M,Not Available,Free,0.0,Unknown,2025-01-14,ios,app_store,219593925,"Johnson, Armstrong and Hill",180528947.0
+Effort App,Health & Fitness,4.0,322588,100.4M,Not Available,Free,0.0,Unknown,2025-05-06,ios,app_store,121452382,"Austin, Salas and Morris",105317432.0
